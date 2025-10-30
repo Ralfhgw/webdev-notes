@@ -33,6 +33,7 @@ function Greeting({ name }) {
 const [count, setCount] = useState(0);
 // Update:
 setCount(count + 1);
+
 // Initialwert als Funktion (nur beim ersten Render)
 const [data, setData] = useState(() => expensiveInit());
 ```
@@ -42,14 +43,17 @@ const [data, setData] = useState(() => expensiveInit());
 useEffect(() => {
   console.log("Render!");
 });
+
 // Nur beim ersten Render
 useEffect(() => {
   console.log("Mount!");
 }, []);
+
 // Abhängig von count
 useEffect(() => {
   console.log("Count geändert!");
 }, [count]);
+
 // Cleanup
 useEffect(() => {
   const interval = setInterval(() => console.log("tick"), 1000);
@@ -149,8 +153,10 @@ import { Helper } from "./utils";
 ```
 // Bedingungen
 {isLoggedIn ? <Dashboard /> : <Login />}
+
 // Listen
 {items.map(item => <li key={item.id}>{item.name}</li>)}
+
 // Events
 <button onClick={handleClick}>Klick mich</button>
 ```
