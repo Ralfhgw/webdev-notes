@@ -19,15 +19,6 @@ function MyComponent() {
 // oder als Arrow Function
 const MyComponent = () => <h1>Hello World</h1>;
 ```
-
-**Props**
-```
-function Greeting({ name }) {
-  return <p>Hallo {name}!</p>;
-}
-<Greeting name="Alex" />
-```
-
 **useState – Zustandsverwaltung**
 ```
 const [count, setCount] = useState(0);
@@ -60,6 +51,23 @@ useEffect(() => {
   return () => clearInterval(interval);
 }, []);
 ```
+**useRef – Referenzen & Mutable Values**
+```
+const inputRef = useRef(null);
+// Zugriff auf DOM-Element
+<input ref={inputRef} />;
+inputRef.current.focus();
+// Mutable Value
+const renderCount = useRef(0);
+renderCount.current++;
+```
+**Props**
+```
+function Greeting({ name }) {
+  return <p>Hallo {name}!</p>;
+}
+<Greeting name="Alex" />
+```
 **useMemo – Werte merken**
 ```
 const result = useMemo(() => heavyComputation(a, b), [a, b]);
@@ -72,16 +80,7 @@ const handleClick = useCallback(() => {
 }, []);
 // Nützlich, wenn man Funktionen als Props weitergibt.
 ```
-**useRef – Referenzen & Mutable Values**
-```
-const inputRef = useRef(null);
-// Zugriff auf DOM-Element
-<input ref={inputRef} />;
-inputRef.current.focus();
-// Mutable Value
-const renderCount = useRef(0);
-renderCount.current++;
-```
+
 
 **useContext – Globaler Zustand**
 ```
