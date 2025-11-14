@@ -54,12 +54,56 @@ useEffect(() => {
 **useRef – Referenzen & Mutable Values**
 ```
 const inputRef = useRef(null);
+
 // Zugriff auf DOM-Element
 <input ref={inputRef} />;
 inputRef.current.focus();
+
+// Example:
+import React, { useEffect, useRef } from "react";
+
+function FocusInputExample() {
+  const inputRef = useRef(null);
+  useEffect(() => { 
+    inputRef.current.focus();
+  }, []);
+
+  return (
+      <input  
+        ref={inputRef}
+        type="text"
+        placeholder="Ich bekomme automatisch den Fokus!"
+      />
+  );
+}
+export default FocusInputExample;
+
 // Mutable Value
 const renderCount = useRef(0);
 renderCount.current++;
+
+// Example:
+import React, { useRef, useState, useEffect } from "react";
+
+function RenderCountExample() {
+  const [text, setText] = useState("");
+  const renderCount = useRef(0);
+
+  useEffect(() => {
+    renderCount.current++;
+  });
+
+  return (
+      <input
+        type="text"
+        value={text}
+        onChange={(e) => setText(e.target.value)}
+        placeholder="Tippe etwas ein..."
+      />
+      <p>Render Count: {renderCount.current}</p>
+  );
+}
+export default RenderCountExample;
 ```
 **Props**
 ```
