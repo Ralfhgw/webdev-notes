@@ -1,0 +1,173 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "AI/AI-Knowledge",
+          "docs": [
+            {
+              "id": "AI/ai-intro",
+              "path": "/docs/AI",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "AI/AI-Knowledge",
+              "path": "/docs/AI/AI-Knowledge",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Browser/browser-intro",
+              "path": "/docs/Browser",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Browser/Google dork cheatsheet",
+              "path": "/docs/Browser/Google dork cheatsheet",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Browser/Webdev-Weblinks/WebDev-Figma",
+              "path": "/docs/Browser/Webdev-Weblinks/WebDev-Figma",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Browser/Webdev-Weblinks/WebDev-React",
+              "path": "/docs/Browser/Webdev-Weblinks/WebDev-React",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Browser/Webdev-Weblinks/WebDev-Taining-Documentation",
+              "path": "/docs/Browser/Webdev-Weblinks/WebDev-Taining-Documentation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Browser/Webdev-Weblinks/WebDev-Weblinks",
+              "path": "/docs/Browser/Webdev-Weblinks/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Coding/Coding-intro",
+              "path": "/docs/Coding",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Coding/node.js / npm",
+              "path": "/docs/Coding/node.js / npm",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Coding/node.js /test",
+              "path": "/docs/Coding/node.js /test",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Coding/Tailwind/Installation",
+              "path": "/docs/Coding/Tailwind/Installation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "DCI-Abschlussprojekt/Abschlussprojekt",
+              "path": "/docs/DCI-Abschlussprojekt",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "DCI-Abschlussprojekt/Asterisk <--> Telekom",
+              "path": "/docs/DCI-Abschlussprojekt/Asterisk <--> Telekom",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "DCI-Abschlussprojekt/Konzept",
+              "path": "/docs/DCI-Abschlussprojekt/Konzept",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "DCI-Abschlussprojekt/SST Solution_File",
+              "path": "/docs/DCI-Abschlussprojekt/SST Solution_File",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "DCI-Abschlussprojekt/SST Solution_Realtime",
+              "path": "/docs/DCI-Abschlussprojekt/SST Solution_Realtime",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "DCI-Abschlussprojekt/VirtualBox",
+              "path": "/docs/DCI-Abschlussprojekt/VirtualBox",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "React/Context Provider",
+              "path": "/docs/React/Context Provider",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "React/functions",
+              "path": "/docs/React/functions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "React/React Router",
+              "path": "/docs/React/React Router",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "React/React-intro",
+              "path": "/docs/React",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Server/Account-webschere.de",
+              "path": "/docs/Server/Account-webschere.de",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Server/Google-DNS-Fehler",
+              "path": "/docs/Server/Google-DNS-Fehler",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Server/production-server",
+              "path": "/docs/Server/production-server",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Server/Server-intro",
+              "path": "/docs/Server",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "VS Code Editor/Emmet Definition",
+              "path": "/docs/VS Code Editor/Emmet Definition",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "VS Code Editor/Shortcuts-Extensions",
+              "path": "/docs/VS Code Editor/Shortcuts-Extensions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "VS Code Editor/VSCode-intro",
+              "path": "/docs/VS Code Editor",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/AI/AI-Knowledge",
+                "label": "AI/AI-Knowledge"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

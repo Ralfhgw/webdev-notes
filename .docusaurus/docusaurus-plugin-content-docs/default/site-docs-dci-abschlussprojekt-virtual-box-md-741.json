@@ -1,0 +1,23 @@
+{
+  "id": "DCI-Abschlussprojekt/VirtualBox",
+  "title": "VirtualBox",
+  "description": "Autostart über die Windows-Aufgabenplanung",
+  "source": "@site/docs/DCI-Abschlussprojekt/VirtualBox.md",
+  "sourceDirName": "DCI-Abschlussprojekt",
+  "slug": "/DCI-Abschlussprojekt/VirtualBox",
+  "permalink": "/docs/DCI-Abschlussprojekt/VirtualBox",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SST Solution_Realtime",
+    "permalink": "/docs/DCI-Abschlussprojekt/SST Solution_Realtime"
+  },
+  "next": {
+    "title": "Abschlussprojekt",
+    "permalink": "/docs/DCI-Abschlussprojekt"
+  }
+}

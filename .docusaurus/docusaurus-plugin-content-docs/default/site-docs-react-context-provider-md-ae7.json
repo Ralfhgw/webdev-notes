@@ -1,0 +1,23 @@
+{
+  "id": "React/Context Provider",
+  "title": "Context Provider",
+  "description": "Der Context Provider in React ist Teil des Context API-Systems — ein Mechanismus, um Daten global in einer React-Anwendung verfügbar zu machen, ohne Props durch viele Komponenten weiterreichen zu müssen („prop drilling“). Normalerweise werden Daten in React über Props von Elternkomponenten an Kindkomponenten weitergegeben:",
+  "source": "@site/docs/React/Context Provider.md",
+  "sourceDirName": "React",
+  "slug": "/React/Context Provider",
+  "permalink": "/docs/React/Context Provider",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Abschlussprojekt",
+    "permalink": "/docs/DCI-Abschlussprojekt"
+  },
+  "next": {
+    "title": "React Router",
+    "permalink": "/docs/React/React Router"
+  }
+}

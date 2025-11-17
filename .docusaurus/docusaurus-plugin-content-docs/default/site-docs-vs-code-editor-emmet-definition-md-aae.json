@@ -1,0 +1,23 @@
+{
+  "id": "VS Code Editor/Emmet Definition",
+  "title": "Emmet Definition",
+  "description": "https://docs.emmet.io/cheat-sheet/",
+  "source": "@site/docs/VS Code Editor/Emmet Definition.md",
+  "sourceDirName": "VS Code Editor",
+  "slug": "/VS Code Editor/Emmet Definition",
+  "permalink": "/docs/VS Code Editor/Emmet Definition",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "production-server",
+    "permalink": "/docs/Server/production-server"
+  },
+  "next": {
+    "title": "Shortcuts-Extensions",
+    "permalink": "/docs/VS Code Editor/Shortcuts-Extensions"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "DCI-Abschlussprojekt/Asterisk <--> Telekom",
+  "title": "Asterisk <--> Telekom",
+  "description": "FritzBox bleibt Provider-Gateway (Asterisk = internes SIP-Telefon)",
+  "source": "@site/docs/DCI-Abschlussprojekt/Asterisk <--> Telekom.md",
+  "sourceDirName": "DCI-Abschlussprojekt",
+  "slug": "/DCI-Abschlussprojekt/Asterisk <--> Telekom",
+  "permalink": "/docs/DCI-Abschlussprojekt/Asterisk <--> Telekom",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "test",
+    "permalink": "/docs/Coding/node.js /test"
+  },
+  "next": {
+    "title": "Konzept",
+    "permalink": "/docs/DCI-Abschlussprojekt/Konzept"
+  }
+}

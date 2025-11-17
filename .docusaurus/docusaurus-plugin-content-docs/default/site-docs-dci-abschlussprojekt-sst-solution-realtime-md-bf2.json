@@ -1,0 +1,23 @@
+{
+  "id": "DCI-Abschlussprojekt/SST Solution_Realtime",
+  "title": "SST Solution_Realtime",
+  "description": "Node Backend — WebSocket Proxy (Skelett)",
+  "source": "@site/docs/DCI-Abschlussprojekt/SST Solution_Realtime.md",
+  "sourceDirName": "DCI-Abschlussprojekt",
+  "slug": "/DCI-Abschlussprojekt/SST Solution_Realtime",
+  "permalink": "/docs/DCI-Abschlussprojekt/SST Solution_Realtime",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SST Solution_File",
+    "permalink": "/docs/DCI-Abschlussprojekt/SST Solution_File"
+  },
+  "next": {
+    "title": "VirtualBox",
+    "permalink": "/docs/DCI-Abschlussprojekt/VirtualBox"
+  }
+}

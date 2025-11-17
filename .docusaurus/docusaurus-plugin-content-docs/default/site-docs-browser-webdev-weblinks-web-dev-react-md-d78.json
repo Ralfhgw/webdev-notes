@@ -1,0 +1,23 @@
+{
+  "id": "Browser/Webdev-Weblinks/WebDev-React",
+  "title": "WebDev-React",
+  "description": "react",
+  "source": "@site/docs/Browser/Webdev-Weblinks/WebDev-React.md",
+  "sourceDirName": "Browser/Webdev-Weblinks",
+  "slug": "/Browser/Webdev-Weblinks/WebDev-React",
+  "permalink": "/docs/Browser/Webdev-Weblinks/WebDev-React",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "WebDev-Figma",
+    "permalink": "/docs/Browser/Webdev-Weblinks/WebDev-Figma"
+  },
+  "next": {
+    "title": "WebDev-Taining-Documentation",
+    "permalink": "/docs/Browser/Webdev-Weblinks/WebDev-Taining-Documentation"
+  }
+}

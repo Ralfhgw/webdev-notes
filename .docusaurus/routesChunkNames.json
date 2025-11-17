@@ -1,0 +1,181 @@
+{
+  "/__docusaurus/debug-5ff": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/config-5ba": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/content-a2b": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    },
+    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
+  },
+  "/__docusaurus/debug/globalData-c3c": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/metadata-156": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/registry-88c": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/routes-000": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/docs-399": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---docsaba-d7c"
+    }
+  },
+  "/docs-e74": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---docs-005-788"
+  },
+  "/docs-a95": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/docs/AI-e5b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-ai-8-df-2a2"
+  },
+  "/docs/AI/AI-Knowledge-c7b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-ai-ai-knowledge-339-d5b"
+  },
+  "/docs/Browser-c56": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-browser-45-c-c03"
+  },
+  "/docs/Browser/Google dork cheatsheet-f2e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-browser-google-dork-cheatsheeteb-1-a35"
+  },
+  "/docs/Browser/Webdev-Weblinks/-a43": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-browser-webdev-weblinks-1-f-1-d4f"
+  },
+  "/docs/Browser/Webdev-Weblinks/WebDev-Figma-41c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-browser-webdev-weblinks-web-dev-figma-348-c0a"
+  },
+  "/docs/Browser/Webdev-Weblinks/WebDev-React-2fe": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-browser-webdev-weblinks-web-dev-reactd-78-e27"
+  },
+  "/docs/Browser/Webdev-Weblinks/WebDev-Taining-Documentation-470": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-browser-webdev-weblinks-web-dev-taining-documentation-4-b-6-0cd"
+  },
+  "/docs/Coding-e7a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-coding-404-e7d"
+  },
+  "/docs/Coding/node.js / npm-fef": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-coding-node-js-npmbc-1-360"
+  },
+  "/docs/Coding/node.js /test-91e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-coding-node-js-testb-3-d-402"
+  },
+  "/docs/Coding/Tailwind/Installation-856": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-coding-tailwind-installation-28-a-588"
+  },
+  "/docs/DCI-Abschlussprojekt-5b4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-dci-abschlussprojekte-53-9de"
+  },
+  "/docs/DCI-Abschlussprojekt/Asterisk <--> Telekom-392": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-dci-abschlussprojekt-asterisk-telekome-71-5a1"
+  },
+  "/docs/DCI-Abschlussprojekt/Konzept-93f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-dci-abschlussprojekt-konzepte-61-235"
+  },
+  "/docs/DCI-Abschlussprojekt/SST Solution_File-389": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-dci-abschlussprojekt-sst-solution-file-866-af8"
+  },
+  "/docs/DCI-Abschlussprojekt/SST Solution_Realtime-9d9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-dci-abschlussprojekt-sst-solution-realtimebf-2-feb"
+  },
+  "/docs/DCI-Abschlussprojekt/VirtualBox-acb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-dci-abschlussprojekt-virtual-box-741-730"
+  },
+  "/docs/React-e1a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-reactb-91-d33"
+  },
+  "/docs/React/Context Provider-ee0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-react-context-providerae-7-18a"
+  },
+  "/docs/React/functions-5e1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-react-functionsc-0-d-6a9"
+  },
+  "/docs/React/React Router-40b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-react-react-routere-1-d-38f"
+  },
+  "/docs/Server-4be": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-server-4-bb-445"
+  },
+  "/docs/Server/Account-webschere.de-82e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-server-account-webschere-de-32-f-4a3"
+  },
+  "/docs/Server/Google-DNS-Fehler-529": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-server-google-dns-fehler-412-1db"
+  },
+  "/docs/Server/production-server-762": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-server-production-server-1-af-aab"
+  },
+  "/docs/VS Code Editor-825": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-vs-code-editorf-78-e02"
+  },
+  "/docs/VS Code Editor/Emmet Definition-ebc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-vs-code-editor-emmet-definitionaae-d4d"
+  },
+  "/docs/VS Code Editor/Shortcuts-Extensions-520": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-vs-code-editor-shortcuts-extensions-2-ab-66c"
+  },
+  "/-2e1": {
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__context": {
+      "plugin": "plugin---a-74-9d6"
+    },
+    "config": "config---5-e-9-4f3"
+  }
+}

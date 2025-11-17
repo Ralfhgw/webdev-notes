@@ -1,0 +1,27 @@
+{
+  "id": "Browser/browser-intro",
+  "title": "Browser Einführung",
+  "description": "Kurze Einführung...",
+  "source": "@site/docs/Browser/intro.md",
+  "sourceDirName": "Browser",
+  "slug": "/Browser",
+  "permalink": "/docs/Browser",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "browser-intro",
+    "title": "Browser Einführung",
+    "slug": "/Browser"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AI Einführung",
+    "permalink": "/docs/AI"
+  },
+  "next": {
+    "title": "Google dork cheatsheet",
+    "permalink": "/docs/Browser/Google dork cheatsheet"
+  }
+}

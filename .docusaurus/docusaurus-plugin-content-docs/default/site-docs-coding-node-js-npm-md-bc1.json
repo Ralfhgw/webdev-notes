@@ -1,0 +1,23 @@
+{
+  "id": "Coding/node.js / npm",
+  "title": " npm",
+  "description": "",
+  "source": "@site/docs/Coding/node.js / npm.md",
+  "sourceDirName": "Coding/node.js ",
+  "slug": "/Coding/node.js / npm",
+  "permalink": "/docs/Coding/node.js / npm",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Coding",
+    "permalink": "/docs/Coding"
+  },
+  "next": {
+    "title": "test",
+    "permalink": "/docs/Coding/node.js /test"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "VS Code Editor/Shortcuts-Extensions",
+  "title": "Shortcuts-Extensions",
+  "description": "Keyboard shortcuts for Linux",
+  "source": "@site/docs/VS Code Editor/Shortcuts-Extensions.md",
+  "sourceDirName": "VS Code Editor",
+  "slug": "/VS Code Editor/Shortcuts-Extensions",
+  "permalink": "/docs/VS Code Editor/Shortcuts-Extensions",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Emmet Definition",
+    "permalink": "/docs/VS Code Editor/Emmet Definition"
+  },
+  "next": {
+    "title": "VSCode",
+    "permalink": "/docs/VS Code Editor"
+  }
+}

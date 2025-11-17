@@ -1,0 +1,23 @@
+{
+  "id": "DCI-Abschlussprojekt/SST Solution_File",
+  "title": "SST Solution_File",
+  "description": "- Asterisk → speichert call-12345.wav",
+  "source": "@site/docs/DCI-Abschlussprojekt/SST Solution_File.md",
+  "sourceDirName": "DCI-Abschlussprojekt",
+  "slug": "/DCI-Abschlussprojekt/SST Solution_File",
+  "permalink": "/docs/DCI-Abschlussprojekt/SST Solution_File",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Konzept",
+    "permalink": "/docs/DCI-Abschlussprojekt/Konzept"
+  },
+  "next": {
+    "title": "SST Solution_Realtime",
+    "permalink": "/docs/DCI-Abschlussprojekt/SST Solution_Realtime"
+  }
+}

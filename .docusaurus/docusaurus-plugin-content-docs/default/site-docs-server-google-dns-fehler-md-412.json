@@ -1,0 +1,23 @@
+{
+  "id": "Server/Google-DNS-Fehler",
+  "title": "Google-DNS-Fehler",
+  "description": "Auf dem Server",
+  "source": "@site/docs/Server/Google-DNS-Fehler.md",
+  "sourceDirName": "Server",
+  "slug": "/Server/Google-DNS-Fehler",
+  "permalink": "/docs/Server/Google-DNS-Fehler",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Account-webschere.de",
+    "permalink": "/docs/Server/Account-webschere.de"
+  },
+  "next": {
+    "title": "Server",
+    "permalink": "/docs/Server"
+  }
+}

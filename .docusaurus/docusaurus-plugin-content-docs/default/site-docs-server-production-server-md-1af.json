@@ -1,0 +1,23 @@
+{
+  "id": "Server/production-server",
+  "title": "production-server",
+  "description": "Add new User",
+  "source": "@site/docs/Server/production-server.md",
+  "sourceDirName": "Server",
+  "slug": "/Server/production-server",
+  "permalink": "/docs/Server/production-server",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Server",
+    "permalink": "/docs/Server"
+  },
+  "next": {
+    "title": "Emmet Definition",
+    "permalink": "/docs/VS Code Editor/Emmet Definition"
+  }
+}

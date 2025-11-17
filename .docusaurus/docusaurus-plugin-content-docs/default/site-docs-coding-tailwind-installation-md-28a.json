@@ -1,0 +1,23 @@
+{
+  "id": "Coding/Tailwind/Installation",
+  "title": "Installation",
+  "description": "Tailwind Online Simulator",
+  "source": "@site/docs/Coding/Tailwind/Installation.md",
+  "sourceDirName": "Coding/Tailwind",
+  "slug": "/Coding/Tailwind/Installation",
+  "permalink": "/docs/Coding/Tailwind/Installation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "WebDev-Taining-Documentation",
+    "permalink": "/docs/Browser/Webdev-Weblinks/WebDev-Taining-Documentation"
+  },
+  "next": {
+    "title": "Coding",
+    "permalink": "/docs/Coding"
+  }
+}

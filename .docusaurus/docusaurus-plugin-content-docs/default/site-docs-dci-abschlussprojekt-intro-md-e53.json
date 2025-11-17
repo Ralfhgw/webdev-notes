@@ -1,0 +1,27 @@
+{
+  "id": "DCI-Abschlussprojekt/Abschlussprojekt",
+  "title": "Abschlussprojekt",
+  "description": "Kurze Einführung...",
+  "source": "@site/docs/DCI-Abschlussprojekt/intro.md",
+  "sourceDirName": "DCI-Abschlussprojekt",
+  "slug": "/DCI-Abschlussprojekt",
+  "permalink": "/docs/DCI-Abschlussprojekt",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "Abschlussprojekt",
+    "title": "Abschlussprojekt",
+    "slug": "/DCI-Abschlussprojekt"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "VirtualBox",
+    "permalink": "/docs/DCI-Abschlussprojekt/VirtualBox"
+  },
+  "next": {
+    "title": "Context Provider",
+    "permalink": "/docs/React/Context Provider"
+  }
+}

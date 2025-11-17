@@ -1,0 +1,23 @@
+{
+  "id": "Server/Account-webschere.de",
+  "title": "Account-webschere.de",
+  "description": "",
+  "source": "@site/docs/Server/Account-webschere.de.md",
+  "sourceDirName": "Server",
+  "slug": "/Server/Account-webschere.de",
+  "permalink": "/docs/Server/Account-webschere.de",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "React",
+    "permalink": "/docs/React"
+  },
+  "next": {
+    "title": "Google-DNS-Fehler",
+    "permalink": "/docs/Server/Google-DNS-Fehler"
+  }
+}

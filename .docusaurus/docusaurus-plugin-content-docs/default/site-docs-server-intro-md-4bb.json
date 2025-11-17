@@ -1,0 +1,27 @@
+{
+  "id": "Server/Server-intro",
+  "title": "Server",
+  "description": "Kurze Einführung...",
+  "source": "@site/docs/Server/intro.md",
+  "sourceDirName": "Server",
+  "slug": "/Server",
+  "permalink": "/docs/Server",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "Server-intro",
+    "title": "Server",
+    "slug": "/Server"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Google-DNS-Fehler",
+    "permalink": "/docs/Server/Google-DNS-Fehler"
+  },
+  "next": {
+    "title": "production-server",
+    "permalink": "/docs/Server/production-server"
+  }
+}

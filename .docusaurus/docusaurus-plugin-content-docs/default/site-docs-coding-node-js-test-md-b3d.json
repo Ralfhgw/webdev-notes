@@ -1,0 +1,23 @@
+{
+  "id": "Coding/node.js /test",
+  "title": "test",
+  "description": "",
+  "source": "@site/docs/Coding/node.js /test.md",
+  "sourceDirName": "Coding/node.js ",
+  "slug": "/Coding/node.js /test",
+  "permalink": "/docs/Coding/node.js /test",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": " npm",
+    "permalink": "/docs/Coding/node.js / npm"
+  },
+  "next": {
+    "title": "Asterisk <--> Telekom",
+    "permalink": "/docs/DCI-Abschlussprojekt/Asterisk <--> Telekom"
+  }
+}

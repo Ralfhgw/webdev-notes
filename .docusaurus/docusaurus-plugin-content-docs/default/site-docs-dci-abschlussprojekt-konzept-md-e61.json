@@ -1,0 +1,23 @@
+{
+  "id": "DCI-Abschlussprojekt/Konzept",
+  "title": "Konzept",
+  "description": "1. Grundidee",
+  "source": "@site/docs/DCI-Abschlussprojekt/Konzept.md",
+  "sourceDirName": "DCI-Abschlussprojekt",
+  "slug": "/DCI-Abschlussprojekt/Konzept",
+  "permalink": "/docs/DCI-Abschlussprojekt/Konzept",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Asterisk <--> Telekom",
+    "permalink": "/docs/DCI-Abschlussprojekt/Asterisk <--> Telekom"
+  },
+  "next": {
+    "title": "SST Solution_File",
+    "permalink": "/docs/DCI-Abschlussprojekt/SST Solution_File"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "React/React Router",
+  "title": "React Router",
+  "description": "React Router-Installation",
+  "source": "@site/docs/React/React Router.md",
+  "sourceDirName": "React",
+  "slug": "/React/React Router",
+  "permalink": "/docs/React/React Router",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Context Provider",
+    "permalink": "/docs/React/Context Provider"
+  },
+  "next": {
+    "title": "functions",
+    "permalink": "/docs/React/functions"
+  }
+}

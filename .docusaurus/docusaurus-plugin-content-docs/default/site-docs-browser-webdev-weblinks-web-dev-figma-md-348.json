@@ -1,0 +1,23 @@
+{
+  "id": "Browser/Webdev-Weblinks/WebDev-Figma",
+  "title": "WebDev-Figma",
+  "description": "FIGMA",
+  "source": "@site/docs/Browser/Webdev-Weblinks/WebDev-Figma.md",
+  "sourceDirName": "Browser/Webdev-Weblinks",
+  "slug": "/Browser/Webdev-Weblinks/WebDev-Figma",
+  "permalink": "/docs/Browser/Webdev-Weblinks/WebDev-Figma",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "WebDev-Weblinks",
+    "permalink": "/docs/Browser/Webdev-Weblinks/"
+  },
+  "next": {
+    "title": "WebDev-React",
+    "permalink": "/docs/Browser/Webdev-Weblinks/WebDev-React"
+  }
+}

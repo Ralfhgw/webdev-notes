@@ -1,0 +1,27 @@
+{
+  "id": "AI/ai-intro",
+  "title": "AI Einführung",
+  "description": "Kurze Einführung...",
+  "source": "@site/docs/AI/intro.md",
+  "sourceDirName": "AI",
+  "slug": "/AI",
+  "permalink": "/docs/AI",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "ai-intro",
+    "title": "AI Einführung",
+    "slug": "/AI"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AI-Knowledge",
+    "permalink": "/docs/AI/AI-Knowledge"
+  },
+  "next": {
+    "title": "Browser Einführung",
+    "permalink": "/docs/Browser"
+  }
+}

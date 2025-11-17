@@ -1,0 +1,27 @@
+{
+  "id": "Coding/Coding-intro",
+  "title": "Coding",
+  "description": "Kurze Einführung...",
+  "source": "@site/docs/Coding/intro.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding",
+  "permalink": "/docs/Coding",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "Coding-intro",
+    "title": "Coding",
+    "slug": "/Coding"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Installation",
+    "permalink": "/docs/Coding/Tailwind/Installation"
+  },
+  "next": {
+    "title": " npm",
+    "permalink": "/docs/Coding/node.js / npm"
+  }
+}
