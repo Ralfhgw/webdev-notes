@@ -1,11 +1,11 @@
 // @ts-check
 const config = {
-  title: 'Mini Docusaurus',
+  title: 'WebDev Training',
   favicon: 'img/favicon.ico',
   url: 'http://localhost',
   baseUrl: '/',
-  organizationName: 'example',
-  projectName: 'docusaurus-mini',
+  organizationName: 'privat',
+  projectName: 'webdev-notes',
   presets: [
     [
       'classic',

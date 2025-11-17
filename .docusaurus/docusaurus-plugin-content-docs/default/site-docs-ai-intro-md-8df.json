@@ -16,12 +16,8 @@
     "slug": "/AI"
   },
   "sidebar": "tutorialSidebar",
-  "previous": {
+  "next": {
     "title": "AI-Knowledge",
     "permalink": "/docs/AI/AI-Knowledge"
-  },
-  "next": {
-    "title": "Browser Einführung",
-    "permalink": "/docs/Browser"
   }
 }

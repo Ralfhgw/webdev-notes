@@ -42,17 +42,17 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/docs-399": {
+  "/docs-d9f": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-e74": {
+  "/docs-24c": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-a95": {
+  "/docs-c41": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/AI-e5b": {
@@ -99,9 +99,9 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-coding-node-js-testb-3-d-402"
   },
-  "/docs/Coding/Tailwind/Installation-856": {
+  "/docs/Coding/Tailwind_Installation-fbb": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-coding-tailwind-installation-28-a-588"
+    "content": "content---docs-coding-tailwind-installationfa-1-063"
   },
   "/docs/DCI-Abschlussprojekt-5b4": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -126,6 +126,10 @@
   "/docs/DCI-Abschlussprojekt/VirtualBox-acb": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-dci-abschlussprojekt-virtual-box-741-730"
+  },
+  "/docs/Englisch-Training-97b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-trainingc-72-4e9"
   },
   "/docs/React-e1a": {
     "__comp": "__comp---theme-doc-item-178-a40",

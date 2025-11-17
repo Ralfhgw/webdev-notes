@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Abschlussprojekt",
-    "permalink": "/docs/DCI-Abschlussprojekt"
+    "title": "React",
+    "permalink": "/docs/React"
   },
   "next": {
     "title": "React Router",

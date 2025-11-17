@@ -8,7 +8,7 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "AI/AI-Knowledge",
+          "mainDocId": "AI/ai-intro",
           "docs": [
             {
               "id": "AI/ai-intro",
@@ -66,8 +66,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Coding/Tailwind/Installation",
-              "path": "/docs/Coding/Tailwind/Installation",
+              "id": "Coding/Tailwind_Installation",
+              "path": "/docs/Coding/Tailwind_Installation",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -98,6 +98,11 @@
             {
               "id": "DCI-Abschlussprojekt/VirtualBox",
               "path": "/docs/DCI-Abschlussprojekt/VirtualBox",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Englisch-Training/English-intro",
+              "path": "/docs/Englisch-Training",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -160,8 +165,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/AI/AI-Knowledge",
-                "label": "AI/AI-Knowledge"
+                "path": "/docs/AI",
+                "label": "AI"
               }
             }
           }

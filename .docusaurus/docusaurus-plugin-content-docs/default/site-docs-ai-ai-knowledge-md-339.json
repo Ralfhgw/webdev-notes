@@ -12,8 +12,12 @@
   "version": "current",
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
-  "next": {
+  "previous": {
     "title": "AI Einführung",
     "permalink": "/docs/AI"
+  },
+  "next": {
+    "title": "Browser Einführung",
+    "permalink": "/docs/Browser"
   }
 }

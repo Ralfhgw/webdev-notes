@@ -17,7 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Shortcuts-Extensions",
-    "permalink": "/docs/VS Code Editor/Shortcuts-Extensions"
+    "title": "production-server",
+    "permalink": "/docs/Server/production-server"
+  },
+  "next": {
+    "title": "Emmet Definition",
+    "permalink": "/docs/VS Code Editor/Emmet Definition"
   }
 }

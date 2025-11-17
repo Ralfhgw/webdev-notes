@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "React",
-    "permalink": "/docs/React"
+    "title": "Server",
+    "permalink": "/docs/Server"
   },
   "next": {
     "title": "Google-DNS-Fehler",

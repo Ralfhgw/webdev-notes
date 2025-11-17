@@ -17,11 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Installation",
-    "permalink": "/docs/Coding/Tailwind/Installation"
+    "title": "WebDev-Taining-Documentation",
+    "permalink": "/docs/Browser/Webdev-Weblinks/WebDev-Taining-Documentation"
   },
   "next": {
-    "title": " npm",
-    "permalink": "/docs/Coding/node.js / npm"
+    "title": "Tailwind_Installation",
+    "permalink": "/docs/Coding/Tailwind_Installation"
   }
 }

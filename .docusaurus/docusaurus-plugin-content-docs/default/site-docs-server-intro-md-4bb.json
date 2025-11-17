@@ -17,11 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Google-DNS-Fehler",
-    "permalink": "/docs/Server/Google-DNS-Fehler"
+    "title": "functions",
+    "permalink": "/docs/React/functions"
   },
   "next": {
-    "title": "production-server",
-    "permalink": "/docs/Server/production-server"
+    "title": "Account-webschere.de",
+    "permalink": "/docs/Server/Account-webschere.de"
   }
 }

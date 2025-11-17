@@ -39,15 +39,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '399'),
+    component: ComponentCreator('/docs', 'd9f'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'e74'),
+        component: ComponentCreator('/docs', '24c'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'a95'),
+            component: ComponentCreator('/docs', 'c41'),
             routes: [
               {
                 path: '/docs/AI',
@@ -116,8 +116,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Coding/Tailwind/Installation',
-                component: ComponentCreator('/docs/Coding/Tailwind/Installation', '856'),
+                path: '/docs/Coding/Tailwind_Installation',
+                component: ComponentCreator('/docs/Coding/Tailwind_Installation', 'fbb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -154,6 +154,12 @@ export default [
               {
                 path: '/docs/DCI-Abschlussprojekt/VirtualBox',
                 component: ComponentCreator('/docs/DCI-Abschlussprojekt/VirtualBox', 'acb'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Englisch-Training',
+                component: ComponentCreator('/docs/Englisch-Training', '97b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

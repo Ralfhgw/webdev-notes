@@ -1,0 +1,23 @@
+{
+  "id": "Coding/Tailwind_Installation",
+  "title": "Tailwind_Installation",
+  "description": "Tailwind Online Simulator",
+  "source": "@site/docs/Coding/Tailwind_Installation.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/Tailwind_Installation",
+  "permalink": "/docs/Coding/Tailwind_Installation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Coding",
+    "permalink": "/docs/Coding"
+  },
+  "next": {
+    "title": " npm",
+    "permalink": "/docs/Coding/node.js / npm"
+  }
+}

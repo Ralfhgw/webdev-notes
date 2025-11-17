@@ -4,12 +4,12 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "Mini Docusaurus",
+  "title": "WebDev Training",
   "favicon": "img/favicon.ico",
   "url": "http://localhost",
   "baseUrl": "/",
-  "organizationName": "example",
-  "projectName": "docusaurus-mini",
+  "organizationName": "privat",
+  "projectName": "webdev-notes",
   "presets": [
     [
       "classic",

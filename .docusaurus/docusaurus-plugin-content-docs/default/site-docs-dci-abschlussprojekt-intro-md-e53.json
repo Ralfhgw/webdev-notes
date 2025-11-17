@@ -17,11 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "VirtualBox",
-    "permalink": "/docs/DCI-Abschlussprojekt/VirtualBox"
+    "title": "test",
+    "permalink": "/docs/Coding/node.js /test"
   },
   "next": {
-    "title": "Context Provider",
-    "permalink": "/docs/React/Context Provider"
+    "title": "Asterisk <--> Telekom",
+    "permalink": "/docs/DCI-Abschlussprojekt/Asterisk <--> Telekom"
   }
 }

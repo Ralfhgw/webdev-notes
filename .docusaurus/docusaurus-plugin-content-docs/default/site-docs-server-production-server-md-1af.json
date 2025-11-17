@@ -13,11 +13,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Server",
-    "permalink": "/docs/Server"
+    "title": "Google-DNS-Fehler",
+    "permalink": "/docs/Server/Google-DNS-Fehler"
   },
   "next": {
-    "title": "Emmet Definition",
-    "permalink": "/docs/VS Code Editor/Emmet Definition"
+    "title": "VSCode",
+    "permalink": "/docs/VS Code Editor"
   }
 }
