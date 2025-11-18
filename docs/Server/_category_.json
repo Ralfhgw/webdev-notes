@@ -1,8 +1,8 @@
 {
-  "label": "Server-intro",
-  "collapsed": false,
+  "label": "Web-Server",
+  "collapsed": true,
   "link": {
     "type": "doc",
-    "id": "Server-intro"
+    "id": "Web-Server"
   }
 }

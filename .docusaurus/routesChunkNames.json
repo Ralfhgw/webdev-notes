@@ -42,17 +42,17 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/docs-d9f": {
+  "/docs-a4e": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-24c": {
+  "/docs-2eb": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-c41": {
+  "/docs-24b": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/AI-e5b": {
@@ -131,6 +131,290 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-englisch-trainingc-72-4e9"
   },
+  "/docs/Englisch-Training/EN_BE_3119G-45e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3119-gb-53-889"
+  },
+  "/docs/Englisch-Training/EN_BE_3120G-17b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3120-g-58-b-38a"
+  },
+  "/docs/Englisch-Training/EN_BE_3122X-fa5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3122-xcd-4-979"
+  },
+  "/docs/Englisch-Training/EN_BE_3125X-0fb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3125-xd-3-f-4eb"
+  },
+  "/docs/Englisch-Training/EN_BE_3201X-950": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3201-x-9-be-7e3"
+  },
+  "/docs/Englisch-Training/EN_BE_3303X-662": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3303-x-549-b0b"
+  },
+  "/docs/Englisch-Training/EN_BE_3304X-877": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3304-xc-8-a-93c"
+  },
+  "/docs/Englisch-Training/EN_BE_3305X-564": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3305-x-19-e-167"
+  },
+  "/docs/Englisch-Training/EN_BE_3306X-374": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3306-xe-5-a-f02"
+  },
+  "/docs/Englisch-Training/EN_BE_3307X-9f8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3307-xb-27-c00"
+  },
+  "/docs/Englisch-Training/EN_BE_3308X-cec": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3308-x-556-ddb"
+  },
+  "/docs/Englisch-Training/EN_BE_3309G-f96": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3309-g-381-03e"
+  },
+  "/docs/Englisch-Training/EN_BE_3310S-917": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3310-s-2-ee-61d"
+  },
+  "/docs/Englisch-Training/EN_BE_3311X-799": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3311-x-55-d-262"
+  },
+  "/docs/Englisch-Training/EN_BE_3315G-e68": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3315-g-3-b-8-222"
+  },
+  "/docs/Englisch-Training/EN_BE_3316X-da7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3316-x-5-a-2-984"
+  },
+  "/docs/Englisch-Training/EN_BE_3317X-7a6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3317-x-9-a-0-b82"
+  },
+  "/docs/Englisch-Training/EN_BE_3318G-7a4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3318-g-1-e-0-728"
+  },
+  "/docs/Englisch-Training/EN_BE_3319G-7a4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3319-g-09-e-87f"
+  },
+  "/docs/Englisch-Training/EN_BE_3320X-363": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3320-xcb-7-9d6"
+  },
+  "/docs/Englisch-Training/EN_BE_3401X-eae": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3401-xa-28-e56"
+  },
+  "/docs/Englisch-Training/EN_BE_3402X-c4f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3402-xcfa-e15"
+  },
+  "/docs/Englisch-Training/EN_BE_3403X-ced": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3403-x-88-a-9ec"
+  },
+  "/docs/Englisch-Training/EN_BE_3404X-ef3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3404-xe-25-ebf"
+  },
+  "/docs/Englisch-Training/EN_BE_3405X-2fe": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3405-xdc-9-896"
+  },
+  "/docs/Englisch-Training/EN_BE_3406X-62e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3406-xb-38-386"
+  },
+  "/docs/Englisch-Training/EN_BE_3407X-508": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3407-x-4-ad-5e1"
+  },
+  "/docs/Englisch-Training/EN_BE_3408X-01e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3408-x-0-b-4-cda"
+  },
+  "/docs/Englisch-Training/EN_BE_3409X-b4c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3409-xbe-1-6de"
+  },
+  "/docs/Englisch-Training/EN_BE_3410S-9e2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3410-s-879-ab0"
+  },
+  "/docs/Englisch-Training/EN_BE_3411X-ab4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3411-x-764-2ee"
+  },
+  "/docs/Englisch-Training/EN_BE_3412X-245": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3412-x-77-c-592"
+  },
+  "/docs/Englisch-Training/EN_BE_3413X-8c4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3413-xb-92-7e4"
+  },
+  "/docs/Englisch-Training/EN_BE_3414X-60d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3414-xddf-7af"
+  },
+  "/docs/Englisch-Training/EN_BE_3415X-6d3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3415-xa-1-e-ecc"
+  },
+  "/docs/Englisch-Training/EN_BE_3416X-007": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3416-xdeb-6e1"
+  },
+  "/docs/Englisch-Training/EN_BE_3417G-8e5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3417-gf-05-5d1"
+  },
+  "/docs/Englisch-Training/EN_BE_3418X-6c1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3418-xb-82-46a"
+  },
+  "/docs/Englisch-Training/EN_BE_3419G-8cc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3419-g-10-b-d92"
+  },
+  "/docs/Englisch-Training/EN_BE_3420X-042": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3420-xbf-4-008"
+  },
+  "/docs/Englisch-Training/EN_BE_3501X-d3c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3501-x-4-b-8-457"
+  },
+  "/docs/Englisch-Training/EN_BE_3502X-de6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3502-xa-60-b34"
+  },
+  "/docs/Englisch-Training/EN_BE_3503X-30c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3503-x-407-c69"
+  },
+  "/docs/Englisch-Training/EN_BE_3504X-f41": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3504-x-981-eb5"
+  },
+  "/docs/Englisch-Training/EN_BE_3505X-162": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3505-xdb-7-a73"
+  },
+  "/docs/Englisch-Training/EN_BE_3506X-b69": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3506-x-382-ca3"
+  },
+  "/docs/Englisch-Training/EN_BE_3507X-4a2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3507-x-3-bb-e2f"
+  },
+  "/docs/Englisch-Training/EN_BE_3508X-4d6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3508-x-652-819"
+  },
+  "/docs/Englisch-Training/EN_BE_3509X-cc4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3509-x-96-e-445"
+  },
+  "/docs/Englisch-Training/EN_BE_3510X-e79": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3510-xecc-489"
+  },
+  "/docs/Englisch-Training/EN_BE_3601X-c08": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3601-x-676-64e"
+  },
+  "/docs/Englisch-Training/EN_BE_3602X-616": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3602-xa-55-61f"
+  },
+  "/docs/Englisch-Training/EN_BE_3603X-2e3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3603-x-02-c-9bc"
+  },
+  "/docs/Englisch-Training/EN_BE_3604X-5f2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3604-xd-37-cd2"
+  },
+  "/docs/Englisch-Training/EN_BE_3605X-84b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3605-x-9-d-0-108"
+  },
+  "/docs/Englisch-Training/EN_BE_3606X-077": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3606-x-260-49f"
+  },
+  "/docs/Englisch-Training/EN_BE_3607X-326": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3607-xb-66-d59"
+  },
+  "/docs/Englisch-Training/EN_BE_3608X-1ea": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3608-x-950-13b"
+  },
+  "/docs/Englisch-Training/EN_BE_3609X-77e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3609-x-0-e-7-72b"
+  },
+  "/docs/Englisch-Training/EN_BE_3610X-6b5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3610-x-20-a-fd7"
+  },
+  "/docs/Englisch-Training/EN_BE_3611X-df4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3611-x-458-68b"
+  },
+  "/docs/Englisch-Training/EN_BE_3612G-d90": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3612-g-2-a-5-645"
+  },
+  "/docs/Englisch-Training/EN_BE_3613G-f12": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3613-g-99-b-9e2"
+  },
+  "/docs/Englisch-Training/EN_BE_3614G-bf1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3614-gffd-3f7"
+  },
+  "/docs/Englisch-Training/EN_BE_3615X-f34": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3615-xb-11-7be"
+  },
+  "/docs/Englisch-Training/EN_BE_3701X-fb2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3701-xfd-2-0eb"
+  },
+  "/docs/Englisch-Training/EN_BE_3702X-62d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3702-x-74-f-fbd"
+  },
+  "/docs/Englisch-Training/EN_BE_3703X-76c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3703-x-872-bb9"
+  },
+  "/docs/Englisch-Training/EN_BE_3704X-ca5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3704-x-05-a-fea"
+  },
+  "/docs/Englisch-Training/EN_BE_3706X-3f5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3706-x-7-ae-9ca"
+  },
+  "/docs/Englisch-Training/EN_BE_3708X-aac": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3708-x-061-bea"
+  },
   "/docs/React-e1a": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-reactb-91-d33"
@@ -162,6 +446,10 @@
   "/docs/Server/production-server-762": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-server-production-server-1-af-aab"
+  },
+  "/docs/Server/Server-Sicherheit-f9c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-server-server-sicherheit-63-d-ebc"
   },
   "/docs/VS Code Editor-825": {
     "__comp": "__comp---theme-doc-item-178-a40",

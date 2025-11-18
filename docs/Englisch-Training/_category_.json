@@ -1,8 +1,8 @@
 {
-  "label": "Englisch-Training",
-  "collapsed": false,
+  "label": "Englisch Training",
+  "collapsed": true,
   "link": {
     "type": "doc",
-    "id": "English-intro"
+    "id": "english-intro"
   }
 }

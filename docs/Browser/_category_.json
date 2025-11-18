@@ -1,6 +1,6 @@
 {
   "label": "Browser",
-  "collapsed": false,
+  "collapsed": true,
   "link": {
     "type": "doc",
     "id": "browser-intro"

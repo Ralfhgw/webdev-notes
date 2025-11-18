@@ -1,7 +1,7 @@
 {
-  "id": "Englisch-Training/English-intro",
-  "title": "Englisch-Training",
-  "description": "Kurze Einführung...",
+  "id": "Englisch-Training/english-intro",
+  "title": "Englisch Training",
+  "description": "Training Documents",
   "source": "@site/docs/Englisch-Training/intro.md",
   "sourceDirName": "Englisch-Training",
   "slug": "/Englisch-Training",
@@ -11,8 +11,8 @@
   "tags": [],
   "version": "current",
   "frontMatter": {
-    "id": "English-intro",
-    "title": "Englisch-Training",
+    "id": "english-intro",
+    "title": "Englisch Training",
     "slug": "/Englisch-Training"
   },
   "sidebar": "tutorialSidebar",
@@ -21,7 +21,7 @@
     "permalink": "/docs/DCI-Abschlussprojekt/VirtualBox"
   },
   "next": {
-    "title": "React",
-    "permalink": "/docs/React"
+    "title": "EN_BE_3119G",
+    "permalink": "/docs/Englisch-Training/EN_BE_3119G"
   }
 }

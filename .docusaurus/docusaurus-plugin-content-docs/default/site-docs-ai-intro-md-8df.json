@@ -1,7 +1,7 @@
 {
   "id": "AI/ai-intro",
   "title": "AI Einführung",
-  "description": "Kurze Einführung...",
+  "description": "Intro about AI",
   "source": "@site/docs/AI/intro.md",
   "sourceDirName": "AI",
   "slug": "/AI",

@@ -1,0 +1,23 @@
+{
+  "id": "Server/Server-Sicherheit",
+  "title": "Web Server Security",
+  "description": "I. Infrastruktur & Backend",
+  "source": "@site/docs/Server/Server-Sicherheit.md",
+  "sourceDirName": "Server",
+  "slug": "/Server/Server-Sicherheit",
+  "permalink": "/docs/Server/Server-Sicherheit",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Google-DNS-Fehler",
+    "permalink": "/docs/Server/Google-DNS-Fehler"
+  },
+  "next": {
+    "title": "Web Production Server",
+    "permalink": "/docs/Server/production-server"
+  }
+}

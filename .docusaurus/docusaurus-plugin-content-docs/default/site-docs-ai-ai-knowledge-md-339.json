@@ -1,7 +1,7 @@
 {
   "id": "AI/AI-Knowledge",
   "title": "AI-Knowledge",
-  "description": "Google AI Studio - Temporary chat",
+  "description": "Google AI",
   "source": "@site/docs/AI/AI-Knowledge.md",
   "sourceDirName": "AI",
   "slug": "/AI/AI-Knowledge",

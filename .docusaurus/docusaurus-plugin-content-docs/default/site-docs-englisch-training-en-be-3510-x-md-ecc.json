@@ -1,0 +1,23 @@
+{
+  "id": "Englisch-Training/EN_BE_3510X",
+  "title": "EN_BE_3510X",
+  "description": "ENBE3510X - Using modals verbs to express certainty",
+  "source": "@site/docs/Englisch-Training/EN_BE_3510X.md",
+  "sourceDirName": "Englisch-Training",
+  "slug": "/Englisch-Training/EN_BE_3510X",
+  "permalink": "/docs/Englisch-Training/EN_BE_3510X",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "EN_BE_3509X",
+    "permalink": "/docs/Englisch-Training/EN_BE_3509X"
+  },
+  "next": {
+    "title": "EN_BE_3601X",
+    "permalink": "/docs/Englisch-Training/EN_BE_3601X"
+  }
+}

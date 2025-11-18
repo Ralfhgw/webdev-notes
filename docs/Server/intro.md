@@ -1,5 +1,5 @@
 ---
-id: Server-intro
+id: Web-Server
 title: Server
 slug: /Server
 ---

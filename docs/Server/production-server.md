@@ -1,4 +1,6 @@
-#### Add new User
+# Web Production Server
+## Installing node.js
+### Add new User
 ```
 root@v124:~# adduser user
 info: Adding user `user' ...
@@ -30,20 +32,20 @@ root@v124:~# exit
 logout
 ```
 
-#### Install node.js
+### Install node.js
 ```
 user@v124:~$ curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
 sudo apt install -y nodejs
 root@v124:~# node -v
 root@v124:~# npm -v
 ```
-#### Install bun
+### Install bun
 ```
 root@v124:~# sudo apt install unzip
 root@v124:~# curl -fsSL https://bun.sh/install | bash
 root@v124:~# export PATH="$HOME/.bun/bin:$PATH"
 ```
-#### SSH Configuration for git access
+### SSH Configuration for git access
 ```
 root@v124:~# mkdir haussanierung
 root@v124:~# mkdir -p ~/.ssh
@@ -68,7 +70,7 @@ root@v124:~# chmod 600 ~/.ssh/id_ed25519_work
 root@v124:~# cd ~/haussanierung/
 root@v124:~# git clone git@github.com-work:Ralfhgw/haussanierung.git
 ```
-#### Firewall settings
+### Firewall settings
 ```
 root@v124:~# sudo ufw status verbose
 root@v124:~# sudo ufw allow OpenSSH
@@ -78,19 +80,19 @@ root@v124:~# sudo ufw allow 80/tcp
 root@v124:~# sudo ufw enable
 root@v124:~# sudo ufw status numbered
 ```
-#### Start of Project
+### Start of Project
 ```
 root@v124:~# cd haussanierung/
 root@v124:~# npm install
 root@v124:~# nohup npm start &
 ```
-#### Set variables
+### Set variables
 ```
 root@v124:~# vi .env
 PORT=3000
 JWT_SECRET=das_ist_mein_passwort
 ```
-#### Installation nginx
+### Installation nginx
 ```
 root@v124:~# sudo apt install nginx -y
 
@@ -111,7 +113,7 @@ server {
 root@v124:~# sudo nginx -t
 root@v124:~# sudo systemctl reload nginx
 ```
-#### Enable HTTPS
+### Enable HTTPS
 ```
 root@v124:~# sudo apt install certbot python3-certbot-nginx
 root@v124:~# sudo certbot --nginx -d webschere.de

@@ -1,7 +1,7 @@
 {
   "id": "Server/production-server",
-  "title": "production-server",
-  "description": "Add new User",
+  "title": "Web Production Server",
+  "description": "Installing node.js",
   "source": "@site/docs/Server/production-server.md",
   "sourceDirName": "Server",
   "slug": "/Server/production-server",
@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Google-DNS-Fehler",
-    "permalink": "/docs/Server/Google-DNS-Fehler"
+    "title": "Web Server Security",
+    "permalink": "/docs/Server/Server-Sicherheit"
   },
   "next": {
     "title": "VSCode",

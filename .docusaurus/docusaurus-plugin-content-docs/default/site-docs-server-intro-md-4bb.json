@@ -1,5 +1,5 @@
 {
-  "id": "Server/Server-intro",
+  "id": "Server/Web-Server",
   "title": "Server",
   "description": "Kurze Einführung...",
   "source": "@site/docs/Server/intro.md",
@@ -11,7 +11,7 @@
   "tags": [],
   "version": "current",
   "frontMatter": {
-    "id": "Server-intro",
+    "id": "Web-Server",
     "title": "Server",
     "slug": "/Server"
   },
