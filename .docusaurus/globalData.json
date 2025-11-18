@@ -26,31 +26,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Browser/Google dork cheatsheet",
-              "path": "/docs/Browser/Google dork cheatsheet",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Browser/Webdev-Weblinks/WebDev-Figma",
-              "path": "/docs/Browser/Webdev-Weblinks/WebDev-Figma",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Browser/Webdev-Weblinks/WebDev-React",
-              "path": "/docs/Browser/Webdev-Weblinks/WebDev-React",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Browser/Webdev-Weblinks/WebDev-Taining-Documentation",
-              "path": "/docs/Browser/Webdev-Weblinks/WebDev-Taining-Documentation",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Browser/Webdev-Weblinks/WebDev-Weblinks",
-              "path": "/docs/Browser/Webdev-Weblinks/",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "Coding/Coding-intro",
               "path": "/docs/Coding",
               "sidebar": "tutorialSidebar"

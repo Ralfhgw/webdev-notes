@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "WebDev-Taining-Documentation",
-    "permalink": "/docs/Browser/Webdev-Weblinks/WebDev-Taining-Documentation"
+    "title": "Browser",
+    "permalink": "/docs/Browser"
   },
   "next": {
     "title": "Tailwind_Installation",

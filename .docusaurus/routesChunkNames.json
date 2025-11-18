@@ -42,17 +42,17 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/docs-a4e": {
+  "/docs-7fe": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-2eb": {
+  "/docs-0fd": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-24b": {
+  "/docs-afa": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/AI-e5b": {
@@ -66,26 +66,6 @@
   "/docs/Browser-c56": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-browser-45-c-c03"
-  },
-  "/docs/Browser/Google dork cheatsheet-f2e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-browser-google-dork-cheatsheeteb-1-a35"
-  },
-  "/docs/Browser/Webdev-Weblinks/-a43": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-browser-webdev-weblinks-1-f-1-d4f"
-  },
-  "/docs/Browser/Webdev-Weblinks/WebDev-Figma-41c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-browser-webdev-weblinks-web-dev-figma-348-c0a"
-  },
-  "/docs/Browser/Webdev-Weblinks/WebDev-React-2fe": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-browser-webdev-weblinks-web-dev-reactd-78-e27"
-  },
-  "/docs/Browser/Webdev-Weblinks/WebDev-Taining-Documentation-470": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-browser-webdev-weblinks-web-dev-taining-documentation-4-b-6-0cd"
   },
   "/docs/Coding-e7a": {
     "__comp": "__comp---theme-doc-item-178-a40",

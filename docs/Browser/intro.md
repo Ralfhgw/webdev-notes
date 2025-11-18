@@ -4,6 +4,8 @@ title: Browser Einführung
 slug: /Browser
 ---
 
+## Google Filter und Beispiele
+
 | Filter    | Description                                                     | Example               |
 |-----------|-----------------------------------------------------------------|-----------------------|
 | allintext | Searches for occurrences of all the keywords given.             | allintext:"keyword"   |
@@ -61,95 +63,90 @@ inurl:confidential → URL enthält „confidential“.</small>
 
 ## Weblinks
 ### Design / Colors
-[coolors - Color Generator](https://coolors.co)
-[coolors - Trending Color Palettes](https://coolors.co/palettes/trending)
-[Contrastchecker](https://webaim.org/resources/contrastchecker/)
-[mui.com-material-ui](https://mui.com/material-ui/customization/palette/)
-[Material Design 3 - Google’s open-source design system](https://m3.material.io/styles/color/system/overview)
-[fluent2 - Microsoft Design platform](https://fluent2.microsoft.design/color)
-[U.S. Web Design System (USWDS)](https://designsystem.digital.gov/)
-[Responsive Web Design - Media Queries](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
+- [coolors - Color Generator](https://coolors.co)
+- [coolors - Trending Color Palettes](https://coolors.co/palettes/trending)
+- [Contrastchecker](https://webaim.org/resources/contrastchecker/)
+- [mui.com-material-ui](https://mui.com/material-ui/customization/palette/)
+- [Material Design 3 - Google’s open-source design system](https://m3.material.io/styles/color/system/overview)
+- [fluent2 - Microsoft Design platform](https://fluent2.microsoft.design/color)
+- [U.S. Web Design System (USWDS)](https://designsystem.digital.gov/)
+- [Responsive Web Design - Media Queries](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
+- [Wordpress Templates](https://colorlib.com/wp/css3-table-templates/)
 
 ### Barrierefreiheit
-[Screen Reader Demo for Digital Accessibility](https://www.youtube.com/watch?v=dEbl5jvLKGQ)
-[Gesetzliche Grundlagen](https://www.aktion-mensch.de/inklusion/barrierefreiheit/barrierefreie-website/gesetzliche-pflichten)
-[WAVE Web Accessibility Evaluation Tools](https://wave.webaim.org/)
-[Design System WashingtonPost - Accessibility Checklist](https://build.washingtonpost.com/resources/accessibility/accessibility-checklist)
+- [Screen Reader Demo for Digital Accessibility (youtube)](https://www.youtube.com/watch?v=dEbl5jvLKGQ)
+- [Gesetzliche Grundlagen](https://www.aktion-mensch.de/inklusion/barrierefreiheit/barrierefreie-website/gesetzliche-pflichten)
+- [WAVE Web Accessibility Evaluation Tools](https://wave.webaim.org/)
+- [Design System WashingtonPost - Accessibility Checklist](https://build.washingtonpost.com/resources/accessibility/accessibility-checklist)
+- [Design Mobile Forms](https://www.smashingmagazine.com/2018/08/ux-html5-mobile-form-part-1/)
+- [Responsive Design - Typographie](https://www.smashingmagazine.com/2022/01/modern-fluid-typography-css-clamp/)
+- [Smashing Magazine - Webentwicklermagazin](https://www.smashingmagazine.com/)
 
-[Design Mobile Forms](https://www.smashingmagazine.com/2018/08/ux-html5-mobile-form-part-1/)
-
-[Responsive Design - Typographie](https://www.smashingmagazine.com/2022/01/modern-fluid-typography-css-clamp/)
-[Smashing Magazine - Webentwicklermagazin](https://www.smashingmagazine.com/)
-
-### CSS
-[CSS-Tricks - CSS Grid Layout Guide](https://css-tricks.com/snippets/css/complete-guide-grid/)
-[CSS-Tricks - CSS Grid auto-fill](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/)
-[CSS Grid Generator](https://cssgrid-generator.netlify.app/)
-[CSS Grid Generator](https://cssgridgenerator.io/?utm_source=chatgpt.com)
-[CSS Grid Garden - Grid Spiel](https://cssgridgarden.com/)
-[CSS Grid Codingfanatasy - Grid Spiel](https://codingfantasy.com/games/css-grid-attack/play)
+### CSS Grid Tools and Guides
+- [CSS-Tricks - CSS Grid Layout Guide](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [CSS-Tricks - CSS Grid auto-fill](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/)
+- [CSS Grid Generator](https://cssgrid-generator.netlify.app/)
+- [CSS Grid Generator](https://cssgridgenerator.io/?utm_source=chatgpt.com)
+- [CSS Grid Garden - Grid Spiel](https://cssgridgarden.com/)
+- [CSS Grid Codingfanatasy - Grid Spiel](https://codingfantasy.com/games/css-grid-attack/play)
 
 ### Pictures
-[Picture Collection](www.unsplash.com)
-[Platzhalterbilder](https://placekeanu.com/)
-[Placeholder.co](https://placehold.co/)
-jsonplaceholder.typicode.com
+- [Unsplash - Picture Collection](https://www.unsplash.com)
+- [Placekeanu - Platzhalterbilder](https://placekeanu.com/)
+- [Placeholder.co - Create simple Platzhalterbilder](https://placehold.co/)
+- [jsonplaceholder - Platzhalterbilder](https://jsonplaceholder.typicode.com)
+- [Erstellen von Platzhalter Text (Lorem Ipsum)](https://www.lipsum.com)
+- [DPR - Understanding the Device Pixel Ratio](https://tomroth.dev/dpr/)
 
+### Websites mit CSS Animation
+- [Webseite 01](http://stripe.com)
+- [Webseite 02](http://inkwell.tech)
+- [Webseite 03](http://plasticbionic.com/studio)
 
-[Erstellen von Platzhalter Text](www.lipsum.com)
+### FIGMA
+- [Figma Project - Taxi-App-Ui](https://www.figma.com/community/file/1159763258551332384)
+- [Figma Login](https://www.figma.com/files/team/1498585358722290792/recents-and-sharing?fuid=1498585356737422084)
+- [Figma Tool - Farbkreis](https://www.figma.com/color-wheel/)
+- [Youtube - Figma Einführung](https://www.youtube.com/watch?v=3hzH8z0yw3A)
 
-[DPR - Understanding the Device Pixel Ratio](https://tomroth.dev/dpr/)
-[Wordpress Templates](https://colorlib.com/wp/css3-table-templates/)
+### REACT
+- [Google Plugin React Developer Tools](https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en&pli=1)
+- [React.dev Quick Start](https://react.dev/learn)
+- [Might not need an useEffect](https://react.dev/learn/you-might-not-need-an-effect)
 
-Websites mit CSS Animation
-http://stripe.com
-http://inkwell.tech
-http://plasticbionic.com/studio
+###  Documentation / Training
 
-## FIGMA
-[Figma Project - Taxi-App-Ui](https://www.figma.com/community/file/1159763258551332384)
-[Figma Login](https://www.figma.com/files/team/1498585358722290792/recents-and-sharing?fuid=1498585356737422084)
-[Figma Tool - Farbkreis](https://www.figma.com/color-wheel/)
-[Youtube - Figma Einführung](https://www.youtube.com/watch?v=3hzH8z0yw3A)
+### Learn English with reading News
+- [engoo.com](https://engoo.com/app/daily-news)
 
-## react
-[Google Plugin React Developer Tools](https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en&pli=1)
-[React.dev Quick Start](https://react.dev/learn)
-[Might not need an useEffect](https://react.dev/learn/you-might-not-need-an-effect)
+### Git
+- [git - Manual](https://git-scm.com/book/de/v2)
+- [w3schools - Git Excercises](https://www.w3schools.com/git/git_exercises.asp)
+- [w3schools - Git Tutoial](https://www.w3schools.com/git/)
+- [Learn Git Branching](https://learngitbranching.js.org)
+- [Github Education](https://github.com/education/students)
+- [github copilot](https://github.com/github-copilot/signup/success)
 
-####  Documentation / Training
+### HTML
+- [HTML Kurs](https://web.dev/learn/html/)
 
-#### Learn English with reading News
-[engoo.com](https://engoo.com/app/daily-news)
+### HTML Spezifikationen
+- [web.dev - Webentwicklung lernen](https://web.dev/?hl=de)
+- [MMDN - Resources for Developers](https://developer.mozilla.org/de/) 
 
-##### Git
-[git - Manual](https://git-scm.com/book/de/v2)
-[w3schools - Git Excercises](https://www.w3schools.com/git/git_exercises.asp)
-[w3schools - Git Tutoial](https://www.w3schools.com/git/)
-[Learn Git Branching](https://learngitbranching.js.org)
-[Github Education](https://github.com/education/students)
-[github copilot](https://github.com/github-copilot/signup/success)
+### TypeScript
+- [Typescript - Everyday Types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#differences-between-type-aliases-and-interfaces)
+- [Typescript - from Scratch](https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html)
+- [Typescript - Generics](https://www.typescriptlang.org/docs/handbook/2/generics.html)
 
-##### HTML
-[HTML Kurs](https://web.dev/learn/html/)
+### Youtube Channels
+- [Youtube - Programmierung ist schwer](https://www.youtube.com/watch?v=cvlzjA-6-As)
+- [Youtube - Kevin Powell](https://www.youtube.com/kevinpowell)
 
-##### HTML Spezifikationen
-[web.dev - Webentwicklung lernen](https://web.dev/?hl=de)
-[MMDN - Resources for Developers](https://developer.mozilla.org/de/) 
-
-##### TypeScript
-[Typescript - Everyday Types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#differences-between-type-aliases-and-interfaces)
-[Typescript - from Scratch](https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html)
-[Typescript - Generics](https://www.typescriptlang.org/docs/handbook/2/generics.html)
-
-##### Youtube Channels
-[Youtube - Programmierung ist schwer](https://www.youtube.com/watch?v=cvlzjA-6-As)
-[Youtube - Kevin Powell](https://www.youtube.com/kevinpowell)
-
-##### Specifications
-[HTML Living Standard - whatwg.org](https://html.spec.whatwg.org)
-[HTML Living Standard <b>github</b> - whatwg.org](https://github.com/whatwg/html)
-[Unicode CLDR-Projekt](https://cldr.unicode.org/)
+### Specifications
+- [HTML Living Standard - whatwg.org](https://html.spec.whatwg.org)
+- [HTML Living Standard <b>github</b> - whatwg.org](https://github.com/whatwg/html)
+- [Unicode CLDR-Projekt](https://cldr.unicode.org/)
 
 Online Portal zum Lernen von JavaScript / Web
 https://www.freecodecamp.org/
@@ -158,37 +155,37 @@ https://leetcode.com/
 https://icodethis.com/
 
 #### Tools for WebDev
-##### Linux
-[Linux Distributions online](https://www.onworks.net/)
-##### Typing Skills
-[Check your typing skills](Typingtest.com)
-[TypeRacer Game](https://play.typeracer.com/)
-[Type Game Rockets](https://www.typing.com/student/game/ztype)
+### Linux
+- [Linux Distributions online](https://www.onworks.net/)
+### Typing Skills
+- [Check your typing skills](Typingtest.com)
+- [TypeRacer Game](https://play.typeracer.com/)
+- [Type Game Rockets](https://www.typing.com/student/game/ztype)
 
-##### Flexbox
-[Flexbox](https://flexbox.tech/)
-[CSS Flexbox Layout Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+### Flexbox
+- [Flexbox](https://flexbox.tech/)
+- [CSS Flexbox Layout Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
-##### Browser
-[Get supported Features of Browser](https://caniuse.com)
+### Browser
+- [Get supported Features of Browser](https://caniuse.com)
 
-##### VSCode
-[How To Create Custom VSCode Snippets](https://www.youtube.com/watch?v=TGh2NpCIDlc)
-[Shortcuts zum schnellen Schreiben im VS Code](https://docs.emmet.io/cheat-sheet/)
+### VSCode
+- [How To Create Custom VSCode Snippets](https://www.youtube.com/watch?v=TGh2NpCIDlc)
+- [Shortcuts zum schnellen Schreiben im VS Code](https://docs.emmet.io/cheat-sheet/)
 
-##### Online Draw Tool
-[Online Draw Plaform](https://excalidraw.com/) 
+### Online Draw Tool
+- [Online Draw Plaform](https://excalidraw.com/) 
 
-##### HTML Website Developing Tool
-[Online HTML-JS-CSS Entwicklungstool](https://html-css-js.com/)
-[Online Web-Developing Tool](https://codepen.io)
+### HTML Website Developing Tool
+- [Online HTML-JS-CSS Entwicklungstool](https://html-css-js.com/)
+- [Online Web-Developing Tool](https://codepen.io)
 
-##### fakerjs
-[Faker Modules](https://fakerjs.dev/guide/)
-[Faker Modul Lorem](https://fakerjs.dev/api/lorem.html#lines)
+### fakerjs
+- [Faker Modules](https://fakerjs.dev/guide/)
+- [Faker Modul Lorem](https://fakerjs.dev/api/lorem.html#lines)
 
-##### Statistics
-[Browser Statistics](https://gs.statcounter.com)
+### Statistics
+- [Browser Statistics](https://gs.statcounter.com)
 
 Coole Seite mit Spiel und Dokumentationen
 https://a-way-to-go.com
@@ -211,7 +208,7 @@ https://js-dos.com/DOOM/
 
 https://bioub.github.io/dom-visualizer/
 
-[Webprovider](https://manage.wix.com/)
+- [Webprovider](https://manage.wix.com/)
 
 
 

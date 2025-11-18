@@ -1,7 +1,7 @@
 {
   "id": "Browser/browser-intro",
   "title": "Browser Einführung",
-  "description": "Kurze Einführung...",
+  "description": "Google Filter und Beispiele",
   "source": "@site/docs/Browser/intro.md",
   "sourceDirName": "Browser",
   "slug": "/Browser",
@@ -21,7 +21,7 @@
     "permalink": "/docs/AI/AI-Knowledge"
   },
   "next": {
-    "title": "Google dork cheatsheet",
-    "permalink": "/docs/Browser/Google dork cheatsheet"
+    "title": "Coding",
+    "permalink": "/docs/Coding"
   }
 }

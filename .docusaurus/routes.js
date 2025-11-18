@@ -39,15 +39,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'a4e'),
+    component: ComponentCreator('/docs', '7fe'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '2eb'),
+        component: ComponentCreator('/docs', '0fd'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '24b'),
+            component: ComponentCreator('/docs', 'afa'),
             routes: [
               {
                 path: '/docs/AI',
@@ -64,36 +64,6 @@ export default [
               {
                 path: '/docs/Browser',
                 component: ComponentCreator('/docs/Browser', 'c56'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Browser/Google dork cheatsheet',
-                component: ComponentCreator('/docs/Browser/Google dork cheatsheet', 'f2e'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Browser/Webdev-Weblinks/',
-                component: ComponentCreator('/docs/Browser/Webdev-Weblinks/', 'a43'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Browser/Webdev-Weblinks/WebDev-Figma',
-                component: ComponentCreator('/docs/Browser/Webdev-Weblinks/WebDev-Figma', '41c'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Browser/Webdev-Weblinks/WebDev-React',
-                component: ComponentCreator('/docs/Browser/Webdev-Weblinks/WebDev-React', '2fe'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Browser/Webdev-Weblinks/WebDev-Taining-Documentation',
-                component: ComponentCreator('/docs/Browser/Webdev-Weblinks/WebDev-Taining-Documentation', '470'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
