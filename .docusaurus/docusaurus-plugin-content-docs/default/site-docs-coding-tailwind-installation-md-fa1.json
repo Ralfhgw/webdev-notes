@@ -13,11 +13,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Coding",
-    "permalink": "/docs/Coding"
+    "title": "JavaScript-TypeScript",
+    "permalink": "/docs/Coding/JavaScript-TypeScript"
   },
   "next": {
-    "title": " npm",
-    "permalink": "/docs/Coding/node.js / npm"
+    "title": "node.js",
+    "permalink": "/docs/Coding/node.js"
   }
 }

@@ -39,15 +39,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '7fe'),
+    component: ComponentCreator('/docs', 'fea'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '0fd'),
+        component: ComponentCreator('/docs', 'b8d'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'afa'),
+            component: ComponentCreator('/docs', 'f97'),
             routes: [
               {
                 path: '/docs/AI',
@@ -74,14 +74,50 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Coding/node.js / npm',
-                component: ComponentCreator('/docs/Coding/node.js / npm', 'fef'),
+                path: '/docs/Coding/HTML-CSS-Fonts',
+                component: ComponentCreator('/docs/Coding/HTML-CSS-Fonts', '024'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Coding/node.js /test',
-                component: ComponentCreator('/docs/Coding/node.js /test', '91e'),
+                path: '/docs/Coding/HTML-CSS-Grid',
+                component: ComponentCreator('/docs/Coding/HTML-CSS-Grid', '3b7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Coding/HTML-CSS-Reset',
+                component: ComponentCreator('/docs/Coding/HTML-CSS-Reset', '2c9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Coding/JavaScript-Destructuring',
+                component: ComponentCreator('/docs/Coding/JavaScript-Destructuring', '785'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Coding/JavaScript-Grouping',
+                component: ComponentCreator('/docs/Coding/JavaScript-Grouping', '6d9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Coding/JavaScript-Loops',
+                component: ComponentCreator('/docs/Coding/JavaScript-Loops', '3f1'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Coding/JavaScript-TypeScript',
+                component: ComponentCreator('/docs/Coding/JavaScript-TypeScript', '390'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Coding/node.js',
+                component: ComponentCreator('/docs/Coding/node.js', 'da0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

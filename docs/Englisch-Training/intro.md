@@ -2,6 +2,7 @@
 id: english-intro
 title: Englisch Training
 slug: /Englisch-Training
+sidebar_position: 8
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 

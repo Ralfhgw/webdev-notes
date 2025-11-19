@@ -27,7 +27,17 @@ $ npm list tailwindcss
 ##### PostCSS - Führt CSS-Plugins aus (Framework drumherum)
 ##### Autoprefixer - Macht CSS browserkompatibel (fügt Präfixe hinzu)
 
+vite.config.js
+```
+mport { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import tailwindcss from "@tailwindcss/vite";
 
+// https://vite.dev/config/
+export default defineConfig({
+  plugins: [react(), tailwindcss()],
+})
+```
 package.json
 ```
 $ cat package.json 
@@ -94,7 +104,7 @@ import './App.css'
 function App() {
   return (
     <>
-      <h1 className="font-serif">Test</h1>
+      <h1 className="bg-customcolor font-serif">Test</h1>
       <button className="bg-blue-500 rounded-lg">Klick mich</button>
       <div className="bg-red-100 font-sans blur-xs animate-spin">Box1</div>
       <div className="bg-blue-300 font-serif animate-ping">Box2</div>

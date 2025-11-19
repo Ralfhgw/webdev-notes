@@ -1,0 +1,23 @@
+{
+  "id": "Coding/JavaScript-TypeScript",
+  "title": "JavaScript-TypeScript",
+  "description": "TypeScript kann keine CSS Dateien importieren und es kommt diese Fehlermeldung:",
+  "source": "@site/docs/Coding/JavaScript-TypeScript.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/JavaScript-TypeScript",
+  "permalink": "/docs/Coding/JavaScript-TypeScript",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "JavaScript-Loops",
+    "permalink": "/docs/Coding/JavaScript-Loops"
+  },
+  "next": {
+    "title": "Tailwind_Installation",
+    "permalink": "/docs/Coding/Tailwind_Installation"
+  }
+}

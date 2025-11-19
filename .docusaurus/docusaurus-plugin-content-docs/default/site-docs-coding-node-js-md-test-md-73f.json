@@ -1,0 +1,23 @@
+{
+  "id": "Coding/node.js.md/test",
+  "title": "test",
+  "description": "",
+  "source": "@site/docs/Coding/node.js.md/test.md",
+  "sourceDirName": "Coding/node.js.md",
+  "slug": "/Coding/node.js.md/test",
+  "permalink": "/docs/Coding/node.js.md/test",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": " npm",
+    "permalink": "/docs/Coding/node.js.md/ npm"
+  },
+  "next": {
+    "title": "Abschlussprojekt",
+    "permalink": "/docs/DCI-Abschlussprojekt"
+  }
+}

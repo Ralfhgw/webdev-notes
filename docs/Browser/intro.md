@@ -2,6 +2,7 @@
 id: browser-intro
 title: Browser Einführung
 slug: /Browser
+sidebar_position: 2
 ---
 
 ## Google Filter und Beispiele
@@ -81,14 +82,6 @@ inurl:confidential → URL enthält „confidential“.</small>
 - [Design Mobile Forms](https://www.smashingmagazine.com/2018/08/ux-html5-mobile-form-part-1/)
 - [Responsive Design - Typographie](https://www.smashingmagazine.com/2022/01/modern-fluid-typography-css-clamp/)
 - [Smashing Magazine - Webentwicklermagazin](https://www.smashingmagazine.com/)
-
-### CSS Grid Tools and Guides
-- [CSS-Tricks - CSS Grid Layout Guide](https://css-tricks.com/snippets/css/complete-guide-grid/)
-- [CSS-Tricks - CSS Grid auto-fill](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/)
-- [CSS Grid Generator](https://cssgrid-generator.netlify.app/)
-- [CSS Grid Generator](https://cssgridgenerator.io/?utm_source=chatgpt.com)
-- [CSS Grid Garden - Grid Spiel](https://cssgridgarden.com/)
-- [CSS Grid Codingfanatasy - Grid Spiel](https://codingfantasy.com/games/css-grid-attack/play)
 
 ### Pictures
 - [Unsplash - Picture Collection](https://www.unsplash.com)

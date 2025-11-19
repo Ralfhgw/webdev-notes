@@ -1,0 +1,23 @@
+{
+  "id": "Coding/node.js.md/ npm",
+  "title": " npm",
+  "description": "",
+  "source": "@site/docs/Coding/node.js.md/ npm.md",
+  "sourceDirName": "Coding/node.js.md",
+  "slug": "/Coding/node.js.md/ npm",
+  "permalink": "/docs/Coding/node.js.md/ npm",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tailwind_Installation",
+    "permalink": "/docs/Coding/Tailwind_Installation"
+  },
+  "next": {
+    "title": "Abschlussprojekt",
+    "permalink": "/docs/DCI-Abschlussprojekt"
+  }
+}

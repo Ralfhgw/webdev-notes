@@ -1,0 +1,23 @@
+{
+  "id": "Coding/ npm",
+  "title": " npm",
+  "description": "",
+  "source": "@site/docs/Coding/ npm.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/ npm",
+  "permalink": "/docs/Coding/ npm",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Coding",
+    "permalink": "/docs/Coding"
+  },
+  "next": {
+    "title": "Tailwind_Installation",
+    "permalink": "/docs/Coding/Tailwind_Installation"
+  }
+}

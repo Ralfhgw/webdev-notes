@@ -10,10 +10,12 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
+  "sidebarPosition": 8,
   "frontMatter": {
     "id": "english-intro",
     "title": "Englisch Training",
-    "slug": "/Englisch-Training"
+    "slug": "/Englisch-Training",
+    "sidebar_position": 8
   },
   "sidebar": "tutorialSidebar",
   "previous": {

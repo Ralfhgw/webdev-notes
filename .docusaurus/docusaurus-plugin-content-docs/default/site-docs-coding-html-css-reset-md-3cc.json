@@ -1,0 +1,23 @@
+{
+  "id": "Coding/HTML-CSS-Reset",
+  "title": "HTML-CSS-Reset",
+  "description": "",
+  "source": "@site/docs/Coding/HTML-CSS-Reset.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/HTML-CSS-Reset",
+  "permalink": "/docs/Coding/HTML-CSS-Reset",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "HTML-CSS-Grid",
+    "permalink": "/docs/Coding/HTML-CSS-Grid"
+  },
+  "next": {
+    "title": "JavaScript-Destructuring",
+    "permalink": "/docs/Coding/JavaScript-Destructuring"
+  }
+}

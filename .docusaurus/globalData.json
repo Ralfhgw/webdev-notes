@@ -31,13 +31,43 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Coding/node.js / npm",
-              "path": "/docs/Coding/node.js / npm",
+              "id": "Coding/HTML-CSS-Fonts",
+              "path": "/docs/Coding/HTML-CSS-Fonts",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Coding/node.js /test",
-              "path": "/docs/Coding/node.js /test",
+              "id": "Coding/HTML-CSS-Grid",
+              "path": "/docs/Coding/HTML-CSS-Grid",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Coding/HTML-CSS-Reset",
+              "path": "/docs/Coding/HTML-CSS-Reset",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Coding/JavaScript-Destructuring",
+              "path": "/docs/Coding/JavaScript-Destructuring",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Coding/JavaScript-Grouping",
+              "path": "/docs/Coding/JavaScript-Grouping",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Coding/JavaScript-Loops",
+              "path": "/docs/Coding/JavaScript-Loops",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Coding/JavaScript-TypeScript",
+              "path": "/docs/Coding/JavaScript-TypeScript",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Coding/node.js",
+              "path": "/docs/Coding/node.js",
               "sidebar": "tutorialSidebar"
             },
             {

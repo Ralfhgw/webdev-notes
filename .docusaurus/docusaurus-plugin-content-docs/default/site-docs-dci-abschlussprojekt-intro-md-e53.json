@@ -10,15 +10,17 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
+  "sidebarPosition": 7,
   "frontMatter": {
     "id": "Abschlussprojekt",
     "title": "Abschlussprojekt",
-    "slug": "/DCI-Abschlussprojekt"
+    "slug": "/DCI-Abschlussprojekt",
+    "sidebar_position": 7
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "test",
-    "permalink": "/docs/Coding/node.js /test"
+    "title": "Shortcuts-Extensions",
+    "permalink": "/docs/VS Code Editor/Shortcuts-Extensions"
   },
   "next": {
     "title": "Asterisk <--> Telekom",

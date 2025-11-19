@@ -1,7 +1,7 @@
 {
   "id": "Coding/Coding-intro",
   "title": "Coding",
-  "description": "Kurze Einführung...",
+  "description": "Übersicht:",
   "source": "@site/docs/Coding/intro.md",
   "sourceDirName": "Coding",
   "slug": "/Coding",
@@ -10,10 +10,12 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
+  "sidebarPosition": 3,
   "frontMatter": {
     "id": "Coding-intro",
     "title": "Coding",
-    "slug": "/Coding"
+    "slug": "/Coding",
+    "sidebar_position": 3
   },
   "sidebar": "tutorialSidebar",
   "previous": {
@@ -21,7 +23,7 @@
     "permalink": "/docs/Browser"
   },
   "next": {
-    "title": "Tailwind_Installation",
-    "permalink": "/docs/Coding/Tailwind_Installation"
+    "title": "HTML-CSS-Fonts",
+    "permalink": "/docs/Coding/HTML-CSS-Fonts"
   }
 }

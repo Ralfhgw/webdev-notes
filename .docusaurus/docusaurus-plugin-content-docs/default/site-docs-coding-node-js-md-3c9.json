@@ -1,0 +1,23 @@
+{
+  "id": "Coding/node.js",
+  "title": "node.js",
+  "description": "Installation node.js:",
+  "source": "@site/docs/Coding/node.js.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/node.js",
+  "permalink": "/docs/Coding/node.js",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tailwind_Installation",
+    "permalink": "/docs/Coding/Tailwind_Installation"
+  },
+  "next": {
+    "title": "React",
+    "permalink": "/docs/React"
+  }
+}

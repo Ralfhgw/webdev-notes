@@ -42,17 +42,17 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/docs-7fe": {
+  "/docs-fea": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-0fd": {
+  "/docs-b8d": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-afa": {
+  "/docs-f97": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/AI-e5b": {
@@ -71,13 +71,37 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-coding-404-e7d"
   },
-  "/docs/Coding/node.js / npm-fef": {
+  "/docs/Coding/HTML-CSS-Fonts-024": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-coding-node-js-npmbc-1-360"
+    "content": "content---docs-coding-html-css-fonts-717-630"
   },
-  "/docs/Coding/node.js /test-91e": {
+  "/docs/Coding/HTML-CSS-Grid-3b7": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-coding-node-js-testb-3-d-402"
+    "content": "content---docs-coding-html-css-grid-681-0eb"
+  },
+  "/docs/Coding/HTML-CSS-Reset-2c9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-coding-html-css-reset-3-cc-82c"
+  },
+  "/docs/Coding/JavaScript-Destructuring-785": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-coding-java-script-destructuringfbe-d8f"
+  },
+  "/docs/Coding/JavaScript-Grouping-6d9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-coding-java-script-groupingf-4-b-970"
+  },
+  "/docs/Coding/JavaScript-Loops-3f1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-coding-java-script-loops-38-f-9f4"
+  },
+  "/docs/Coding/JavaScript-TypeScript-390": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-coding-java-script-type-script-8-e-5-080"
+  },
+  "/docs/Coding/node.js-da0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-coding-node-js-3-c-9-297"
   },
   "/docs/Coding/Tailwind_Installation-fbb": {
     "__comp": "__comp---theme-doc-item-178-a40",

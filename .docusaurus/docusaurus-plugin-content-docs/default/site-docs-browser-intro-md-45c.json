@@ -10,10 +10,12 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
+  "sidebarPosition": 2,
   "frontMatter": {
     "id": "browser-intro",
     "title": "Browser Einführung",
-    "slug": "/Browser"
+    "slug": "/Browser",
+    "sidebar_position": 2
   },
   "sidebar": "tutorialSidebar",
   "previous": {

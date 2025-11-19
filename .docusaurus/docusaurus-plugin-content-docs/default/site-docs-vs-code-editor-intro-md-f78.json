@@ -10,10 +10,12 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
+  "sidebarPosition": 6,
   "frontMatter": {
     "id": "VSCode-intro",
     "title": "VSCode",
-    "slug": "/VS Code Editor"
+    "slug": "/VS Code Editor",
+    "sidebar_position": 6
   },
   "sidebar": "tutorialSidebar",
   "previous": {

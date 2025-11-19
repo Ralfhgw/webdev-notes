@@ -10,10 +10,12 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
+  "sidebarPosition": 5,
   "frontMatter": {
     "id": "Web-Server",
     "title": "Server",
-    "slug": "/Server"
+    "slug": "/Server",
+    "sidebar_position": 5
   },
   "sidebar": "tutorialSidebar",
   "previous": {

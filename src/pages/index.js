@@ -4,7 +4,7 @@ import Link from '@docusaurus/Link';
 export default function Home() {
   return (
     <div style={{ padding: '40px' }}>
-      <h1>WebDev Notes form DCI Training</h1>
+      <h1>WebDev Notes from DCI Training</h1>
       <p>Choose one of the Topics:</p>
       <ul>
         <li><Link to="/docs/AI">AI</Link></li>
