@@ -1,0 +1,23 @@
+{
+  "id": "Coding/HTML-CSS-Bildformate",
+  "title": "HTML-CSS-Bildformate",
+  "description": "SVG Vectorbilder sind HTML Code Dateien und sind anfällig für Malicious Code.",
+  "source": "@site/docs/Coding/HTML-CSS-Bildformate.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/HTML-CSS-Bildformate",
+  "permalink": "/docs/Coding/HTML-CSS-Bildformate",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "HTML-CSS-Backgrounds",
+    "permalink": "/docs/Coding/HTML-CSS-Backgrounds"
+  },
+  "next": {
+    "title": "HTML-CSS-Boxenmodell",
+    "permalink": "/docs/Coding/HTML-CSS-Boxenmodell"
+  }
+}

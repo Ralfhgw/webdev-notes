@@ -39,15 +39,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'fea'),
+    component: ComponentCreator('/docs', 'eff'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'b8d'),
+        component: ComponentCreator('/docs', 'b05'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'f97'),
+            component: ComponentCreator('/docs', '7d1'),
             routes: [
               {
                 path: '/docs/AI',
@@ -70,6 +70,30 @@ export default [
               {
                 path: '/docs/Coding',
                 component: ComponentCreator('/docs/Coding', 'e7a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Coding/HTML-CSS-Backgrounds',
+                component: ComponentCreator('/docs/Coding/HTML-CSS-Backgrounds', '7bd'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Coding/HTML-CSS-Bildformate',
+                component: ComponentCreator('/docs/Coding/HTML-CSS-Bildformate', '930'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Coding/HTML-CSS-Boxenmodell',
+                component: ComponentCreator('/docs/Coding/HTML-CSS-Boxenmodell', '5e9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Coding/HTML-CSS-DOM',
+                component: ComponentCreator('/docs/Coding/HTML-CSS-DOM', 'ddf'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -592,6 +616,18 @@ export default [
               {
                 path: '/docs/Englisch-Training/EN_BE_3708X',
                 component: ComponentCreator('/docs/Englisch-Training/EN_BE_3708X', 'aac'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Englisch-Training/EN_BE_3709S',
+                component: ComponentCreator('/docs/Englisch-Training/EN_BE_3709S', 'bda'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Englisch-Training/EN_BE_3710S',
+                component: ComponentCreator('/docs/Englisch-Training/EN_BE_3710S', '366'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

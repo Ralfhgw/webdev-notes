@@ -1,0 +1,23 @@
+{
+  "id": "Coding/HTML-CSS-Backgrounds",
+  "title": "HTML-CSS-Backgrounds",
+  "description": "Beispiel für unterschiedliche Hintergrundeffekte",
+  "source": "@site/docs/Coding/HTML-CSS-Backgrounds.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/HTML-CSS-Backgrounds",
+  "permalink": "/docs/Coding/HTML-CSS-Backgrounds",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Coding",
+    "permalink": "/docs/Coding"
+  },
+  "next": {
+    "title": "HTML-CSS-Bildformate",
+    "permalink": "/docs/Coding/HTML-CSS-Bildformate"
+  }
+}

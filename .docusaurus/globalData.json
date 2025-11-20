@@ -31,6 +31,26 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Coding/HTML-CSS-Backgrounds",
+              "path": "/docs/Coding/HTML-CSS-Backgrounds",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Coding/HTML-CSS-Bildformate",
+              "path": "/docs/Coding/HTML-CSS-Bildformate",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Coding/HTML-CSS-Boxenmodell",
+              "path": "/docs/Coding/HTML-CSS-Boxenmodell",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Coding/HTML-CSS-DOM",
+              "path": "/docs/Coding/HTML-CSS-DOM",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Coding/HTML-CSS-Fonts",
               "path": "/docs/Coding/HTML-CSS-Fonts",
               "sidebar": "tutorialSidebar"
@@ -458,6 +478,16 @@
             {
               "id": "Englisch-Training/EN_BE_3708X",
               "path": "/docs/Englisch-Training/EN_BE_3708X",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Englisch-Training/EN_BE_3709S",
+              "path": "/docs/Englisch-Training/EN_BE_3709S",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Englisch-Training/EN_BE_3710S",
+              "path": "/docs/Englisch-Training/EN_BE_3710S",
               "sidebar": "tutorialSidebar"
             },
             {

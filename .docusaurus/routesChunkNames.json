@@ -42,17 +42,17 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/docs-fea": {
+  "/docs-eff": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-b8d": {
+  "/docs-b05": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-f97": {
+  "/docs-7d1": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/AI-e5b": {
@@ -70,6 +70,22 @@
   "/docs/Coding-e7a": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-coding-404-e7d"
+  },
+  "/docs/Coding/HTML-CSS-Backgrounds-7bd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-coding-html-css-backgrounds-134-6f9"
+  },
+  "/docs/Coding/HTML-CSS-Bildformate-930": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-coding-html-css-bildformate-28-b-cff"
+  },
+  "/docs/Coding/HTML-CSS-Boxenmodell-5e9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-coding-html-css-boxenmodell-8-fb-7d1"
+  },
+  "/docs/Coding/HTML-CSS-DOM-ddf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-coding-html-css-dom-5-c-7-8e4"
   },
   "/docs/Coding/HTML-CSS-Fonts-024": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -418,6 +434,14 @@
   "/docs/Englisch-Training/EN_BE_3708X-aac": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-englisch-training-en-be-3708-x-061-bea"
+  },
+  "/docs/Englisch-Training/EN_BE_3709S-bda": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3709-s-18-d-96d"
+  },
+  "/docs/Englisch-Training/EN_BE_3710S-366": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3710-scc-4-749"
   },
   "/docs/React-e1a": {
     "__comp": "__comp---theme-doc-item-178-a40",

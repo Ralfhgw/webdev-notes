@@ -1,0 +1,38 @@
+/*  * {outline: 1px solid red !important;} */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  padding: 40px;
+}
+
+.topics {
+  display: flex;
+  flex-direction: row;
+}
+
+.hero-image {
+  width: 320px;
+  height: auto;
+  margin: 0px 40px;
+  border-radius: 6px;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .home-container {
+    flex-direction: column;
+  }
+  .hero {
+    order: 2;
+    width: 100%;
+  }
+  .topics {
+    order: 1;
+  }
+  .hero-image {
+    width: 100%;
+    max-width: 100%;
+  }
+}

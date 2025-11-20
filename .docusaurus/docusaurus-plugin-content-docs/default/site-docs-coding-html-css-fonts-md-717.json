@@ -1,7 +1,7 @@
 {
   "id": "Coding/HTML-CSS-Fonts",
   "title": "HTML-CSS-Fonts",
-  "description": "1.Einbinden einer lokalen Schrift in die Webseite",
+  "description": "- Es gibt für Webseiten optimierte Schriften (WOFF/WOFF2)",
   "source": "@site/docs/Coding/HTML-CSS-Fonts.md",
   "sourceDirName": "Coding",
   "slug": "/Coding/HTML-CSS-Fonts",
@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Coding",
-    "permalink": "/docs/Coding"
+    "title": "HTML-CSS-DOM",
+    "permalink": "/docs/Coding/HTML-CSS-DOM"
   },
   "next": {
     "title": "HTML-CSS-Grid",
