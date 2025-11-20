@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "JavaScript-TypeScript",
-    "permalink": "/docs/Coding/JavaScript-TypeScript"
+    "title": "React",
+    "permalink": "/docs/Coding/React"
   },
   "next": {
     "title": "node.js",

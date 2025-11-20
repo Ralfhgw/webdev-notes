@@ -1,4 +1,4 @@
-```
+```javascript
 const sales = [
   {
     id: 1,
@@ -35,13 +35,13 @@ const sales = [
 ### BASIC
 #### 1. Access Nested Data
 #### TODO: Log the name of the first customer
-```
+```javascript
 console.log("1a.", sales[0].customer.name);
 ---
 > 1a. Alice
 ```
 #### TODO: Log the product name of the second item in the first sale
-```
+```javascript
 console.log("1b.", sales[1].items[0].product);
 ---
 > 1b. Book
@@ -49,7 +49,7 @@ console.log("1b.", sales[1].items[0].product);
 #### 2. Calculate Sale Total
 #### TODO: Write code that calculates the total price of the first sale
 #### (Hint: multiply price * quantity for each item and sum them up)
-```
+```javascript
 let total = 0;
 for (const item of sales[0].items) {
   total += item.price * item.quantity;
@@ -61,7 +61,7 @@ console.log("2. Sale total:", total);
 ### INTERMEDIATE
 #### 3. Group Total Sales by State (for loop)
 #### TODO: Sum all sales amounts per state using a for loop
-```
+```javascript
 const salesByState = {};
 for (const sale of sales) {
   const state = sale.customer.state;
@@ -83,7 +83,7 @@ console.log("3. Sales by state:", salesByState);
 ```
 #### 4. Group Total Sales by State (reduce)
 #### TODO: Do the same using Array.reduce
-```
+```javascript
 const salesByStateReduce = sales.reduce((acc, sale) => {
   const state = sale.customer.state;
   
@@ -102,7 +102,7 @@ console.log("4. Sales by state (reduce):", salesByStateReduce);
 ### CHALLENGE
 #### 5. Count Items Sold per State
 #### TODO: For each state, calculate how many total items were sold (sum of all quantities)
-```
+```javascript
 const itemCountByState = sales.reduce((acc, sale) => {
   const state = sale.customer.state;
   
@@ -121,7 +121,7 @@ console.log("5. Items sold per state:", itemCountByState);
 ```
 #### 6. Group by Product across All States
 #### TODO: Calculate total revenue per product (Book, Pen, Laptop)
-```
+```javascript
 const revenueByProduct = sales.reduce((acc, sale) => {
   sale.items.forEach(item => {
     const product = item.product;
@@ -141,7 +141,7 @@ console.log("6. Revenue by product:", revenueByProduct);
 ####  - total revenue
 ####  - number of transactions
 ####  - average transaction value
-```
+```javascript
 const statsSummary = sales.reduce((acc, sale) => {
   const state = sale.customer.state;
 

@@ -1,0 +1,23 @@
+{
+  "id": "Coding/HTML-CSS-Datenspeicherung",
+  "title": "HTML-CSS-Datenspeicherung",
+  "description": "Speicherung-Server",
+  "source": "@site/docs/Coding/HTML-CSS-Datenspeicherung.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/HTML-CSS-Datenspeicherung",
+  "permalink": "/docs/Coding/HTML-CSS-Datenspeicherung",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "HTML-CSS-DOM",
+    "permalink": "/docs/Coding/HTML-CSS-DOM"
+  },
+  "next": {
+    "title": "HTML-CSS-Fonts",
+    "permalink": "/docs/Coding/HTML-CSS-Fonts"
+  }
+}

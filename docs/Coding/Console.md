@@ -1,0 +1,40 @@
+### Parameter zum Anzeigen mit console.log
+```javascript
+console.log('Method:', req.method);  console.log('URL:', req.url);
+  console.log('Original URL:', req.originalUrl);
+  console.log('Base URL:', req.baseUrl);
+  console.log('Path:', req.path);
+  console.log('Query Parameters:', req.query);
+  console.log('Route Parameters:', req.params);
+  console.log('Fresh:', req.fresh);
+  console.log('Stale:', req.stale);
+  console.log('Secure:', req.secure);
+  console.log('XHR (AJAX):', req.xhr);
+  console.log('IP Address:', req.ip);
+  console.log('IPs (if behind proxy):', req.ips);
+  console.log('Protocol:', req.protocol);
+  console.log('Hostname:', req.hostname);
+  console.log('Subdomains:', req.subdomains);
+  console.log('User-Agent:', req.get('User-Agent'));
+  console.log('Referer:', req.get('Referer'));
+  console.log('Accept:', req.get('Accept'));
+  console.log('Accept-Language:', req.get('Accept-Language'));
+  console.log('Cookie:', req.get('Cookie'));
+  console.log('Cache-Control:', req.get('Cache-Control'));
+  console.log('If-None-Match (ETag):', req.get('If-None-Match'));
+  console.log('If-Modified-Since:', req.get('If-Modified-Since'));
+  console.log('Connection:', req.get('Connection'));
+  console.log('Request Start Time:', new Date().toISOString());
+  console.log('Method:', req.method);
+  console.log('URL:', req.url);
+  console.log('Original URL:', req.originalUrl);
+  console.log('Path:', req.path);
+  console.log('Query Parameters:', req.query);
+  console.log('Headers:', req.headers);
+  console.log('User-Agent:', req.get('User-Agent'));
+  console.log('IP Address:', req.ip);
+  console.log('Protocol:', req.protocol);
+  console.log('Hostname:', req.hostname);
+  console.log('Timestamp:', new Date().toISOString());
+  console.log('Accept-Encoding:', req.get('Accept-Encoding'));
+```

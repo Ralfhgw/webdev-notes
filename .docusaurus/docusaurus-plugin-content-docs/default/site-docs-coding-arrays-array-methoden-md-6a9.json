@@ -1,0 +1,23 @@
+{
+  "id": "Coding/Arrays-Array-Methoden",
+  "title": "Arrays-Array-Methoden",
+  "description": "Array Methoden",
+  "source": "@site/docs/Coding/Arrays-Array-Methoden.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/Arrays-Array-Methoden",
+  "permalink": "/docs/Coding/Arrays-Array-Methoden",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Coding",
+    "permalink": "/docs/Coding"
+  },
+  "next": {
+    "title": "HTML-CSS-Backgrounds",
+    "permalink": "/docs/Coding/HTML-CSS-Backgrounds"
+  }
+}

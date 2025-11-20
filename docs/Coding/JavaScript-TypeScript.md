@@ -1,5 +1,5 @@
 ##### TypeScript kann keine CSS Dateien importieren und es kommt diese Fehlermeldung:
-```
+```javascript
 Error:
 Cannot find module '../css/style.css' or its corresponding type declarations.ts(2307)
 
@@ -7,9 +7,7 @@ Lösung:
 src/css/style.css.d.ts mit:
 declare module '*.css';
 ```
-
-
-```
+```javascript
 Error:
 'clickMeButton' is possibly 'null'.ts(18047)
 const clickMeButton: Element | null
@@ -25,7 +23,7 @@ if (clickMeButton) {
     });
 }
 ```
-```
+```javascript
 Error:
 Property 'style' does not exist on type 'Element'.ts(2339)
 
@@ -35,7 +33,7 @@ Nur HTMLElement hat die Eigenschaft.
 
 const homeSection = document.querySelector("#home") as HTMLElement;
 ```
-```
+```javascript
 import type { HTMLAttributes, ReactNode } from "react";
 
 HTMLAttributes<HTMLHeadingElement>

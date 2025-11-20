@@ -1,0 +1,19 @@
+{
+  "id": "Englisch-Training/EN_BE_3713X",
+  "title": "EN_BE_3713X",
+  "description": "ENBE3713X - Indruduction to the language of diplomats",
+  "source": "@site/docs/Englisch-Training/EN_BE_3713X.md",
+  "sourceDirName": "Englisch-Training",
+  "slug": "/Englisch-Training/EN_BE_3713X",
+  "permalink": "/docs/Englisch-Training/EN_BE_3713X",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "EN_BE_3710S",
+    "permalink": "/docs/Englisch-Training/EN_BE_3710S"
+  }
+}

@@ -3,9 +3,8 @@
     - Durch Arrays iterieren
     - Durch Strings iterieren
     - Wenn wir bei der Iteration eine Index-Position brauchen (z.B. bei Arrays oder Strings)
-    
+```javascript    
     // Durch Arrays iterieren
-    ```
     const colors = ['rot', 'blau', 'gelb'];
     
     for (let i=0; i<colors.length; i++) {
@@ -18,7 +17,7 @@
     'blau'
     'gelb'
     */
-    ```
+```
 
 | for...of | for...in |
 | --- | --- |
@@ -30,7 +29,7 @@
 ### For-Of-Loop
 -  Durch Arrays iterieren
 -  Durch Strings iterieren
-```
+```javascript
 // Durch Arrays iterieren
     
 const colors = ['rot', 'blau', 'gelb'];
@@ -45,7 +44,7 @@ for (const color of colors) {
 'gelb'
 */
 ```
-```
+```javascript
 // Durch Strings iterieren
    
 let string = 'hallo';
@@ -64,7 +63,7 @@ o
 ```
 
 ### While-Loop
-```
+```javascript
 // Unbestimmte Anzahl an Wiederholungen (solange die Kondition true ist)
 let isGameOver = false;
     
@@ -72,7 +71,7 @@ while (!isGameOver) {
     console.log('Das Spiel läuft');
 }
 ``` 
-``` 
+``` javascript
 // Eine festgelegte Anzahl an Wiederholungen ist auch möglich:
 // Beispiel While-Loop soll 5 mal ausgeführt werden:
     
@@ -95,7 +94,7 @@ while (number <= 5) {
 - Unbestimmte Anzahl an Wiederholungen (solange die Kondition true ist)
 - Falls der Loop mindestens einmal ausgeführt werden soll (auch wenn die Kondition false ist)
 
-```    
+```javascript
 // Unbestimmte Anzahl an Wiederholungen (solange die Kondition true ist)
 let isGameOver = false;
     

@@ -6,7 +6,7 @@
 - absolute = relativ zum Vorfahren positioniert (Element wird aus dem normalen Fluss entfernt und orientiert sich an dem Parent Element)
 - fixed = relativ zum Bildschirm, bleibt immer sichtbar (Element wird relativ zum gesamten Browserfenster (Viewport) positioniert, es bleibt beim Scrollen an der selben Stelle sichtbar)
 - sticky = fließt normal, bleibt aber kleben beim Scrollen (Element bewegt sich normal mit dem Inhalt , Wird eine bestimmte Position erreicht (z.B. top: 0), bleibt es dort kleben, allerdings nur innerhalb eines Parent Elements, das gescrollt werden kann z.B. ein Container mit overflow: auto)
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -183,13 +183,13 @@ align-items: Änderungen in der horizontalen
 align-content:  keine Änderungen
 
 Kurzform:
-```
+```css
 flex: flex-grow | flex-shrink | flex-basis
 z.B. 
 flex: 0 1 auto
 ```
 
-```
+```css
 #container {
     display: flex;
     flex-direction: row;

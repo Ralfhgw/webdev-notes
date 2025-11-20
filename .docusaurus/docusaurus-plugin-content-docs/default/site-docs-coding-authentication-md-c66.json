@@ -1,0 +1,23 @@
+{
+  "id": "Coding/Authentication",
+  "title": "Authentication",
+  "description": "Authentifizierung mit Verwendung von Token / Cookie / Hash",
+  "source": "@site/docs/Coding/Authentication.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/Authentication",
+  "permalink": "/docs/Coding/Authentication",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Coding",
+    "permalink": "/docs/Coding"
+  },
+  "next": {
+    "title": "Console",
+    "permalink": "/docs/Coding/Console"
+  }
+}

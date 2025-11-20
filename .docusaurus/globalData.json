@@ -26,8 +26,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Coding/Authentication",
+              "path": "/docs/Coding/Authentication",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Coding/Coding-intro",
               "path": "/docs/Coding",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Coding/Console",
+              "path": "/docs/Coding/Console",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -43,6 +53,16 @@
             {
               "id": "Coding/HTML-CSS-Boxenmodell",
               "path": "/docs/Coding/HTML-CSS-Boxenmodell",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Coding/HTML-CSS-CLSX",
+              "path": "/docs/Coding/HTML-CSS-CLSX",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Coding/HTML-CSS-Datenspeicherung",
+              "path": "/docs/Coding/HTML-CSS-Datenspeicherung",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -71,6 +91,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Coding/JavaScript-Funktionen",
+              "path": "/docs/Coding/JavaScript-Funktionen",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Coding/JavaScript-Grouping",
               "path": "/docs/Coding/JavaScript-Grouping",
               "sidebar": "tutorialSidebar"
@@ -86,8 +111,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Coding/Methoden-Eigenschaften",
+              "path": "/docs/Coding/Methoden-Eigenschaften",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Coding/node.js",
               "path": "/docs/Coding/node.js",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Coding/React",
+              "path": "/docs/Coding/React",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -491,6 +526,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Englisch-Training/EN_BE_3713X",
+              "path": "/docs/Englisch-Training/EN_BE_3713X",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Englisch-Training/english-intro",
               "path": "/docs/Englisch-Training",
               "sidebar": "tutorialSidebar"
@@ -518,6 +558,11 @@
             {
               "id": "Server/Account-webschere.de",
               "path": "/docs/Server/Account-webschere.de",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Server/Curl",
+              "path": "/docs/Server/Curl",
               "sidebar": "tutorialSidebar"
             },
             {

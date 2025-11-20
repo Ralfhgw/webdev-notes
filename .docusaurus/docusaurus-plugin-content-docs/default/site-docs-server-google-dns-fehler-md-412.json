@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Account-webschere.de",
-    "permalink": "/docs/Server/Account-webschere.de"
+    "title": "Curl",
+    "permalink": "/docs/Server/Curl"
   },
   "next": {
     "title": "Web Server Security",

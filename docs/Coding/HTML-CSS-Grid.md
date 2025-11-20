@@ -8,7 +8,7 @@
 
 **Lines sind die Begrenzungen der einzelnen Blöcke und Tracks sind die Abstände zwischen den Blöcken.**
 
-```
+```css
 .container {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr; /* drei Spalten: links/rechts 1x, Mitte 2x */

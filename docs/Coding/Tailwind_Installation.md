@@ -14,7 +14,7 @@ Ohne diese Extension gab es eine Fehlermeldung:
 
 
 ##### Installation Vite, React, Tailwind
-```
+```bash
 $ npm create vite@latest tailwind -- --template react
 $ cd tailwind/
 $ npm install
@@ -28,8 +28,8 @@ $ npm list tailwindcss
 ##### Autoprefixer - Macht CSS browserkompatibel (fügt Präfixe hinzu)
 
 vite.config.js
-```
-mport { defineConfig } from 'vite'
+```bash
+import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from "@tailwindcss/vite";
 
@@ -39,7 +39,7 @@ export default defineConfig({
 })
 ```
 package.json
-```
+```bash
 $ cat package.json 
 {
   "name": "tailwindnew",
@@ -74,7 +74,7 @@ $ cat package.json
 }
 ```
 index.css
-```
+```bash
 $ cat index.css
 @import "tailwindcss";
 
@@ -83,8 +83,7 @@ $ cat index.css
 }
 ```
 main.jsx
-```
-$ cat main.jsx 
+```javascript 
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
@@ -97,8 +96,7 @@ createRoot(document.getElementById('root')).render(
 )
 ```
 App.js
-```
-$ cat App.jsx 
+```javascript
 import './App.css'
 
 function App() {

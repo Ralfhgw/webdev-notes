@@ -1,0 +1,23 @@
+{
+  "id": "Coding/JavaScript-Funktionen",
+  "title": "JavaScript-Funktionen",
+  "description": "Rekursive Funktion",
+  "source": "@site/docs/Coding/JavaScript-Funktionen.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/JavaScript-Funktionen",
+  "permalink": "/docs/Coding/JavaScript-Funktionen",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "JavaScript-Destructuring",
+    "permalink": "/docs/Coding/JavaScript-Destructuring"
+  },
+  "next": {
+    "title": "JavaScript-Grouping",
+    "permalink": "/docs/Coding/JavaScript-Grouping"
+  }
+}

@@ -39,15 +39,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'eff'),
+    component: ComponentCreator('/docs', 'f3f'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'b05'),
+        component: ComponentCreator('/docs', '18b'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '7d1'),
+            component: ComponentCreator('/docs', '8bd'),
             routes: [
               {
                 path: '/docs/AI',
@@ -74,6 +74,18 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Coding/Authentication',
+                component: ComponentCreator('/docs/Coding/Authentication', '81c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Coding/Console',
+                component: ComponentCreator('/docs/Coding/Console', '1db'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/Coding/HTML-CSS-Backgrounds',
                 component: ComponentCreator('/docs/Coding/HTML-CSS-Backgrounds', '7bd'),
                 exact: true,
@@ -88,6 +100,18 @@ export default [
               {
                 path: '/docs/Coding/HTML-CSS-Boxenmodell',
                 component: ComponentCreator('/docs/Coding/HTML-CSS-Boxenmodell', '5e9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Coding/HTML-CSS-CLSX',
+                component: ComponentCreator('/docs/Coding/HTML-CSS-CLSX', '230'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Coding/HTML-CSS-Datenspeicherung',
+                component: ComponentCreator('/docs/Coding/HTML-CSS-Datenspeicherung', '0d1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -122,6 +146,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Coding/JavaScript-Funktionen',
+                component: ComponentCreator('/docs/Coding/JavaScript-Funktionen', 'e21'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/Coding/JavaScript-Grouping',
                 component: ComponentCreator('/docs/Coding/JavaScript-Grouping', '6d9'),
                 exact: true,
@@ -140,8 +170,20 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Coding/Methoden-Eigenschaften',
+                component: ComponentCreator('/docs/Coding/Methoden-Eigenschaften', '490'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/Coding/node.js',
                 component: ComponentCreator('/docs/Coding/node.js', 'da0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Coding/React',
+                component: ComponentCreator('/docs/Coding/React', '973'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -632,6 +674,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Englisch-Training/EN_BE_3713X',
+                component: ComponentCreator('/docs/Englisch-Training/EN_BE_3713X', '6a4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/React',
                 component: ComponentCreator('/docs/React', 'e1a'),
                 exact: true,
@@ -664,6 +712,12 @@ export default [
               {
                 path: '/docs/Server/Account-webschere.de',
                 component: ComponentCreator('/docs/Server/Account-webschere.de', '82e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Server/Curl',
+                component: ComponentCreator('/docs/Server/Curl', 'e52'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

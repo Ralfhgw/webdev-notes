@@ -41,7 +41,7 @@ console.log("4.", manufacturer);
 ### INTERMEDIATE
 #### 5. Rest with Arrays
 #### TODO: Put the first letter in head and the rest in tail
-```
+```javascript
 const letters = ["a", "b", "c", "d", "e"];
 const [head, ...tail] = letters;
 console.log("5.", head, tail);
@@ -50,7 +50,7 @@ console.log("5.", head, tail);
 ```
 #### 6. Rest with Objects
 #### TODO: Extract id into a variable, and put the rest into a variable called details
-```
+```javascript
 const user = { id: 42, username: "bob42", email: "bob@example.com" };
 const {id, ...details} = user;
 const userID = user.id;
@@ -62,7 +62,7 @@ console.log("6.2", details);
 ```
 #### 7. Default Values
 #### TODO: Destructure theme and language (default to "en" if missing)
-```
+```javascript
 const settings = { theme: "dark" };
 const settingsExtended = {
   ...settings,
@@ -74,7 +74,7 @@ console.log("7.", settingsExtended);
 ```
 #### 8. Spread with Arrays
 #### TODO: Create one array combined = [1, 2, 3, 4, 5]
-```
+```javascript
 const arr1 = [1, 2, 3];
 const arr2 = [4, 5];
 const combinedArray = [...arr1, ...arr2];
@@ -84,7 +84,7 @@ console.log("8.", combinedArray);
 ```
 #### 9. Spread with Objects
 #### TODO: Merge them so finalSettings has darkMode: true, showSidebar: true
-```
+```javascript
 const defaults = { darkMode: false, showSidebar: true };
 const userSettings = { darkMode: true };
 const combinedObject = { ...defaults, ...userSettings};
@@ -95,7 +95,7 @@ console.log(combinedObject);
 ### CHALLENGE
 #### 10. Function Parameters with Destructuring
 #### TODO: Write a function that takes a user object like:
-```
+```javascript
 // { name: "Lisa", age: 20, city: "Paris" }
 // and logs: "Lisa (20) from Paris"
 const obj = { name: "Lisa", age: 20, city: "Paris" };
@@ -108,7 +108,7 @@ excercise(obj);
 ```
 #### 11. Swapping Values
 #### TODO: Use array destructuring to swap values of x and y
-```
+```javascript
 let x = 5,
   y = 10;
 
@@ -119,7 +119,7 @@ console.log("11. x=" + x + " y=" + y)
 ```
 #### 12. Deep Destructuring
 #### TODO: Extract coach and the name of the goalkeeper
-```
+```javascript
 const team = {
   coach: "Marta",
   players: [
@@ -138,7 +138,7 @@ console.log("12.", coach, goalkeeperName);
 ```
 #### 13. Combine Rest + Spread
 #### TODO: Extract the first two numbers into variables,
-```
+```javascript
 const nums = [1, 2, 3, 4, 5];
 const [first, second, ...rest] = nums;
 const newArray = [first, second, ...rest, 99];

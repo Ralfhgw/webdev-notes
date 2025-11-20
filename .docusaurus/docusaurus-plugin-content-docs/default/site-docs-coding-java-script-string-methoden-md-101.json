@@ -1,0 +1,23 @@
+{
+  "id": "Coding/JavaScript-String-Methoden",
+  "title": "JavaScript-String-Methoden",
+  "description": "length – gibt die Länge des Strings zurück",
+  "source": "@site/docs/Coding/JavaScript-String-Methoden.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/JavaScript-String-Methoden",
+  "permalink": "/docs/Coding/JavaScript-String-Methoden",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "JavaScript-Loops",
+    "permalink": "/docs/Coding/JavaScript-Loops"
+  },
+  "next": {
+    "title": "JavaScript-TypeScript",
+    "permalink": "/docs/Coding/JavaScript-TypeScript"
+  }
+}

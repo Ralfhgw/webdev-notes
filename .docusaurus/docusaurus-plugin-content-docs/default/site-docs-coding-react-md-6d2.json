@@ -1,0 +1,23 @@
+{
+  "id": "Coding/React",
+  "title": "React",
+  "description": "useState – Zustand verwalten",
+  "source": "@site/docs/Coding/React.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/React",
+  "permalink": "/docs/Coding/React",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Methoden-Eigenschaften",
+    "permalink": "/docs/Coding/Methoden-Eigenschaften"
+  },
+  "next": {
+    "title": "Tailwind_Installation",
+    "permalink": "/docs/Coding/Tailwind_Installation"
+  }
+}

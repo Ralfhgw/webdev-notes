@@ -1,0 +1,23 @@
+{
+  "id": "Coding/Methoden-Eigenschaften",
+  "title": "Methoden-Eigenschaften",
+  "description": "JavaScript String Methoden",
+  "source": "@site/docs/Coding/Methoden-Eigenschaften.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/Methoden-Eigenschaften",
+  "permalink": "/docs/Coding/Methoden-Eigenschaften",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "JavaScript-TypeScript",
+    "permalink": "/docs/Coding/JavaScript-TypeScript"
+  },
+  "next": {
+    "title": "React",
+    "permalink": "/docs/Coding/React"
+  }
+}

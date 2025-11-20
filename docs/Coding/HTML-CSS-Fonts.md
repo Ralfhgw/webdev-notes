@@ -1,4 +1,3 @@
-
 - Es gibt für Webseiten optimierte Schriften (WOFF/WOFF2)
 - Coole Fonts "vollkorn", "merriweather", "system-ui"
 - mono schriften - gleicher abstand
@@ -24,7 +23,7 @@ Dieses Tool konvertiert in .woff, .woff2 (für moderne Browser) und erstellt @fo
 Lege z. B. einen Ordner fonts/ in deinem Projekt an und kopiere die .woff-Dateien dorthin.
 
 #### 4. CSS einfügen:
-```
+```css
  @font-face-Regel
 // In deiner CSS-Datei (style.css oder <style>-Tag in HTML):
 
@@ -43,7 +42,7 @@ body {
 ```
 #### 5. In HTML verknüpfen
 Falls du die CSS extern hast, nicht vergessen:
-```
+```html
 <link rel="stylesheet" href="style.css">
 ```
 
@@ -52,7 +51,7 @@ Falls du die CSS extern hast, nicht vergessen:
 #### Einfügen von Google Fonts in CSS
 (einfügen am Anfang der CSS Datei)
 
-```
+```css
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
@@ -61,24 +60,25 @@ body {
 ```
 #### Einfügen von Google Fonts im head mit link
 (kürzere Ladezeit als @import)
-```
+```html
 <head>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
-
+```
+```css
 body {
   font-family: 'Roboto', sans-serif;
 }
 ```
 
 [Pictogrammers-Iconify](https://pictogrammers.com/docs/guides/iconify/)
-```
+```javascript
 <script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script>
 <span class="iconify" data-icon="mdi-instagram"></span><a href="#">Instagram</a>
 ```
 
 [Pictogrammers-Material Design Icons](https://pictogrammers.com/library/mdi/)
-```
+```javascript
 import Icon from '@mdi/react';
 import { mdiAccessPointCheck } from '@mdi/js';
 

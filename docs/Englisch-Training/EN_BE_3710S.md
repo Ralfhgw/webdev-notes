@@ -1,6 +1,6 @@
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<a href={useBaseUrl('english/EN_BE_3710S-annotated.pdf')} target="_blank" rel="noopener">EN_BE_3710S - Using modals verbs to express certainty</a>
+<a href={useBaseUrl('english/EN_BE_3710S-annotated.pdf')} target="_blank" rel="noopener">EN_BE_3710S - Leadership styles</a>
 
 - Das Dokument behandelt verschiedene Leadership styles und ihre Eigenschaften. Es beschreibt, wie unterschiedliche Leadership styles je nach Situation und Team angepasst werden können. Es werden hauptsächlich folgende Stile vorgestellt:
 

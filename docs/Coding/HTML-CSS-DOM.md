@@ -1,37 +1,37 @@
 Immer auf target im Browser Console klicken um die Eigeneschaften eines Elements zu erhalten.
 
 ### document.getElementById(id)
-```
+```javascript
 const el = document.getElementById("header");
 ```
 ### document.QuerySelector(cssSelector)
-```
+```javascript
 const el = document.querySelector(".nav > li.active");
 ```
 ### document.getElementsByClassName(className)
-```
+```javascript
 const items = document.getElementsByClassName("item");
 ```
 ### document.getElementsByTagName(tag)
-```
+```javascript
 const divs = document.getElementsByTagName("div");
 ```
 ### document.getElementsByName(name)
-```
+```javascript
 const inputs = document.getElementsByName("email");
 ```
 ### document.querySelectorAll(cssSelector)
-```
+```javascript
 const allLinks = document.querySelectorAll("nav a");
 ```
 ### Selektoren am Element selbst (scoped)
-```
+```javascript
 const section = document.querySelector("section");
 section.querySelector(".title");        // sucht nur in der section
 section.querySelectorAll("p");          // nur p-Tags in der section
 ```
 ### Beispiel 01
-```
+```javascript
 <style>:
 svg {
    position: absolute;
@@ -65,7 +65,7 @@ svg {
     btnDown.addEventListener("click",  handleClickDown)
 ```
 ### Beispiel 02
-```
+```javascript
 // Einfügen von HTML Code in ein <ul> Element
 
 <h1></h1>
@@ -91,7 +91,7 @@ document.querySelector('input').outerHTML = '<textarea></textarea>';
 </script>
 ```
 ### Beispiel 03
-```
+```javascript
 // 
 <button id="btn1">Click</button>
 <button id="btn4">Scale</button>
@@ -108,7 +108,7 @@ btn4.onclick = () => box.style.transform = `scale(${scale += 0.2})`;
 </script>
 ```
 ### Beispiel 04
-```
+```javascript
 <h1>Element Ereignisprotokollierungsübung</h1>
 <button>Klick mich</button>
 <button id="toggleBtn">Hintergrund umschalten</button>
@@ -130,5 +130,102 @@ tgl.onclick = () => (out.classList.toggle('highlight'), log('Hintergrund des Tex
 document.onkeydown = e => log(`Taste wurde gedrückt: ${e.key}`);
 window.onresize = () => log(`Fenstergröße geändert: ${innerWidth} x ${innerHeight}`);
 </script>
+```
 
+### DOM Events Overview
+```javascript
+console.log(this);                 // top-level in non-module Scripts: window, in Modules: undefined
+console.log(window.screen);        // zeigt Bildschirm-Informationen (width/height usw.)
+console.log(this === window);      // true nur in non-module globalem Script-Kontext
+```
+Kurz‑Hinweis: In ES‑Modulen ist this auf oberster Ebene undefined. Verwende globalThis oder window, wenn du sicher das globale Objekt ansprechen willst:
+```javascript
+console.log(globalThis === window); // verlässlichere Prüfung
+```
+### Event-Typen
+#### Maus-Events:
+```javascript
+'click'         // Mausklick
+'dblclick'      // Doppelklick
+'mousedown'     // Maustaste gedrückt
+'mouseup'       // Maustaste losgelassen
+'mouseover'     // Maus über Element
+'mouseout'      // Maus verlässt Element
+'mousemove'     // Mausbewegung
+'contextmenu'   // Rechtsklick-Menü
+```
+#### Tastatur-Events:
+```javascript
+'keydown'       // Taste gedrückt
+'keyup'         // Taste losgelassen
+'keypress'      // Taste gedrückt (veraltet)
+```
+#### Formular-Events:
+```javascript
+'submit'        // Formular abgesendet
+'change'        // Wert geändert
+'input'         // Eingabe verändert
+'focus'         // Element fokussiert
+'blur'          // Fokus verloren
+```
+#### Fenster-Events:
+```javascript
+'load'          // Seite geladen
+'resize'        // Fenstergröße geändert
+'scroll'        // Gescrollt
+```
+#### Event-Parameter:
+#### Allgemeine Properties:
+```javascript
+button.addEventListener('click', event => {
+    console.log(event.type);           // Event-Typ: "click"
+    console.log(event.target);         // Geklicktes Element
+    console.log(event.currentTarget);  // Element mit Event Listener
+    console.log(event.timeStamp);      // Zeitstempel
+    console.log(event.bubbles);        // Ob Event nach oben bubbled
+});
+```
+#### Maus-spezifische Properties:
+```javascript
+button.addEventListener('click', event => {
+    console.log(event.clientX);        // X-Position im Viewport
+    console.log(event.clientY);        // Y-Position im Viewport
+    console.log(event.pageX);          // X-Position auf der Seite
+    console.log(event.pageY);          // Y-Position auf der Seite
+    console.log(event.screenX);        // X-Position auf dem Bildschirm
+    console.log(event.screenY);        // Y-Position auf dem Bildschirm
+    console.log(event.button);         // Welche Maustaste (0=links, 1=mitte, 2=rechts)
+    console.log(event.ctrlKey);        // Ctrl-Taste gedrückt?
+    console.log(event.shiftKey);       // Shift-Taste gedrückt?
+    console.log(event.altKey);         // Alt-Taste gedrückt?
+});
+```
+#### Tastatur-spezifische Properties:
+```javascript
+document.addEventListener('keydown', event => {
+    console.log(event.key);            // Taste: "a", "Enter", "ArrowUp"
+    console.log(event.code);           // Physische Taste: "KeyA", "Enter"
+    console.log(event.keyCode);        // Numerischer Code (veraltet)
+    console.log(event.ctrlKey);        // Ctrl gedrückt?
+    console.log(event.shiftKey);       // Shift gedrückt?
+    console.log(event.altKey);         // Alt gedrückt?
+});
+```
+#### Praktische Beispiele:
+```javascript
+// Rechtsklick verhindern
+button.addEventListener('contextmenu', event => {
+    event.preventDefault();
+});
+// Tastenkombination abfangen
+document.addEventListener('keydown', event => {
+    if (event.ctrlKey && event.key === 's') {
+        event.preventDefault();
+        console.log('Ctrl+S gedrückt!');
+    }
+});
+// Mausposition beim Hover
+button.addEventListener('mousemove', event => {
+    console.log(`Maus bei: ${event.clientX}, ${event.clientY}`);
+});
 ```

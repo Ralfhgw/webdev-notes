@@ -1,0 +1,23 @@
+{
+  "id": "Coding/temp",
+  "title": "temp",
+  "description": "",
+  "source": "@site/docs/Coding/temp.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/temp",
+  "permalink": "/docs/Coding/temp",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "node.js",
+    "permalink": "/docs/Coding/node.js"
+  },
+  "next": {
+    "title": "React",
+    "permalink": "/docs/React"
+  }
+}

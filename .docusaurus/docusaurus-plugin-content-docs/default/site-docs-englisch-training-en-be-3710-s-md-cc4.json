@@ -1,7 +1,7 @@
 {
   "id": "Englisch-Training/EN_BE_3710S",
   "title": "EN_BE_3710S",
-  "description": "ENBE3710S - Using modals verbs to express certainty",
+  "description": "ENBE3710S - Leadership styles",
   "source": "@site/docs/Englisch-Training/EN_BE_3710S.md",
   "sourceDirName": "Englisch-Training",
   "slug": "/Englisch-Training/EN_BE_3710S",
@@ -15,5 +15,9 @@
   "previous": {
     "title": "EN_BE_3709S",
     "permalink": "/docs/Englisch-Training/EN_BE_3709S"
+  },
+  "next": {
+    "title": "EN_BE_3713X",
+    "permalink": "/docs/Englisch-Training/EN_BE_3713X"
   }
 }

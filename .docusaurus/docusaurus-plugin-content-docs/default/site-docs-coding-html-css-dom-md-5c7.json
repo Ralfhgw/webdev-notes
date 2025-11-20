@@ -13,11 +13,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "HTML-CSS-Boxenmodell",
-    "permalink": "/docs/Coding/HTML-CSS-Boxenmodell"
+    "title": "HTML-CSS-CLSX",
+    "permalink": "/docs/Coding/HTML-CSS-CLSX"
   },
   "next": {
-    "title": "HTML-CSS-Fonts",
-    "permalink": "/docs/Coding/HTML-CSS-Fonts"
+    "title": "HTML-CSS-Datenspeicherung",
+    "permalink": "/docs/Coding/HTML-CSS-Datenspeicherung"
   }
 }
