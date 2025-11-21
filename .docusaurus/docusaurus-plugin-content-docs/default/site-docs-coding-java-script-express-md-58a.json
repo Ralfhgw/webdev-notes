@@ -1,0 +1,23 @@
+{
+  "id": "Coding/JavaScript-Express",
+  "title": "JavaScript-Express",
+  "description": "Parameter zum Anzeigen mit console.log",
+  "source": "@site/docs/Coding/JavaScript-Express.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/JavaScript-Express",
+  "permalink": "/docs/Coding/JavaScript-Express",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "JavaScript-Destructuring",
+    "permalink": "/docs/Coding/JavaScript-Destructuring"
+  },
+  "next": {
+    "title": "JavaScript-Fehlerbehandlung",
+    "permalink": "/docs/Coding/JavaScript-Fehlerbehandlung"
+  }
+}

@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Methoden-Eigenschaften",
-    "permalink": "/docs/Coding/Methoden-Eigenschaften"
+    "title": "Authentication",
+    "permalink": "/docs/Coding/Authentication"
   },
   "next": {
     "title": "Tailwind_Installation",

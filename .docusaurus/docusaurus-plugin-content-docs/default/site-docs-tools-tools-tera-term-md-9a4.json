@@ -1,0 +1,23 @@
+{
+  "id": "Tools/tools-TeraTerm",
+  "title": "tools-TeraTerm",
+  "description": "- Tera Term zeigt nur Farben, ändert sie nicht.",
+  "source": "@site/docs/Tools/tools-TeraTerm.md",
+  "sourceDirName": "Tools",
+  "slug": "/Tools/tools-TeraTerm",
+  "permalink": "/docs/Tools/tools-TeraTerm",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tools",
+    "permalink": "/docs/Tools"
+  },
+  "next": {
+    "title": "tools-VSCode-Emmet-Definition",
+    "permalink": "/docs/Tools/tools-VSCode-Emmet-Definition"
+  }
+}

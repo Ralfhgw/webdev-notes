@@ -1,7 +1,7 @@
 {
   "id": "VS Code Editor/VSCode-intro",
   "title": "VSCode",
-  "description": "Kurze Einführung...",
+  "description": "- Tools-TeraTerm",
   "source": "@site/docs/VS Code Editor/intro.md",
   "sourceDirName": "VS Code Editor",
   "slug": "/VS Code Editor",
@@ -23,7 +23,7 @@
     "permalink": "/docs/Server/production-server"
   },
   "next": {
-    "title": "Emmet Definition",
-    "permalink": "/docs/VS Code Editor/Emmet Definition"
+    "title": "tools-TeraTerm",
+    "permalink": "/docs/VS Code Editor/tools-TeraTerm"
   }
 }

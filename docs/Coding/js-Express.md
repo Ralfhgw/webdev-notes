@@ -1,4 +1,48 @@
-### Parameter zum Anzeigen mit console.log
+https://expressjs.com/en/5x/api.html#app.methods
+
+req (Request)
+Enthält alle Daten der eingehenden HTTP-Anfrage
+req.body - Daten aus POST-Request (JSON, Form-Daten)
+req.params - URL-Parameter (/users/:id)
+req.query - Query-Parameter (?name=john)
+req.headers - HTTP-Headers
+req.method
+req.path
+
+res (Response)
+Objekt zum Senden der Antwort zurück zum Client
+res.send() - Text/HTML senden
+res.json() - JSON senden
+res.status() - HTTP-Status-Code setzen
+```
+return res.status(400).json({ msg: "name required" })
+
+curl http://localhost:3000/api/names
+$ curl -X POST http://localhost:3000/api/names   -H "Content-Type: application/json"   -d '{"name": "Alice"}'
+
+app.get("/api/names", (_, res) => {
+    res.send(`
+    <form action="/api/names" method="POST">
+        <input name="name" type="text" required>
+        <button type="submit">Name senden</button>
+    </form>`);
+});
+
+app.post('/api/names', (req, res) => {
+    array.push(req.body.name);
+    res.send(`
+        <p><strong>Names:</strong> ${array}</p>
+        <a href="/api/names">Zurück</a>
+    `);
+});
+
+app.use(express.static("./frontend"));
+Alle statischen Dateien werden in diesem Verzeichnis gesucht.
+```
+
+
+
+#### Parameter zum Anzeigen der Request Daten mit console.log
 ```javascript
 console.log('Method:', req.method);  console.log('URL:', req.url);
   console.log('Original URL:', req.originalUrl);

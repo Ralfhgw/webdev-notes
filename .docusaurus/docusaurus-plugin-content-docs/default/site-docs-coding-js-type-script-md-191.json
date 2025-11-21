@@ -1,0 +1,23 @@
+{
+  "id": "Coding/js-TypeScript",
+  "title": "js-TypeScript",
+  "description": "TypeScript kann keine CSS Dateien importieren und es kommt diese Fehlermeldung:",
+  "source": "@site/docs/Coding/js-TypeScript.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/js-TypeScript",
+  "permalink": "/docs/Coding/js-TypeScript",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "js-React",
+    "permalink": "/docs/Coding/js-React"
+  },
+  "next": {
+    "title": "React",
+    "permalink": "/docs/React"
+  }
+}

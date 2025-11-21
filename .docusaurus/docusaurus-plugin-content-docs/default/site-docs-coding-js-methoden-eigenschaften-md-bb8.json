@@ -1,0 +1,23 @@
+{
+  "id": "Coding/js-Methoden-Eigenschaften",
+  "title": "js-Methoden-Eigenschaften",
+  "description": "JavaScript String Methoden",
+  "source": "@site/docs/Coding/js-Methoden-Eigenschaften.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/js-Methoden-Eigenschaften",
+  "permalink": "/docs/Coding/js-Methoden-Eigenschaften",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "js-Loops",
+    "permalink": "/docs/Coding/js-Loops"
+  },
+  "next": {
+    "title": "js-React",
+    "permalink": "/docs/Coding/js-React"
+  }
+}

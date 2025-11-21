@@ -1,0 +1,23 @@
+{
+  "id": "Coding/html-css-Fonts",
+  "title": "html-css-Fonts",
+  "description": "- Es gibt für Webseiten optimierte Schriften (WOFF/WOFF2)",
+  "source": "@site/docs/Coding/html-css-Fonts.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/html-css-Fonts",
+  "permalink": "/docs/Coding/html-css-Fonts",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "html-css-Datenspeicherung",
+    "permalink": "/docs/Coding/html-css-Datenspeicherung"
+  },
+  "next": {
+    "title": "html-css-Grid",
+    "permalink": "/docs/Coding/html-css-Grid"
+  }
+}

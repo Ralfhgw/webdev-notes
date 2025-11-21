@@ -13,11 +13,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "HTML-CSS-CLSX",
-    "permalink": "/docs/Coding/HTML-CSS-CLSX"
+    "title": "Authentication",
+    "permalink": "/docs/Coding/Authentication"
   },
   "next": {
-    "title": "HTML-CSS-Datenspeicherung",
-    "permalink": "/docs/Coding/HTML-CSS-Datenspeicherung"
+    "title": "HTML-CSS-Fonts",
+    "permalink": "/docs/Coding/HTML-CSS-Fonts"
   }
 }

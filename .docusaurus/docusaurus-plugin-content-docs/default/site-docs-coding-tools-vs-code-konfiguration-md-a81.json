@@ -1,0 +1,23 @@
+{
+  "id": "Coding/Tools-VSCode-Konfiguration",
+  "title": "Tools-VSCode-Konfiguration",
+  "description": "Keyboard shortcuts for Linux",
+  "source": "@site/docs/Coding/Tools-VSCode-Konfiguration.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/Tools-VSCode-Konfiguration",
+  "permalink": "/docs/Coding/Tools-VSCode-Konfiguration",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tailwind_Installation",
+    "permalink": "/docs/Coding/Tailwind_Installation"
+  },
+  "next": {
+    "title": "js-Destructuring",
+    "permalink": "/docs/Coding/js-Destructuring"
+  }
+}

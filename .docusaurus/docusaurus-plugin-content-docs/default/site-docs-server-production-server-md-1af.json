@@ -13,11 +13,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Web Server Security",
-    "permalink": "/docs/Server/Server-Sicherheit"
+    "title": "node.js",
+    "permalink": "/docs/Server/node.js"
   },
   "next": {
-    "title": "VSCode",
-    "permalink": "/docs/VS Code Editor"
+    "title": "Tools",
+    "permalink": "/docs/Tools"
   }
 }

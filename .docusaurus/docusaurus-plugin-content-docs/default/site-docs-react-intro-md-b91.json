@@ -19,8 +19,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "node.js",
-    "permalink": "/docs/Coding/node.js"
+    "title": "js-TypeScript",
+    "permalink": "/docs/Coding/js-TypeScript"
   },
   "next": {
     "title": "Context Provider",

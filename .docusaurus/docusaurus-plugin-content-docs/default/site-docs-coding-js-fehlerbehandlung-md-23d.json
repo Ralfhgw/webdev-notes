@@ -1,0 +1,23 @@
+{
+  "id": "Coding/js-Fehlerbehandlung",
+  "title": "js-Fehlerbehandlung",
+  "description": "JavaScript Error Handling – Übersicht",
+  "source": "@site/docs/Coding/js-Fehlerbehandlung.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/js-Fehlerbehandlung",
+  "permalink": "/docs/Coding/js-Fehlerbehandlung",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "js-Express",
+    "permalink": "/docs/Coding/js-Express"
+  },
+  "next": {
+    "title": "js-Funktionen",
+    "permalink": "/docs/Coding/js-Funktionen"
+  }
+}

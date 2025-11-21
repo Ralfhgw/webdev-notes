@@ -1,0 +1,23 @@
+{
+  "id": "Coding/js-EJS",
+  "title": "js-EJS",
+  "description": "test",
+  "source": "@site/docs/Coding/js-EJS.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/js-EJS",
+  "permalink": "/docs/Coding/js-EJS",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "js-Destructuring",
+    "permalink": "/docs/Coding/js-Destructuring"
+  },
+  "next": {
+    "title": "js-Express",
+    "permalink": "/docs/Coding/js-Express"
+  }
+}

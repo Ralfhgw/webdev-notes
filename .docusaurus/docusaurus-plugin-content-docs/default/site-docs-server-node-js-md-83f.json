@@ -1,0 +1,23 @@
+{
+  "id": "Server/node.js",
+  "title": "node.js",
+  "description": "Installation node.js:",
+  "source": "@site/docs/Server/node.js.md",
+  "sourceDirName": "Server",
+  "slug": "/Server/node.js",
+  "permalink": "/docs/Server/node.js",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Web Server Security",
+    "permalink": "/docs/Server/Server-Sicherheit"
+  },
+  "next": {
+    "title": "Web Production Server",
+    "permalink": "/docs/Server/production-server"
+  }
+}

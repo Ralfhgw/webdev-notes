@@ -13,11 +13,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "HTML-CSS-Grid",
-    "permalink": "/docs/Coding/HTML-CSS-Grid"
+    "title": "Authentication",
+    "permalink": "/docs/Coding/Authentication"
   },
   "next": {
-    "title": "JavaScript-Destructuring",
-    "permalink": "/docs/Coding/JavaScript-Destructuring"
+    "title": "Methoden-Eigenschaften",
+    "permalink": "/docs/Coding/Methoden-Eigenschaften"
   }
 }

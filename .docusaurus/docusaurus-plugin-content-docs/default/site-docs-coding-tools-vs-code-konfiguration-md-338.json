@@ -1,0 +1,23 @@
+{
+  "id": "Coding/tools-VSCode-Konfiguration",
+  "title": "tools-VSCode-Konfiguration",
+  "description": "Keyboard shortcuts for Linux",
+  "source": "@site/docs/Coding/tools-VSCode-Konfiguration.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/tools-VSCode-Konfiguration",
+  "permalink": "/docs/Coding/tools-VSCode-Konfiguration",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "js-TypeScript",
+    "permalink": "/docs/Coding/js-TypeScript"
+  },
+  "next": {
+    "title": "React",
+    "permalink": "/docs/React"
+  }
+}

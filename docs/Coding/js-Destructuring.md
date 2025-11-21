@@ -1,7 +1,7 @@
 ### BASIC
 #### 1. Array Destructuring
 #### TODO: Extract the first and second color into variables firstColor and secondColor
-```
+```javascript
 const colors = ["red", "green", "blue"];
 const firstColor = colors[0];
 const secondColor = colors[1];
@@ -11,7 +11,7 @@ console.log("1.", firstColor, secondColor);
 ```
 #### 2. Skipping Values
 #### TODO: Use destructuring to assign 10 to a and 30 to b (skip 20)
-```
+```javascript
 const numbers = [10, 20, 30, 40];
 const a = numbers[0];
 const b = numbers[2];
@@ -21,7 +21,7 @@ console.log("2.", a, b);
 ```
 #### 3. Object Destructuring
 #### TODO: Extract name and city into variables
-```
+```javascript
 const person = { name: "Alice", age: 25, city: "Berlin" };
 const firstName = person.name;
 const city = person.city;
@@ -31,7 +31,7 @@ console.log("3.", firstName, city)
 ```
 #### 4. Renaming While Destructuring
 #### TODO: Extract brand into a variable called manufacturer
-```
+```javascript
 const car = { brand: "Tesla", model: "3" };
 const manufacturer = car.brand;
 console.log("4.", manufacturer);

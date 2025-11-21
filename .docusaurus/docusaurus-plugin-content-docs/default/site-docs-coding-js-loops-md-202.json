@@ -1,0 +1,23 @@
+{
+  "id": "Coding/js-Loops",
+  "title": "js-Loops",
+  "description": "Klassische For-Loop",
+  "source": "@site/docs/Coding/js-Loops.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/js-Loops",
+  "permalink": "/docs/Coding/js-Loops",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "js-Grouping",
+    "permalink": "/docs/Coding/js-Grouping"
+  },
+  "next": {
+    "title": "js-Methoden-Eigenschaften",
+    "permalink": "/docs/Coding/js-Methoden-Eigenschaften"
+  }
+}

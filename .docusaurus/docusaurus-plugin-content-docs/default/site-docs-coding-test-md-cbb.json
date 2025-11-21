@@ -1,0 +1,23 @@
+{
+  "id": "Coding/test",
+  "title": "test",
+  "description": "",
+  "source": "@site/docs/Coding/test.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/test",
+  "permalink": "/docs/Coding/test",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "node.js",
+    "permalink": "/docs/Coding/node.js"
+  },
+  "next": {
+    "title": "React",
+    "permalink": "/docs/React"
+  }
+}

@@ -20,7 +20,6 @@ function GuessLetter({ letter }) {
       {letter.letter}
     </div>
   );
-}
 ```
 - Typen/Imports
 import clsx: Utility zum sauberen Zusammenfügen von CSS‑Klassen.
@@ -33,7 +32,6 @@ GuessLetterProps erwartet ein Objekt mit dem Feld letter vom Typ LetterInfo (und
 Exportiert eine funktionale React‑Komponente GuessLetter. Baut das className mit clsx("letter-box", letter.evaluation) — z. B. ergibt das "letter-box correct" wenn letter.evaluation === "correct". Wenn letter.evaluation falsy/undefined ist, bleibt className nur "letter-box". Rendert den Buchstaben: letter.letter.
 
 #### Anmerkungen / Tipps:
-
 **clsx ignoriert null/false/undefined, deshalb ist diese Nutzung sicher für optionale evaluation‑Werte. Falls du andere Klassennamen brauchst, mappe evaluation auf spezifische Klassennamen (z. B.  correct: 'is-correct' ) statt die Rohwerte zu verwenden.**
 ```javascript
 import clsx from "clsx";

@@ -1,0 +1,23 @@
+{
+  "id": "Coding/html-css-CLSX",
+  "title": "html-css-CLSX",
+  "description": "- Typen/Imports",
+  "source": "@site/docs/Coding/html-css-CLSX.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/html-css-CLSX",
+  "permalink": "/docs/Coding/html-css-CLSX",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "html-css-Boxenmodell",
+    "permalink": "/docs/Coding/html-css-Boxenmodell"
+  },
+  "next": {
+    "title": "html-css-DOM",
+    "permalink": "/docs/Coding/html-css-DOM"
+  }
+}

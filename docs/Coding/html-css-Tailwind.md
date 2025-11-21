@@ -1,19 +1,17 @@
-Tailwind Online Simulator
-https://play.tailwindcss.com/
+[Tailwind Online Simulator](https://play.tailwindcss.com/)
 
-Installationsanweisung mit Vite:
-https://tailwindcss.com/docs/installation/using-vite
+[Installation Tailwind mit Vite](https://tailwindcss.com/docs/installation/using-vite)
 
 Es gibt in VS Code eine Extension, welche Tailwind v4 richtig interpretiert.
 Ohne diese Extension gab es eine Fehlermeldung:
 
-##### Hinzufügen der Extension in VS Code:
+#### Hinzufügen der Extension in VS Code:
   - Tailwind CSS IntelliSense
   
   Preferences --> Settings --> in Suchfeld "css.lint.unknown" --> Unknown at-rule --> ignore
 
 
-##### Installation Vite, React, Tailwind
+#### Installation Vite, React, Tailwind
 ```bash
 $ npm create vite@latest tailwind -- --template react
 $ cd tailwind/

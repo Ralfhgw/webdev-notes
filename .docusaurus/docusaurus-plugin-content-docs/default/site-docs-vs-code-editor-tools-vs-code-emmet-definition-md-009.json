@@ -1,0 +1,23 @@
+{
+  "id": "VS Code Editor/Tools-VSCode-Emmet Definition",
+  "title": "Tools-VSCode-Emmet Definition",
+  "description": "https://docs.emmet.io/cheat-sheet/",
+  "source": "@site/docs/VS Code Editor/Tools-VSCode-Emmet Definition.md",
+  "sourceDirName": "VS Code Editor",
+  "slug": "/VS Code Editor/Tools-VSCode-Emmet Definition",
+  "permalink": "/docs/VS Code Editor/Tools-VSCode-Emmet Definition",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "VSCode",
+    "permalink": "/docs/VS Code Editor"
+  },
+  "next": {
+    "title": "Tools-VSCode-Shortcuts-Extensions",
+    "permalink": "/docs/VS Code Editor/Tools-VSCode-Shortcuts-Extensions"
+  }
+}

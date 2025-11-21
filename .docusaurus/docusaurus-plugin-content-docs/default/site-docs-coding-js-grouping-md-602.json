@@ -1,0 +1,23 @@
+{
+  "id": "Coding/js-Grouping",
+  "title": "js-Grouping",
+  "description": "BASIC",
+  "source": "@site/docs/Coding/js-Grouping.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/js-Grouping",
+  "permalink": "/docs/Coding/js-Grouping",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "js-Funktionen",
+    "permalink": "/docs/Coding/js-Funktionen"
+  },
+  "next": {
+    "title": "js-Loops",
+    "permalink": "/docs/Coding/js-Loops"
+  }
+}

@@ -18,7 +18,7 @@ export default function Home() {
             <li><Link to="/docs/Coding">Coding</Link></li>
             <li><Link to="/docs/React">React</Link></li>
             <li><Link to="/docs/Server">Server</Link></li>
-            <li><Link to="/docs/VS%20Code%20Editor">VS Code Editor</Link></li>
+            <li><Link to="/docs/Tools">Tools</Link></li>
             <li><Link to="/docs/DCI-Abschlussprojekt">DCI Abschlussprojekt</Link></li>
             <li><Link to="/docs/Englisch-Training">Englisch Training</Link></li>
           </ul>

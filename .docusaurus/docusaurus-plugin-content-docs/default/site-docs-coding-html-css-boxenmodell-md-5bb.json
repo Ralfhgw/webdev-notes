@@ -1,0 +1,23 @@
+{
+  "id": "Coding/html-css-Boxenmodell",
+  "title": "html-css-Boxenmodell",
+  "description": "Webseite um die Flexboxeinstellungen zu testen",
+  "source": "@site/docs/Coding/html-css-Boxenmodell.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/html-css-Boxenmodell",
+  "permalink": "/docs/Coding/html-css-Boxenmodell",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "html-css-Bildformate",
+    "permalink": "/docs/Coding/html-css-Bildformate"
+  },
+  "next": {
+    "title": "html-css-CLSX",
+    "permalink": "/docs/Coding/html-css-CLSX"
+  }
+}

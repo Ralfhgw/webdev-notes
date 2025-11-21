@@ -39,15 +39,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'f3f'),
+    component: ComponentCreator('/docs', '009'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '18b'),
+        component: ComponentCreator('/docs', 'a3d'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '8bd'),
+            component: ComponentCreator('/docs', 'e77'),
             routes: [
               {
                 path: '/docs/AI',
@@ -74,122 +74,128 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Coding/Authentication',
-                component: ComponentCreator('/docs/Coding/Authentication', '81c'),
+                path: '/docs/Coding/html-css-Backgrounds',
+                component: ComponentCreator('/docs/Coding/html-css-Backgrounds', '985'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Coding/Console',
-                component: ComponentCreator('/docs/Coding/Console', '1db'),
+                path: '/docs/Coding/html-css-Bildformate',
+                component: ComponentCreator('/docs/Coding/html-css-Bildformate', '2f2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Coding/HTML-CSS-Backgrounds',
-                component: ComponentCreator('/docs/Coding/HTML-CSS-Backgrounds', '7bd'),
+                path: '/docs/Coding/html-css-Boxenmodell',
+                component: ComponentCreator('/docs/Coding/html-css-Boxenmodell', '493'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Coding/HTML-CSS-Bildformate',
-                component: ComponentCreator('/docs/Coding/HTML-CSS-Bildformate', '930'),
+                path: '/docs/Coding/html-css-CLSX',
+                component: ComponentCreator('/docs/Coding/html-css-CLSX', 'b64'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Coding/HTML-CSS-Boxenmodell',
-                component: ComponentCreator('/docs/Coding/HTML-CSS-Boxenmodell', '5e9'),
+                path: '/docs/Coding/html-css-Datenspeicherung',
+                component: ComponentCreator('/docs/Coding/html-css-Datenspeicherung', 'a2e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Coding/HTML-CSS-CLSX',
-                component: ComponentCreator('/docs/Coding/HTML-CSS-CLSX', '230'),
+                path: '/docs/Coding/html-css-DOM',
+                component: ComponentCreator('/docs/Coding/html-css-DOM', '4fb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Coding/HTML-CSS-Datenspeicherung',
-                component: ComponentCreator('/docs/Coding/HTML-CSS-Datenspeicherung', '0d1'),
+                path: '/docs/Coding/html-css-Fonts',
+                component: ComponentCreator('/docs/Coding/html-css-Fonts', '5e7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Coding/HTML-CSS-DOM',
-                component: ComponentCreator('/docs/Coding/HTML-CSS-DOM', 'ddf'),
+                path: '/docs/Coding/html-css-Grid',
+                component: ComponentCreator('/docs/Coding/html-css-Grid', '6cc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Coding/HTML-CSS-Fonts',
-                component: ComponentCreator('/docs/Coding/HTML-CSS-Fonts', '024'),
+                path: '/docs/Coding/html-css-Reset',
+                component: ComponentCreator('/docs/Coding/html-css-Reset', '53b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Coding/HTML-CSS-Grid',
-                component: ComponentCreator('/docs/Coding/HTML-CSS-Grid', '3b7'),
+                path: '/docs/Coding/html-css-Tailwind',
+                component: ComponentCreator('/docs/Coding/html-css-Tailwind', 'a35'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Coding/HTML-CSS-Reset',
-                component: ComponentCreator('/docs/Coding/HTML-CSS-Reset', '2c9'),
+                path: '/docs/Coding/js-Authentication',
+                component: ComponentCreator('/docs/Coding/js-Authentication', '456'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Coding/JavaScript-Destructuring',
-                component: ComponentCreator('/docs/Coding/JavaScript-Destructuring', '785'),
+                path: '/docs/Coding/js-Destructuring',
+                component: ComponentCreator('/docs/Coding/js-Destructuring', 'ad3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Coding/JavaScript-Funktionen',
-                component: ComponentCreator('/docs/Coding/JavaScript-Funktionen', 'e21'),
+                path: '/docs/Coding/js-EJS',
+                component: ComponentCreator('/docs/Coding/js-EJS', 'dac'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Coding/JavaScript-Grouping',
-                component: ComponentCreator('/docs/Coding/JavaScript-Grouping', '6d9'),
+                path: '/docs/Coding/js-Express',
+                component: ComponentCreator('/docs/Coding/js-Express', 'abb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Coding/JavaScript-Loops',
-                component: ComponentCreator('/docs/Coding/JavaScript-Loops', '3f1'),
+                path: '/docs/Coding/js-Fehlerbehandlung',
+                component: ComponentCreator('/docs/Coding/js-Fehlerbehandlung', '840'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Coding/JavaScript-TypeScript',
-                component: ComponentCreator('/docs/Coding/JavaScript-TypeScript', '390'),
+                path: '/docs/Coding/js-Funktionen',
+                component: ComponentCreator('/docs/Coding/js-Funktionen', 'b12'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Coding/Methoden-Eigenschaften',
-                component: ComponentCreator('/docs/Coding/Methoden-Eigenschaften', '490'),
+                path: '/docs/Coding/js-Grouping',
+                component: ComponentCreator('/docs/Coding/js-Grouping', 'f9f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Coding/node.js',
-                component: ComponentCreator('/docs/Coding/node.js', 'da0'),
+                path: '/docs/Coding/js-Loops',
+                component: ComponentCreator('/docs/Coding/js-Loops', 'e80'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Coding/React',
-                component: ComponentCreator('/docs/Coding/React', '973'),
+                path: '/docs/Coding/js-Methoden-Eigenschaften',
+                component: ComponentCreator('/docs/Coding/js-Methoden-Eigenschaften', '217'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Coding/Tailwind_Installation',
-                component: ComponentCreator('/docs/Coding/Tailwind_Installation', 'fbb'),
+                path: '/docs/Coding/js-React',
+                component: ComponentCreator('/docs/Coding/js-React', 'ef7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Coding/js-TypeScript',
+                component: ComponentCreator('/docs/Coding/js-TypeScript', '4bf'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -728,6 +734,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Server/node.js',
+                component: ComponentCreator('/docs/Server/node.js', '3d9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/Server/production-server',
                 component: ComponentCreator('/docs/Server/production-server', '762'),
                 exact: true,
@@ -740,20 +752,26 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/VS Code Editor',
-                component: ComponentCreator('/docs/VS Code Editor', '825'),
+                path: '/docs/Tools',
+                component: ComponentCreator('/docs/Tools', '528'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/VS Code Editor/Emmet Definition',
-                component: ComponentCreator('/docs/VS Code Editor/Emmet Definition', 'ebc'),
+                path: '/docs/Tools/tools-TeraTerm',
+                component: ComponentCreator('/docs/Tools/tools-TeraTerm', '308'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/VS Code Editor/Shortcuts-Extensions',
-                component: ComponentCreator('/docs/VS Code Editor/Shortcuts-Extensions', '520'),
+                path: '/docs/Tools/tools-VSCode-Emmet-Definition',
+                component: ComponentCreator('/docs/Tools/tools-VSCode-Emmet-Definition', '39a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Tools/tools-VSCode-Konfiguration',
+                component: ComponentCreator('/docs/Tools/tools-VSCode-Konfiguration', '000'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

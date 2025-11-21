@@ -1,7 +1,8 @@
-[Keyboard shortcuts for Linux](../public/vscode-shortcuts-linux.pdf)
-[Keyboard shortcuts for Windows](../public/vscode-shortcuts-windows.pdf)
+[Keyboard shortcuts for Linux](../../public/vscode-shortcuts-linux.pdf)
 
-##### VS Code Erweiterungen:
+[Keyboard shortcuts for Windows](../../public/vscode-shortcuts-windows.pdf)
+
+#### VS Code Erweiterungen:
 ```
     - Live Server
     - Better Comments
@@ -10,7 +11,7 @@
     - Markdown Preview Enhanced
     - Github Copilot
     - Github Copilot Chat
-    - Auto Rename Tag
+    - Auto Rename Tag   
     - rainbow-csv
     - Remote - SSH
     - TODO Highlight v2
@@ -31,13 +32,16 @@
     - const [name, setName] = useState("");  )
     - ESLINT (//eslint-disable-next-line)
 ```
-##### Github Copilot: Completion Disable
+#### Github Copilot: Completion Disable
 ALT + SHIFT + Pfeil unten = Duplizieren
 
-##### Standardtext für eine HTML Seite ändern
-STRG+SHIFT+P --> Snippets: Configure Snippets
+#### Standardtext für eine HTML Seite ändern
+STRG + SHIFT + P --> Snippets: Configure Snippets
 
-##### So deaktivierst du das automatische Schließen von Tags in VS Code über die Einstellungen-GUI
+#### Öffne Emmet Eingabefeld
+STRG + SHIFT + W
+
+#### So deaktivierst du das automatische Schließen von Tags in VS Code über die Einstellungen-GUI
 Öffne die Einstellungen:
 Strg + , (Komma) oder über Menü: Datei → Einstellungen → Einstellungen
 Suche oben in der Suchleiste:

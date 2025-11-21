@@ -13,11 +13,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Tailwind_Installation",
-    "permalink": "/docs/Coding/Tailwind_Installation"
+    "title": "js-TypeScript",
+    "permalink": "/docs/Coding/js-TypeScript"
   },
   "next": {
-    "title": "React",
-    "permalink": "/docs/React"
+    "title": "tools-TeraTerm",
+    "permalink": "/docs/Coding/tools-TeraTerm"
   }
 }

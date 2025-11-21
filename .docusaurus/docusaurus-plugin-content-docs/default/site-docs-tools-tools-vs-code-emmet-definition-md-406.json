@@ -1,0 +1,23 @@
+{
+  "id": "Tools/tools-VSCode-Emmet-Definition",
+  "title": "tools-VSCode-Emmet-Definition",
+  "description": "Emmet-Cheat Sheet - Website",
+  "source": "@site/docs/Tools/tools-VSCode-Emmet-Definition.md",
+  "sourceDirName": "Tools",
+  "slug": "/Tools/tools-VSCode-Emmet-Definition",
+  "permalink": "/docs/Tools/tools-VSCode-Emmet-Definition",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "tools-TeraTerm",
+    "permalink": "/docs/Tools/tools-TeraTerm"
+  },
+  "next": {
+    "title": "tools-VSCode-Konfiguration",
+    "permalink": "/docs/Tools/tools-VSCode-Konfiguration"
+  }
+}

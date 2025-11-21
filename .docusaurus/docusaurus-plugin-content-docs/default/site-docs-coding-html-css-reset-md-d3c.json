@@ -1,0 +1,23 @@
+{
+  "id": "Coding/html-css-Reset",
+  "title": "html-css-Reset",
+  "description": "",
+  "source": "@site/docs/Coding/html-css-Reset.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/html-css-Reset",
+  "permalink": "/docs/Coding/html-css-Reset",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "html-css-Grid",
+    "permalink": "/docs/Coding/html-css-Grid"
+  },
+  "next": {
+    "title": "html-css-Tailwind",
+    "permalink": "/docs/Coding/html-css-Tailwind"
+  }
+}

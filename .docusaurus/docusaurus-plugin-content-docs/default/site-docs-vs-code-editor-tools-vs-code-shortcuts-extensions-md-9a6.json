@@ -1,0 +1,23 @@
+{
+  "id": "VS Code Editor/Tools-VSCode-Shortcuts-Extensions",
+  "title": "Tools-VSCode-Shortcuts-Extensions",
+  "description": "Keyboard shortcuts for Linux",
+  "source": "@site/docs/VS Code Editor/Tools-VSCode-Shortcuts-Extensions.md",
+  "sourceDirName": "VS Code Editor",
+  "slug": "/VS Code Editor/Tools-VSCode-Shortcuts-Extensions",
+  "permalink": "/docs/VS Code Editor/Tools-VSCode-Shortcuts-Extensions",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "VSCode",
+    "permalink": "/docs/VS Code Editor"
+  },
+  "next": {
+    "title": "Abschlussprojekt",
+    "permalink": "/docs/DCI-Abschlussprojekt"
+  }
+}

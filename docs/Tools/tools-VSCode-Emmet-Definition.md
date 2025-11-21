@@ -1,6 +1,8 @@
-https://docs.emmet.io/cheat-sheet/
-[Emmet-Cheat Sheet](./public/vscode-cheatsheet-a5.pdf)
+[Emmet-Cheat Sheet - Website](https://docs.emmet.io/cheat-sheet/)
 
+[Emmet-Cheat Sheet](../../public/vscode-cheatsheet-a5.pdf)
+
+##### STRG + ALT + W - Öffnet das Eingabefeld für Emmet
 
 ```
 <!-- emmet: (header>(h1>lorem3))+main>((h2>lorem5)+p*3>lorem100)*10 -->
@@ -14,7 +16,7 @@ Emmet speeds up HTML & CSS. In VS Code, type abbreviation & press `Tab` or `Ente
 File --> Einstellungen --> Keyboard Shortcuts --> Emmet: Wrap with Abbreviation --> STR+ALT+W 
 
 
-##### HTML Abbreviations
+#### HTML Abbreviations
 
 ##### Elements, IDs & Classes
 

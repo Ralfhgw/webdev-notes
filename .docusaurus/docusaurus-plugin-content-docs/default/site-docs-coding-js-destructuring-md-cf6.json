@@ -1,0 +1,23 @@
+{
+  "id": "Coding/js-Destructuring",
+  "title": "js-Destructuring",
+  "description": "BASIC",
+  "source": "@site/docs/Coding/js-Destructuring.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/js-Destructuring",
+  "permalink": "/docs/Coding/js-Destructuring",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "js-Authentication",
+    "permalink": "/docs/Coding/js-Authentication"
+  },
+  "next": {
+    "title": "js-EJS",
+    "permalink": "/docs/Coding/js-EJS"
+  }
+}

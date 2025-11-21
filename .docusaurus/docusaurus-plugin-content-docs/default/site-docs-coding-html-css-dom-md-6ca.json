@@ -1,0 +1,23 @@
+{
+  "id": "Coding/html-css-DOM",
+  "title": "html-css-DOM",
+  "description": "Immer auf target im Browser Console klicken um die Eigeneschaften eines Elements zu erhalten.",
+  "source": "@site/docs/Coding/html-css-DOM.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/html-css-DOM",
+  "permalink": "/docs/Coding/html-css-DOM",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "html-css-CLSX",
+    "permalink": "/docs/Coding/html-css-CLSX"
+  },
+  "next": {
+    "title": "html-css-Datenspeicherung",
+    "permalink": "/docs/Coding/html-css-Datenspeicherung"
+  }
+}

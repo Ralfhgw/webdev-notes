@@ -13,11 +13,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "React",
-    "permalink": "/docs/Coding/React"
+    "title": "Coding",
+    "permalink": "/docs/Coding"
   },
   "next": {
-    "title": "node.js",
-    "permalink": "/docs/Coding/node.js"
+    "title": "html-css-Backgrounds",
+    "permalink": "/docs/Coding/html-css-Backgrounds"
   }
 }

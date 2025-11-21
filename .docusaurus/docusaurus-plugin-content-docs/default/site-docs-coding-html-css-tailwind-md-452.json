@@ -1,0 +1,23 @@
+{
+  "id": "Coding/html-css-Tailwind",
+  "title": "html-css-Tailwind",
+  "description": "Tailwind Online Simulator",
+  "source": "@site/docs/Coding/html-css-Tailwind.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/html-css-Tailwind",
+  "permalink": "/docs/Coding/html-css-Tailwind",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "html-css-Reset",
+    "permalink": "/docs/Coding/html-css-Reset"
+  },
+  "next": {
+    "title": "js-Authentication",
+    "permalink": "/docs/Coding/js-Authentication"
+  }
+}

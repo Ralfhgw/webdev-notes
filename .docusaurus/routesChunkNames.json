@@ -42,17 +42,17 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/docs-f3f": {
+  "/docs-009": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-18b": {
+  "/docs-a3d": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-8bd": {
+  "/docs-e77": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/AI-e5b": {
@@ -71,85 +71,89 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-coding-404-e7d"
   },
-  "/docs/Coding/Authentication-81c": {
+  "/docs/Coding/html-css-Backgrounds-985": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-coding-authenticationc-66-47b"
+    "content": "content---docs-coding-html-css-backgrounds-104-eb6"
   },
-  "/docs/Coding/Console-1db": {
+  "/docs/Coding/html-css-Bildformate-2f2": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-coding-console-32-c-a39"
+    "content": "content---docs-coding-html-css-bildformate-28-a-4ec"
   },
-  "/docs/Coding/HTML-CSS-Backgrounds-7bd": {
+  "/docs/Coding/html-css-Boxenmodell-493": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-coding-html-css-backgrounds-134-6f9"
+    "content": "content---docs-coding-html-css-boxenmodell-5-bb-462"
   },
-  "/docs/Coding/HTML-CSS-Bildformate-930": {
+  "/docs/Coding/html-css-CLSX-b64": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-coding-html-css-bildformate-28-b-cff"
+    "content": "content---docs-coding-html-css-cls-xfd-0-0df"
   },
-  "/docs/Coding/HTML-CSS-Boxenmodell-5e9": {
+  "/docs/Coding/html-css-Datenspeicherung-a2e": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-coding-html-css-boxenmodell-8-fb-7d1"
+    "content": "content---docs-coding-html-css-datenspeicherung-523-707"
   },
-  "/docs/Coding/HTML-CSS-CLSX-230": {
+  "/docs/Coding/html-css-DOM-4fb": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-coding-html-css-clsx-43-a-a70"
+    "content": "content---docs-coding-html-css-dom-6-ca-b2e"
   },
-  "/docs/Coding/HTML-CSS-Datenspeicherung-0d1": {
+  "/docs/Coding/html-css-Fonts-5e7": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-coding-html-css-datenspeicherung-39-f-f0d"
+    "content": "content---docs-coding-html-css-fonts-52-d-ef6"
   },
-  "/docs/Coding/HTML-CSS-DOM-ddf": {
+  "/docs/Coding/html-css-Grid-6cc": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-coding-html-css-dom-5-c-7-8e4"
+    "content": "content---docs-coding-html-css-gridaec-999"
   },
-  "/docs/Coding/HTML-CSS-Fonts-024": {
+  "/docs/Coding/html-css-Reset-53b": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-coding-html-css-fonts-717-630"
+    "content": "content---docs-coding-html-css-resetd-3-c-55a"
   },
-  "/docs/Coding/HTML-CSS-Grid-3b7": {
+  "/docs/Coding/html-css-Tailwind-a35": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-coding-html-css-grid-681-0eb"
+    "content": "content---docs-coding-html-css-tailwind-452-e8b"
   },
-  "/docs/Coding/HTML-CSS-Reset-2c9": {
+  "/docs/Coding/js-Authentication-456": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-coding-html-css-reset-3-cc-82c"
+    "content": "content---docs-coding-js-authenticationedd-4b8"
   },
-  "/docs/Coding/JavaScript-Destructuring-785": {
+  "/docs/Coding/js-Destructuring-ad3": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-coding-java-script-destructuringfbe-d8f"
+    "content": "content---docs-coding-js-destructuringcf-6-5cf"
   },
-  "/docs/Coding/JavaScript-Funktionen-e21": {
+  "/docs/Coding/js-EJS-dac": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-coding-java-script-funktionen-87-d-b81"
+    "content": "content---docs-coding-js-ejs-8-d-7-3d4"
   },
-  "/docs/Coding/JavaScript-Grouping-6d9": {
+  "/docs/Coding/js-Express-abb": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-coding-java-script-groupingf-4-b-970"
+    "content": "content---docs-coding-js-express-220-517"
   },
-  "/docs/Coding/JavaScript-Loops-3f1": {
+  "/docs/Coding/js-Fehlerbehandlung-840": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-coding-java-script-loops-38-f-9f4"
+    "content": "content---docs-coding-js-fehlerbehandlung-23-d-a74"
   },
-  "/docs/Coding/JavaScript-TypeScript-390": {
+  "/docs/Coding/js-Funktionen-b12": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-coding-java-script-type-script-8-e-5-080"
+    "content": "content---docs-coding-js-funktionena-3-e-194"
   },
-  "/docs/Coding/Methoden-Eigenschaften-490": {
+  "/docs/Coding/js-Grouping-f9f": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-coding-methoden-eigenschaften-39-d-a72"
+    "content": "content---docs-coding-js-grouping-602-812"
   },
-  "/docs/Coding/node.js-da0": {
+  "/docs/Coding/js-Loops-e80": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-coding-node-js-3-c-9-297"
+    "content": "content---docs-coding-js-loops-202-dfd"
   },
-  "/docs/Coding/React-973": {
+  "/docs/Coding/js-Methoden-Eigenschaften-217": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-coding-react-6-d-2-e6f"
+    "content": "content---docs-coding-js-methoden-eigenschaftenbb-8-335"
   },
-  "/docs/Coding/Tailwind_Installation-fbb": {
+  "/docs/Coding/js-React-ef7": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-coding-tailwind-installationfa-1-063"
+    "content": "content---docs-coding-js-react-9-d-4-a43"
+  },
+  "/docs/Coding/js-TypeScript-4bf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-coding-js-type-script-191-4e1"
   },
   "/docs/DCI-Abschlussprojekt-5b4": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -507,6 +511,10 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-server-google-dns-fehler-412-1db"
   },
+  "/docs/Server/node.js-3d9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-server-node-js-83-f-96f"
+  },
   "/docs/Server/production-server-762": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-server-production-server-1-af-aab"
@@ -515,17 +523,21 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-server-server-sicherheit-63-d-ebc"
   },
-  "/docs/VS Code Editor-825": {
+  "/docs/Tools-528": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-vs-code-editorf-78-e02"
+    "content": "content---docs-toolse-37-45f"
   },
-  "/docs/VS Code Editor/Emmet Definition-ebc": {
+  "/docs/Tools/tools-TeraTerm-308": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-vs-code-editor-emmet-definitionaae-d4d"
+    "content": "content---docs-tools-tools-tera-term-9-a-4-399"
   },
-  "/docs/VS Code Editor/Shortcuts-Extensions-520": {
+  "/docs/Tools/tools-VSCode-Emmet-Definition-39a": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-vs-code-editor-shortcuts-extensions-2-ab-66c"
+    "content": "content---docs-tools-tools-vs-code-emmet-definition-406-972"
+  },
+  "/docs/Tools/tools-VSCode-Konfiguration-000": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tools-tools-vs-code-konfigurationa-99-c0a"
   },
   "/-2e1": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",

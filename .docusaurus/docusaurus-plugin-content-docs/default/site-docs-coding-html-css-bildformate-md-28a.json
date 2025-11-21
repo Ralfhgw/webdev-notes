@@ -1,0 +1,23 @@
+{
+  "id": "Coding/html-css-Bildformate",
+  "title": "html-css-Bildformate",
+  "description": "Useful Weblinks",
+  "source": "@site/docs/Coding/html-css-Bildformate.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/html-css-Bildformate",
+  "permalink": "/docs/Coding/html-css-Bildformate",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "html-css-Backgrounds",
+    "permalink": "/docs/Coding/html-css-Backgrounds"
+  },
+  "next": {
+    "title": "html-css-Boxenmodell",
+    "permalink": "/docs/Coding/html-css-Boxenmodell"
+  }
+}

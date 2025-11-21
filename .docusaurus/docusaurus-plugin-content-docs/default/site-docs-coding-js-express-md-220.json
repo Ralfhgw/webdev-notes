@@ -1,0 +1,23 @@
+{
+  "id": "Coding/js-Express",
+  "title": "js-Express",
+  "description": "https://expressjs.com/en/5x/api.html#app.methods",
+  "source": "@site/docs/Coding/js-Express.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/js-Express",
+  "permalink": "/docs/Coding/js-Express",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "js-EJS",
+    "permalink": "/docs/Coding/js-EJS"
+  },
+  "next": {
+    "title": "js-Fehlerbehandlung",
+    "permalink": "/docs/Coding/js-Fehlerbehandlung"
+  }
+}

@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "HTML-CSS-Datenspeicherung",
-    "permalink": "/docs/Coding/HTML-CSS-Datenspeicherung"
+    "title": "Authentication",
+    "permalink": "/docs/Coding/Authentication"
   },
   "next": {
     "title": "HTML-CSS-Grid",

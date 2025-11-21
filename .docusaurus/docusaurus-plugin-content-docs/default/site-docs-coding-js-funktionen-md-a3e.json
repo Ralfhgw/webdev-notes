@@ -1,0 +1,23 @@
+{
+  "id": "Coding/js-Funktionen",
+  "title": "js-Funktionen",
+  "description": "Rekursive Funktion",
+  "source": "@site/docs/Coding/js-Funktionen.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/js-Funktionen",
+  "permalink": "/docs/Coding/js-Funktionen",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "js-Fehlerbehandlung",
+    "permalink": "/docs/Coding/js-Fehlerbehandlung"
+  },
+  "next": {
+    "title": "js-Grouping",
+    "permalink": "/docs/Coding/js-Grouping"
+  }
+}

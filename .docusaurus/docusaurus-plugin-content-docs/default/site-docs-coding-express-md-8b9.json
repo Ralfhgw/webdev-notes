@@ -1,0 +1,23 @@
+{
+  "id": "Coding/Express",
+  "title": "Express",
+  "description": "Parameter zum Anzeigen mit console.log",
+  "source": "@site/docs/Coding/Express.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/Express",
+  "permalink": "/docs/Coding/Express",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Authentication",
+    "permalink": "/docs/Coding/Authentication"
+  },
+  "next": {
+    "title": "HTML-CSS-Backgrounds",
+    "permalink": "/docs/Coding/HTML-CSS-Backgrounds"
+  }
+}

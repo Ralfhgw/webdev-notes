@@ -26,108 +26,113 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Coding/Authentication",
-              "path": "/docs/Coding/Authentication",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "Coding/Coding-intro",
               "path": "/docs/Coding",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Coding/Console",
-              "path": "/docs/Coding/Console",
+              "id": "Coding/html-css-Backgrounds",
+              "path": "/docs/Coding/html-css-Backgrounds",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Coding/HTML-CSS-Backgrounds",
-              "path": "/docs/Coding/HTML-CSS-Backgrounds",
+              "id": "Coding/html-css-Bildformate",
+              "path": "/docs/Coding/html-css-Bildformate",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Coding/HTML-CSS-Bildformate",
-              "path": "/docs/Coding/HTML-CSS-Bildformate",
+              "id": "Coding/html-css-Boxenmodell",
+              "path": "/docs/Coding/html-css-Boxenmodell",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Coding/HTML-CSS-Boxenmodell",
-              "path": "/docs/Coding/HTML-CSS-Boxenmodell",
+              "id": "Coding/html-css-CLSX",
+              "path": "/docs/Coding/html-css-CLSX",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Coding/HTML-CSS-CLSX",
-              "path": "/docs/Coding/HTML-CSS-CLSX",
+              "id": "Coding/html-css-Datenspeicherung",
+              "path": "/docs/Coding/html-css-Datenspeicherung",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Coding/HTML-CSS-Datenspeicherung",
-              "path": "/docs/Coding/HTML-CSS-Datenspeicherung",
+              "id": "Coding/html-css-DOM",
+              "path": "/docs/Coding/html-css-DOM",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Coding/HTML-CSS-DOM",
-              "path": "/docs/Coding/HTML-CSS-DOM",
+              "id": "Coding/html-css-Fonts",
+              "path": "/docs/Coding/html-css-Fonts",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Coding/HTML-CSS-Fonts",
-              "path": "/docs/Coding/HTML-CSS-Fonts",
+              "id": "Coding/html-css-Grid",
+              "path": "/docs/Coding/html-css-Grid",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Coding/HTML-CSS-Grid",
-              "path": "/docs/Coding/HTML-CSS-Grid",
+              "id": "Coding/html-css-Reset",
+              "path": "/docs/Coding/html-css-Reset",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Coding/HTML-CSS-Reset",
-              "path": "/docs/Coding/HTML-CSS-Reset",
+              "id": "Coding/html-css-Tailwind",
+              "path": "/docs/Coding/html-css-Tailwind",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Coding/JavaScript-Destructuring",
-              "path": "/docs/Coding/JavaScript-Destructuring",
+              "id": "Coding/js-Authentication",
+              "path": "/docs/Coding/js-Authentication",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Coding/JavaScript-Funktionen",
-              "path": "/docs/Coding/JavaScript-Funktionen",
+              "id": "Coding/js-Destructuring",
+              "path": "/docs/Coding/js-Destructuring",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Coding/JavaScript-Grouping",
-              "path": "/docs/Coding/JavaScript-Grouping",
+              "id": "Coding/js-EJS",
+              "path": "/docs/Coding/js-EJS",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Coding/JavaScript-Loops",
-              "path": "/docs/Coding/JavaScript-Loops",
+              "id": "Coding/js-Express",
+              "path": "/docs/Coding/js-Express",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Coding/JavaScript-TypeScript",
-              "path": "/docs/Coding/JavaScript-TypeScript",
+              "id": "Coding/js-Fehlerbehandlung",
+              "path": "/docs/Coding/js-Fehlerbehandlung",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Coding/Methoden-Eigenschaften",
-              "path": "/docs/Coding/Methoden-Eigenschaften",
+              "id": "Coding/js-Funktionen",
+              "path": "/docs/Coding/js-Funktionen",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Coding/node.js",
-              "path": "/docs/Coding/node.js",
+              "id": "Coding/js-Grouping",
+              "path": "/docs/Coding/js-Grouping",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Coding/React",
-              "path": "/docs/Coding/React",
+              "id": "Coding/js-Loops",
+              "path": "/docs/Coding/js-Loops",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Coding/Tailwind_Installation",
-              "path": "/docs/Coding/Tailwind_Installation",
+              "id": "Coding/js-Methoden-Eigenschaften",
+              "path": "/docs/Coding/js-Methoden-Eigenschaften",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Coding/js-React",
+              "path": "/docs/Coding/js-React",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Coding/js-TypeScript",
+              "path": "/docs/Coding/js-TypeScript",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -571,6 +576,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Server/node.js",
+              "path": "/docs/Server/node.js",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Server/production-server",
               "path": "/docs/Server/production-server",
               "sidebar": "tutorialSidebar"
@@ -586,18 +596,23 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "VS Code Editor/Emmet Definition",
-              "path": "/docs/VS Code Editor/Emmet Definition",
+              "id": "Tools/Tools",
+              "path": "/docs/Tools",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "VS Code Editor/Shortcuts-Extensions",
-              "path": "/docs/VS Code Editor/Shortcuts-Extensions",
+              "id": "Tools/tools-TeraTerm",
+              "path": "/docs/Tools/tools-TeraTerm",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "VS Code Editor/VSCode-intro",
-              "path": "/docs/VS Code Editor",
+              "id": "Tools/tools-VSCode-Emmet-Definition",
+              "path": "/docs/Tools/tools-VSCode-Emmet-Definition",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Tools/tools-VSCode-Konfiguration",
+              "path": "/docs/Tools/tools-VSCode-Konfiguration",
               "sidebar": "tutorialSidebar"
             }
           ],
