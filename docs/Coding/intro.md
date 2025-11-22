@@ -27,4 +27,5 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - [JavaScript-Loops](./js-Loops.md)
 - [JavaScript-Methoden-Eigenschaften](./js-Methoden-Eigenschaften.md)
 - [JavaScript-React](./js-React.md)
+- [JavaScript-React-Router](./js-React-Router.md)
 - [JavaScript-TypeScript](./js-TypeScript.md)

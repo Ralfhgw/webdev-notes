@@ -39,15 +39,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '009'),
+    component: ComponentCreator('/docs', 'adb'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'a3d'),
+        component: ComponentCreator('/docs', 'd18'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'e77'),
+            component: ComponentCreator('/docs', 'dcd'),
             routes: [
               {
                 path: '/docs/AI',
@@ -190,6 +190,12 @@ export default [
               {
                 path: '/docs/Coding/js-React',
                 component: ComponentCreator('/docs/Coding/js-React', 'ef7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Coding/js-React-Router',
+                component: ComponentCreator('/docs/Coding/js-React-Router', '2c8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -682,30 +688,6 @@ export default [
               {
                 path: '/docs/Englisch-Training/EN_BE_3713X',
                 component: ComponentCreator('/docs/Englisch-Training/EN_BE_3713X', '6a4'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/React',
-                component: ComponentCreator('/docs/React', 'e1a'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/React/Context Provider',
-                component: ComponentCreator('/docs/React/Context Provider', 'ee0'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/React/functions',
-                component: ComponentCreator('/docs/React/functions', '5e1'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/React/React Router',
-                component: ComponentCreator('/docs/React/React Router', '40b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

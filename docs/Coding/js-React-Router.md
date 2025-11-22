@@ -1,10 +1,10 @@
-##### React Router-Installation 
-```
+## React Router-Installation 
+```javascript
 npx create-vite@latest --> Choose React/Typescript
 npm install react-router-dom
 ```
-##### File Structure
-```
+### File Structure
+```javascript
 src/
 │
 ├─ components/
@@ -15,11 +15,11 @@ src/
 │   └─ About.jsx
 │
 ├─ App.jsx
-├─ main.jsx   ✅ (von dir gegeben)
+├─ main.jsx 
 └─ index.css
 ```
-##### src/main.jsx
-```
+### src/main.jsx
+```javascript
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
@@ -30,8 +30,8 @@ createRoot(document.getElementById('root')).render(
   </StrictMode>,
 )
 ```
-##### src/App.jsx
-```
+### src/App.jsx
+```javascript
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
@@ -53,8 +53,8 @@ function App() {
 
 export default App;
 ```
-##### src/components/Navbar.jsx
-```
+### src/components/Navbar.jsx
+```javascript
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
@@ -74,8 +74,8 @@ export default function Navbar() {
   );
 }
 ```
-#### src/components/Navbar.css
-```
+### src/components/Navbar.css
+```javascript
 .nav {
   display: flex;
   gap: 1rem;
@@ -91,8 +91,8 @@ export default function Navbar() {
   border-bottom: 2px solid #007bff;
 }
 ```
-##### src/pages/Home.jsx
-```
+### src/pages/Home.jsx
+```javascript
 export default function Home() {
   return (
     <div>
@@ -101,8 +101,8 @@ export default function Home() {
   );
 }
 ```
-##### src/pages/Products.jsx
-```
+### src/pages/Products.jsx
+```javascript
 export default function Products() {
   return (
     <div>
@@ -111,8 +111,8 @@ export default function Products() {
   );
 }
 ```
-##### src/pages/Contact.jsx
-```
+### src/pages/Contact.jsx
+```javascript
 export default function Contact() {
   return (
     <div>
@@ -121,8 +121,8 @@ export default function Contact() {
   );
 }
 ```
-##### src/index.css
-```
+### src/index.css
+```javascript
 body {
   font-family: sans-serif;
   margin: 0;

@@ -131,6 +131,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Coding/js-React-Router",
+              "path": "/docs/Coding/js-React-Router",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Coding/js-TypeScript",
               "path": "/docs/Coding/js-TypeScript",
               "sidebar": "tutorialSidebar"
@@ -538,26 +543,6 @@
             {
               "id": "Englisch-Training/english-intro",
               "path": "/docs/Englisch-Training",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "React/Context Provider",
-              "path": "/docs/React/Context Provider",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "React/functions",
-              "path": "/docs/React/functions",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "React/React Router",
-              "path": "/docs/React/React Router",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "React/React-intro",
-              "path": "/docs/React",
               "sidebar": "tutorialSidebar"
             },
             {

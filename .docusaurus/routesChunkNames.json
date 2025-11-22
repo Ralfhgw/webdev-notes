@@ -42,17 +42,17 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/docs-009": {
+  "/docs-adb": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-a3d": {
+  "/docs-d18": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-e77": {
+  "/docs-dcd": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/AI-e5b": {
@@ -150,6 +150,10 @@
   "/docs/Coding/js-React-ef7": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-coding-js-react-9-d-4-a43"
+  },
+  "/docs/Coding/js-React-Router-2c8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-coding-js-react-routeracd-382"
   },
   "/docs/Coding/js-TypeScript-4bf": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -478,22 +482,6 @@
   "/docs/Englisch-Training/EN_BE_3713X-6a4": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-englisch-training-en-be-3713-xe-33-3f2"
-  },
-  "/docs/React-e1a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-reactb-91-d33"
-  },
-  "/docs/React/Context Provider-ee0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-react-context-providerae-7-18a"
-  },
-  "/docs/React/functions-5e1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-react-functionsc-0-d-6a9"
-  },
-  "/docs/React/React Router-40b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-react-react-routere-1-d-38f"
   },
   "/docs/Server-4be": {
     "__comp": "__comp---theme-doc-item-178-a40",

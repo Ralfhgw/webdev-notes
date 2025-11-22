@@ -1,161 +1,229 @@
-### useState – Zustand verwalten
+## Hooks
+```javascript
+import React, {
+  useState,
+  useEffect,
+  useContext,
+  useRef,
+  useMemo,
+  useCallback,
+} from "react";
 ```
-import { useState } from "react";
-
-function Counter() {
-  const [count, setCount] = useState(0);
-
-  return (
-    <div>
-      <p>Aktueller Wert: {count}</p>
-      <button onClick={() => setCount(count + 1)}>+1</button>
-    </div>
-  );
+### Funktionale Komponente
+```javascript
+function MyComponent() {
+  return <h1>Hello World</h1>;
 }
+// oder als Arrow Function
+const MyComponent = () => <h1>Hello World</h1>;
 ```
-### useEffect – Side Effects (API, Timer, DOM-Updates)
-#### Beispiel 1: API Call
-```
-import { useEffect, useState } from "react";
+### useState
+Zustandsverwaltung
+```javascript
+const [count, setCount] = useState(0);
+// Update:
+setCount(count + 1);
 
-function Users() {
-  const [users, setUsers] = useState([]);
-
-  useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/users")
-      .then(res => res.json())
-      .then(data => setUsers(data));
-  }, []); // nur beim Mount
-
-  return (
-    <ul>
-      {users.map(u => (
-        <li key={u.id}>{u.name}</li>
-      ))}
-    </ul>
-  );
-}
+// Initialwert als Funktion (nur beim ersten Render)
+const [data, setData] = useState(() => expensiveInit());
 ```
-#### Beispiel 2: Timer
-```
+### useEffect
+Side Effects
+```javascript
+// Bei jedem Render
 useEffect(() => {
-  const timer = setInterval(() => {
-    console.log("Tick...");
-  }, 1000);
+  console.log("Render!");
+});
 
-  return () => clearInterval(timer); // Cleanup
+// Nur beim ersten Render
+useEffect(() => {
+  console.log("Mount!");
+}, []);
+
+// Abhängig von count
+useEffect(() => {
+  console.log("Count geändert!");
+}, [count]);
+
+// Cleanup
+useEffect(() => {
+  const interval = setInterval(() => console.log("tick"), 1000);
+  return () => clearInterval(interval);
 }, []);
 ```
-### useContext – globale Daten
-#### Kontext erstellen
+### useRef
+Referenzen & Mutable Values
+```javascript
+const inputRef = useRef(null);
+
+// Zugriff auf DOM-Element
+<input ref={inputRef} />;
+inputRef.current.focus();
+
+// Example:
+import React, { useEffect, useRef } from "react";
+
+function FocusInputExample() {
+  const inputRef = useRef(null);
+  useEffect(() => { 
+    inputRef.current.focus();
+  }, []);
+
+  return (
+      <input  
+        ref={inputRef}
+        type="text"
+        placeholder="Ich bekomme automatisch den Fokus!"
+      />
+  );
+}
+export default FocusInputExample;
 ```
-import { createContext } from "react";
-export const ThemeContext = createContext();
+```javascript
+// Mutable Value
+const renderCount = useRef(0);
+renderCount.current++;
+
+// Example:
+import React, { useRef, useState, useEffect } from "react";
+
+function RenderCountExample() {
+  const [text, setText] = useState("");
+  const renderCount = useRef(0);
+
+  useEffect(() => {
+    renderCount.current++;
+  });
+
+  return (
+      <input
+        type="text"
+        value={text}
+        onChange={(e) => setText(e.target.value)}
+        placeholder="Tippe etwas ein..."
+      />
+      <p>Render Count: {renderCount.current}</p>
+  );
+}
+export default RenderCountExample;
 ```
-### Provider-Komponente
+### Props
+```javascript
+function Greeting({ name }) {
+  return <p>Hallo {name}!</p>;
+}
+<Greeting name="Alex" />
 ```
+### useMemo – Werte merken
+```
+const result = useMemo(() => heavyComputation(a, b), [a, b]);
+// Rechnet nur neu, wenn sich a oder b ändern.
+```
+### useCallback
+Funktionen merken
+```javascript
+const handleClick = useCallback(() => {
+  console.log("clicked");
+}, []);
+// Nützlich, wenn man Funktionen als Props weitergibt.
+```
+
+### useContext
+Globaler Zustand
+```javascript
+const ThemeContext = React.createContext("light");
 function App() {
   return (
-    <ThemeContext.Provider value={{ theme: "dark" }}>
-      <Navbar />
+    <ThemeContext.Provider value="dark">
+      <Toolbar />
     </ThemeContext.Provider>
   );
 }
-```
-#### Nutzung in Kind-Komponente
-```
-import { useContext } from "react";
-import { ThemeContext } from "./ThemeContext";
-
-function Navbar() {
-  const { theme } = useContext(ThemeContext);
-
-  return <div>Aktuelles Theme: {theme}</div>;
+function Toolbar() {
+  const theme = useContext(ThemeContext);
+  return <p>Aktuelles Theme: {theme}</p>;
 }
 ```
-### useRef – persistente Werte & DOM Referenzen
-#### Beispiel 1: DOM-Element referenzieren
+### useReducer
+komplexer State
+```javascript
+const reducer = (state, action) => {
+  switch (action.type) {
+    case "add":
+      return { count: state.count + 1 };
+    default:
+      return state;
+  }
+};
+const [state, dispatch] = useReducer(reducer, { count: 0 });
+dispatch({ type: "add" });
 ```
-import { useRef } from "react";
-
-function InputFocus() {
-  const inputRef = useRef();
-
-  const focusInput = () => {
-    inputRef.current.focus();
-  };
-
-  return (
-    <>
-      <input ref={inputRef} />
-      <button onClick={focusInput}>Fokus setzen</button>
-    </>
-  );
-}
+### useLayoutEffect
+Wie useEffect, aber synchron vor dem Render – nützlich für Layout-Messungen
+```javascript
+useLayoutEffect(() => {
+  console.log("Nach DOM-Änderung, vor Paint");
+});
 ```
-#### Beispiel 2: Persistente Werte ohne Re-Render
-```
-function Timer() {
-  const count = useRef(0);
 
-  const increment = () => {
-    count.current += 1;
-    console.log("Count (ohne re-render):", count.current);
-  };
+### useTransition / useDeferredValue
+Für Concurrent Rendering – UI bleibt flüssig bei langsamen Updates
+```javascript
+const [isPending, startTransition] = useTransition();
+startTransition(() => {
+  setSearch(query);
+});
 
-  return <button onClick={increment}>Zähler erhöhen</button>;
-}
-```
-### useMemo – Memoisierte Werte
-#### Nutzen, wenn eine teure Berechnung nur bei bestimmten Änderungen laufen soll.
-```
-import { useState, useMemo } from "react";
+function useWindowWidth() {
+  const [width, setWidth] = useState(window.innerWidth);
 
-function ExpensiveCalculation() {
-  const [num, setNum] = useState(1);
+  useEffect(() => {
+    const handleResize = () => setWidth(window.innerWidth);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
-  const squared = useMemo(() => {
-    console.log("Berechnung läuft...");
-    return num * num;
-  }, [num]);
-
-  return (
-    <>
-      <p>Zahl: {num}</p>
-      <p>Quadrat: {squared}</p>
-      <button onClick={() => setNum(num + 1)}>+1</button>
-    </>
-  );
-}
-```
-### useCallback – memoisierte Funktionen
-Verhindert unnötige Neu-Erstellung von Funktionen (wichtig bei Props + großen Kindkomponenten).
-```
-import { useState, useCallback } from "react";
-
-function Parent() {
-  const [count, setCount] = useState(0);
-
-  const handleClick = useCallback(() => {
-    console.log("Click!");
-  }, []); // wird nur einmal erstellt
-
-  return (
-    <>
-      <button onClick={() => setCount(count + 1)}>+1</button>
-      <Child onClick={handleClick} />
-    </>
-  );
+  return width;
 }
 
-function Child({ onClick }) {
-  console.log("Child render");
-  return <button onClick={onClick}>Child Btn</button>;
-}
+const width = useWindowWidth();
 ```
-## children
-### 1. Component, die children empfängt
+### Export / Import
 ```
+export default MyComponent;
+import MyComponent from "./MyComponent";
+export function Helper() {}
+import { Helper } from "./utils";
+```
+### JSX Grundlagen
+```
+// Bedingungen
+{isLoggedIn ? <Dashboard /> : <Login />}
+
+// Listen
+{items.map(item => <li key={item.id}>{item.name}</li>)}
+
+// Events
+<button onClick={handleClick}>Klick mich</button>
+```
+### Nützliche Patterns
+Conditional Rendering (Kurzform)
+```
+{isVisible && <Modal />}
+```
+### Dynamische Klassen
+```
+<div className={`box ${active ? "active" : ""}`}></div>
+```
+## React children
+
+In React bezeichnet children alles, was zwischen den JSX-Tags einer Komponente steht.
+Mit props.children können Komponenten Inhalte flexibel aufnehmen, ohne vorher zu wissen, was dort steht.
+
+### Eine Komponente, die children empfängt
+
+Eine Komponente kann beliebige Inhalte zwischen ihren Tags entgegennehmen – Texte, andere Komponenten, JSX-Elemente usw.
+```javascript
 function Card({ children }) {
   return (
     <div className="card">
@@ -164,25 +232,53 @@ function Card({ children }) {
   );
 }
 ```
-### 2. Component, die children übergibt
-```
+
+Hier sorgt \{children\} dafür, dass der Inhalt an genau dieser Stelle angezeigt wird.
+
+### Eine Komponente, die children übergibt
+
+Beim Verwenden der Komponente wird einfach JSX zwischen die öffnenden und schließenden Tags geschrieben:
+```javascript
 <Card>
   <h2>Überschrift</h2>
   <p>Inhalt</p>
 </Card>
+// Alles zwischen <Card>…</Card> wird als children an die Card-Komponente übergeben.
 ```
 ### Composable UI-Pattern
-```
+
+Das Composable UI-Pattern bedeutet:
+Komponenten werden wie „Bausteine“ verwendet und können flexibel kombiniert werden.
+
+Beispiel: Ein Button, der unterschiedliche Inhalte aufnehmen kann:
+```javascript
 function Button({ children }) {
   return <button className="btn">{children}</button>;
 }
 
+// Verwendung
 <Button>Speichern</Button>
-<Button><Icon /> Speichern</Button>
-<Button><strong>Wichtig!</strong></Button>
+
+<Button>
+  <Icon /> Speichern
+</Button>
+
+<Button>
+  <strong>Wichtig!</strong>
+</Button>
 ```
-### jedes Child bekommt automatisch eine CSS-Klasse
-```
+
+Vorteil:
+Der Button definiert das Styling, aber der Inhalt bleibt komplett frei.
+
+### Jedes Child automatisch verändern (z. B. CSS-Klassen vergeben)
+
+Mit React.Children.map() kannst du auf alle Children zugreifen,
+und mit React.cloneElement() kannst du jedes Child verändern oder erweitern.
+
+Beispiel:
+Jedes Kind soll automatisch eine CSS-Klasse bekommen.
+```javascript
 function List({ children }) {
   return (
     <>
@@ -190,6 +286,83 @@ function List({ children }) {
         React.cloneElement(child, { className: "list-item" })
       )}
     </>
+  );
+}
+```
+
+Verwendung:
+```javascript
+<List>
+  <li>Erster Eintrag</li>
+  <li>Zweiter Eintrag</li>
+</List>
+```
+
+Resultat:
+Alle li erhalten automatisch class="list-item".
+
+## Context Provider
+Der Context Provider in React ist Teil des Context API-Systems — ein Mechanismus, um Daten global in einer React-Anwendung verfügbar zu machen, ohne Props durch viele Komponenten weiterreichen zu müssen („prop drilling“). Normalerweise werden Daten in React über Props von Elternkomponenten an Kindkomponenten weitergegeben:
+```javascript
+<App>
+  <Header user={user} />
+</App>
+```
+Wenn du aber user auch in einer tiefer verschachtelten Komponente brauchst, musst du es über mehrere Ebenen weiterreichen – das wird schnell unübersichtlich. Context löst dieses Problem: Du kannst Daten „global“ bereitstellen, sodass jede Komponente im Baum darauf zugreifen kann.
+
+### Erstellen des Contexts
+```javascript
+import { createContext } from "react";
+const UserContext = createContext();
+```
+Damit erzeugst du ein Context-Objekt, das später Daten speichern kann.
+### Bereitstellen des Contexts (Provider)
+```javascript
+import React, { useState } from "react";
+
+export const UserContext = createContext();
+export function UserProvider({ children }) {
+  const [user, setUser] = useState({ name: "Anna", loggedIn: true });
+
+  return (
+    <UserContext.Provider value={{ user, setUser }}>
+      {children}
+    </UserContext.Provider>
+  );
+}
+```
+- Der Provider ist eine React-Komponente, die einen Wert (value) bereitstellt.
+- Alle Komponenten innerhalb von \<UserContext.Provider\> können auf diesen Wert zugreifen.
+
+### Verwendung in der App
+```javascript
+import { UserProvider } from "./UserContext";
+import Dashboard from "./Dashboard";
+
+function App() {
+  return (
+    <UserProvider>
+      <Dashboard />
+    </UserProvider>
+  );
+}
+```
+### Verbrauch des Contexts (Consumer oder useContext Hook)
+Früher ging das mit einem Consumer, heute meist einfacher mit dem Hook:
+```javascript
+import { useContext } from "react";
+import { UserContext } from "./UserContext";
+
+function Dashboard() {
+  const { user, setUser } = useContext(UserContext);
+
+  return (
+    <div>
+      <h1>Willkommen, {user.name}!</h1>
+      <button onClick={() => setUser({ ...user, loggedIn: false })}>
+        Logout
+      </button>
+    </div>
   );
 }
 ```

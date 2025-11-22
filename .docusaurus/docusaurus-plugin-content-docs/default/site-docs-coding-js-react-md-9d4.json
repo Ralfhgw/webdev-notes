@@ -1,7 +1,7 @@
 {
   "id": "Coding/js-React",
   "title": "js-React",
-  "description": "useState – Zustand verwalten",
+  "description": "Hooks",
   "source": "@site/docs/Coding/js-React.md",
   "sourceDirName": "Coding",
   "slug": "/Coding/js-React",
@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "js-Methoden-Eigenschaften",
-    "permalink": "/docs/Coding/js-Methoden-Eigenschaften"
+    "title": "js-React-Router",
+    "permalink": "/docs/Coding/js-React-Router"
   },
   "next": {
     "title": "js-TypeScript",
