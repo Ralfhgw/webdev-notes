@@ -1,0 +1,29 @@
+{
+  "id": "AI/Karriere/Karriere-intro",
+  "title": "Karriere",
+  "description": "Bewerbungsworkshop Infos",
+  "source": "@site/docs/AI/Karriere/intro.md",
+  "sourceDirName": "AI/Karriere",
+  "slug": "/Karriere",
+  "permalink": "/docs/Karriere",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "id": "Karriere-intro",
+    "title": "Karriere",
+    "slug": "/Karriere",
+    "sidebar_position": 11
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AI Einführung",
+    "permalink": "/docs/AI"
+  },
+  "next": {
+    "title": "AI-Knowledge",
+    "permalink": "/docs/AI/AI-Knowledge"
+  }
+}

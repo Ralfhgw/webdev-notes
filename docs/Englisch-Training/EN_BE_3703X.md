@@ -17,13 +17,13 @@ Darüber hinaus wird die Wichtigkeit eines Slogans hervorgehoben: „Creating 
 - Make it timeless.
 - Consider your target market.
 
-### Beispiele
+#### Beispiele
 Beispiele für einen Slogan könnten sein:
 - „Healthy snacks, anytime!“
 - „Innovation for the future!“
 - „Affordable quality!“
 
-Zusätzliche Beispiele für Slogans könnten sein:
+#### Zusätzliche Beispiele für Slogans könnten sein:
 - „Experience the difference.“
 - „Your comfort, our priority.“
 - „Better living, every day.“

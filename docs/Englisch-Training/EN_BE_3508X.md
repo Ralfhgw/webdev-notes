@@ -2,7 +2,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <a href={useBaseUrl('english/EN_BE_3508X-annotated.pdf')} target="_blank" rel="noopener">EN_BE_3508X - Using modals verbs to express certainty</a>
 
-- Das Dokument gibt eine Anleitung für effektive Kommunikation am Telefon im beruflichen Kontext. Es betont die Bedeutung, den Zweck des Gesprächs explicit zu state (äußern) und bei Bedarf background information (Hintergrundinformationen) zu geben, ohne dabei zu elaborate zu werden. Dabei soll man stets be concise (prägnant) bleiben, um Missverständnisse zu vermeiden.
+Das Dokument gibt eine Anleitung für effektive Kommunikation am Telefon im beruflichen Kontext. Es betont die Bedeutung, den Zweck des Gesprächs explicit zu state (äußern) und bei Bedarf background information (Hintergrundinformationen) zu geben, ohne dabei zu elaborate zu werden. Dabei soll man stets be concise (prägnant) bleiben, um Missverständnisse zu vermeiden.
 Wichtige phrases (Redewendungen) für die purpose (Zweck) des Anrufs sind zum Beispiel:
 - "Do you have a few minutes to discuss tomorrow’s meeting?"
 - "I’d like to speak to somebody about the status of my shipment."

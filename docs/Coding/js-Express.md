@@ -1,25 +1,22 @@
 https://expressjs.com/en/5x/api.html#app.methods
 
-req (Request)
-Enthält alle Daten der eingehenden HTTP-Anfrage
-req.body - Daten aus POST-Request (JSON, Form-Daten)
-req.params - URL-Parameter (/users/:id)
-req.query - Query-Parameter (?name=john)
-req.headers - HTTP-Headers
-req.method
-req.path
+#### req (Request) - Enthält alle Daten der eingehenden HTTP-Anfrage
+- req.body - Daten aus POST-Request (JSON, Form-Daten)
+- req.params - URL-Parameter (/users/:id)
+- req.query - Query-Parameter (?name=john)
+- req.headers - HTTP-Headers
+- req.method - HTTP Methode
+- req.path - Requested Path
 
-res (Response)
-Objekt zum Senden der Antwort zurück zum Client
-res.send() - Text/HTML senden
-res.json() - JSON senden
-res.status() - HTTP-Status-Code setzen
-```
-return res.status(400).json({ msg: "name required" })
+#### res (Response) - Objekt zum Senden der Antwort zurück zum Client
+- res.send() - Text/HTML senden
+- res.json() - JSON senden
+- res.status() - HTTP-Status-Code setzen ```return res.status(400).json({ msg: "name required" })```
 
-curl http://localhost:3000/api/names
+```bash
 $ curl -X POST http://localhost:3000/api/names   -H "Content-Type: application/json"   -d '{"name": "Alice"}'
-
+```
+```javascript
 app.get("/api/names", (_, res) => {
     res.send(`
     <form action="/api/names" method="POST">
@@ -36,12 +33,9 @@ app.post('/api/names', (req, res) => {
     `);
 });
 
+//Alle statischen Dateien werden in diesem Verzeichnis gesucht.
 app.use(express.static("./frontend"));
-Alle statischen Dateien werden in diesem Verzeichnis gesucht.
 ```
-
-
-
 #### Parameter zum Anzeigen der Request Daten mit console.log
 ```javascript
 console.log('Method:', req.method);  console.log('URL:', req.url);

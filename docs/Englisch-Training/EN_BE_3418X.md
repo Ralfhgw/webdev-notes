@@ -2,7 +2,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <a href={useBaseUrl('english/EN_BE_3418X-annotated.pdf')} target="_blank" rel="noopener">EN_BE_3418X - Using modals verbs to express certainty</a>
 
-- Das Dokument gibt einen Leitfaden für die Gestaltung und Durchführung von erfolgreichen Präsentationen in einem geschäftlichen Umfeld. Es betont die Bedeutung einer klaren Struktur, die den Zuhörern hilft, den Inhalt zu folgen, und bietet Strategien, um Interesse und Engagement zu wecken.
+Das Dokument gibt einen Leitfaden für die Gestaltung und Durchführung von erfolgreichen Präsentationen in einem geschäftlichen Umfeld. Es betont die Bedeutung einer klaren Struktur, die den Zuhörern hilft, den Inhalt zu folgen, und bietet Strategien, um Interesse und Engagement zu wecken.
 Wichtige Abschnitte und Inhalte:
 
 1. Einstieg ("Breaking the ice") Hier wird beschrieben, wie man die Präsentation entspannt startet, z.B. durch kleine Gespräche oder eine kurze Anekdote, um die Atmosphäre aufzulockern. Beispiel: "Are you presenting to colleagues or potential clients?" Es ist wichtig, die Erwartungen der Zuhörer zu kennen, z.B. "Does everyone know each other?"
@@ -13,12 +13,12 @@ Wichtige Abschnitte und Inhalte:
 
 4. Fragen für die Einbindung ("Keeping people engaged") Während der Präsentation können Fragen wie "Are you happy for me to move on?" oder "Is everyone following so far?" gestellt werden, um das Publikum einzubinden.
 
-Beispiel-Sätze aus dem Dokument:
+#### Beispiel-Sätze aus dem Dokument:
     - "It is really important that your presentation is easy to follow."
     - "Follow the instructions below and use phrases from the previous slides to start to bring your presentation to a close."
     - "Would you like me to go over anything again?"
 
-Eigene zusätzliche Beispiele:
+#### Eigene zusätzliche Beispiele:
     - Breaking the ice: "Good morning everyone! I hope you're all having a great day."
     - Building interest: "I’d like to start by highlighting the main benefits of our new product."
     - Emphasising the main point: "The key takeaway here is that our solution increases efficiency."

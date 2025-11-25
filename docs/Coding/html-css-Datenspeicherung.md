@@ -1,4 +1,4 @@
-### Speicherung-Server
+### Express-csv
 index.js
 ```javascript
 import express from 'express';
@@ -49,7 +49,7 @@ app.listen(port, () => console.log(`Server läuft auf http://localhost:${port}`)
 </body>
 </html>
 ```
-### Speicherung-localStorage
+### Speicherung-localStorage-Browser
 ```html
 <input class="inFilter" type="text" size="30" name="inFilter" placeholder="search" />
 <div id="results"></div>
@@ -64,10 +64,12 @@ app.listen(port, () => console.log(`Server läuft auf http://localhost:${port}`)
     { id: 2, firstName: 'Bob', lastName: 'Beispiel', email: 'bob@example.com' },
   ];
 
+  // LocalStorage schreiben
   function saveFilter(value) {
     localStorage.setItem('filter', value);
   }
 
+  // LocalStorage lesen
   function loadFilter() {
     return localStorage.getItem('filter') || '';
   }
@@ -94,14 +96,35 @@ app.listen(port, () => console.log(`Server läuft auf http://localhost:${port}`)
   render(list, inputFilter?.value);
 </script>
 ```
-### localStorage in Server
+### Speicherung-localStorage-Server
 #### localStorage wird normalerweise nur in Browsern verwendet. Um es auch im node verwenden zu können, kann node-localstorage  installiert werden.
 ```javascript
 import { LocalStorage } from 'node-localstorage';
+
+// Speicherordner anlegen (falls nicht vorhanden)
 const localStorage = new LocalStorage('./scratch');
+
+// Wert speichern
+localStorage.setItem('username', 'Alice');
+
+// Wert wieder auslesen
+const user = localStorage.getItem('username');
+console.log('Gespeicherter Wert:', user);
+
+// Vorhandenen Schlüssel prüfen
+if (localStorage.getItem('username')) {
+  console.log('Der Key "username" existiert.');
+}
+
+// Wert löschen
+localStorage.removeItem('username');
+console.log('Nach removeItem:', localStorage.getItem('username')); // => null
+
+// Kompletten Speicher löschen
+localStorage.clear();
 ```
-### Speicherung-json
-index.js
+### Express-json
+index.js - Lesen der Datei data.json mit app.get("/api/data") und senden des Inhalts mit app.res
 ```javascript
 const express = require("express");
 const fs = require("fs");
@@ -112,7 +135,7 @@ const PORT = 3000;
 app.use(express.static(path.join(__dirname)));
 
 // Endpoint: JSON-Daten ausliefern
-2app.get("/api/data", (req, res) => {
+app.get("/api/data", (req, res) => {
   fs.readFile("data.json", "utf8", (err, data) => {
     if (err) {
       res.status(500).json({ error: "Datei konnte nicht gelesen werden" });
@@ -125,7 +148,7 @@ app.listen(PORT, () => {
   console.log(`Server läuft auf http://localhost:${PORT}`);
 });
 ```
-index.html
+index.html - 
 ```html
 <!DOCTYPE html>
 <html lang="de">
@@ -171,4 +194,34 @@ data.js
     { "name": "Clara", "alter": 28 }
   ]
 }
+```
+### Speicherung-Cookie-Browser
+```javascript
+import express from "express";
+import cookieParser from "cookie-parser";
+
+const app = express();
+app.use(cookieParser());
+
+// Cookie setzen
+app.get("/set", (req, res) => {
+  res.cookie("username", "Alice", {
+    maxAge: 3600000, // 1 Stunde
+    httpOnly: true, // nicht im Browser-JS lesbar
+  });
+  res.send("Cookie gesetzt!");
+});
+
+// Cookie auslesen
+app.get("/get", (req, res) => {
+  res.send("Cookies: " + JSON.stringify(req.cookies));
+});
+
+// Cookie löschen
+app.get("/delete", (req, res) => {
+  res.clearCookie("username");
+  res.send("Cookie gelöscht!");
+});
+
+app.listen(3000, () => console.log("Server läuft auf http://localhost:3000"));
 ```

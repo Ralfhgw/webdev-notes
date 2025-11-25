@@ -1,23 +1,29 @@
 ## JavaScript String Methoden
 
-### length
+### .length
 gibt die Länge des Strings zurück
 ```javascript
 let text = "Hallo Welt";
 console.log(text.length); // 10
 ```
-### repeat(num)
-Wiederholt den Wert
+### .repeat(num)
+Wiederholt den String num-mal und gibt das Ergebnis zurück.
+```
+let text = "Hi";
+console.log(text.repeat(3)); // "HiHiHi"
+```
+### ..charAt(index)
+Gibt das Zeichen an der angegebenen Position (Index) zurück.
 ```javascript
 charAt(index) – gibt Zeichen an Position zurück
 "Test".charAt(1); // "e"
 ```
-### charCodeAt(index)
+### .charCodeAt(index)
 Gibt Unicode-Wert zurück
 ```javascript
 "A".charCodeAt(0); // 65
 ```
-### codePointAt(index)
+### .codePointAt(index)
 Unicode-Codepunkt (z. B. Emojis)
 ```javascript
 "😊".codePointAt(0); // 128522
@@ -27,150 +33,150 @@ moderne Kurzschreibweise
 ```javascript
 "Test"[2]; // "s"
 ```
-### toUpperCase()
+### .toUpperCase()
 Alles in Großbuchstaben
 ```javascript
 "hallo".toUpperCase(); // "HALLO"
 ```
-### toLowerCase()
+### .toLowerCase()
 Alles in Kleinbuchstaben
 ```javascript
 "HALLO".toLowerCase(); // "hallo"
 ```
-### toLocaleUpperCase(locale)
+### .toLocaleUpperCase(locale)
 sprachabhängig großschreiben
 ```javascript
 "i".toLocaleUpperCase("tr"); // "İ" (Türkisch)
 ```
-### toLocaleLowerCase(locale)
+### .toLocaleLowerCase(locale)
 sprachabhängig kleinschreiben
 ```javascript
 "İ".toLocaleLowerCase("tr"); // "i"
 ```
-### indexOf(substring)
+### .indexOf(substring)
 erste Position finden
 ```javascript
 "Banane".indexOf("na"); // 2
 ```
-### lastIndexOf(substring)
+### .lastIndexOf(substring)
 letzte Position finden
 ```javascript
 "Banane".lastIndexOf("na"); // 4
 ```
-### includes(substring)
+### .includes(substring)
 prüft auf Teilstring
 ```javascript
 "JavaScript".includes("Script"); // true
 ```
-### startsWith(substring)
+### .startsWith(substring)
 prüft, ob String damit beginnt
 ```javascript
 "OpenAI".startsWith("Open"); // true
 ```
-### endsWith(substring)
+### .endsWith(substring)
 prüft, ob String damit endet
 ```javascript
 "OpenAI".endsWith("AI"); // true
 ```
-### match(regex)
+### .match(regex)
 findet Vorkommen mit Regex
 ```javascript
 "abc123".match(/\d+/); // ["123"]
 ```
-### matchAll(regex)
+### .matchAll(regex)
 Iterator für alle Treffer (Regex mit g)
 ```javascript
 [... "abc123abc456".matchAll(/\d+/g)]; // [["123"], ["456"]]
 ```
-### search(regex)
+### .search(regex)
 Position des ersten Treffers
 ```javascript
 "abc123".search(/\d/); // 3
 ```
-### slice(start, end)
+### .slice(start, end)
 Teilstring ausschneiden
 ```javascript
 "JavaScript".slice(0, 4); // "Java"
 ```
-### substring(start, end)
+### .substring(start, end)
 ähnlich wie slice (keine negativen Indizes)
 ```javascript
 "JavaScript".substring(4, 10); // "Script"
 ```
-### substr(start, length)
+### .substr(start, length)
 (veraltet, aber noch da)
 ```javascript
 "JavaScript".substr(4, 6); // "Script"
 ```
-### replace(such, neu)
+### .replace(such, neu)
 erstes Vorkommen ersetzen
 ```javascript
 "Apfel, Apfel".replace("Apfel", "Birne"); // "Birne, Apfel"
 ```
-### replaceAll(such, neu)
+### .replaceAll(such, neu)
 alle Vorkommen ersetzen
 ```javascript
 "Apfel, Apfel".replaceAll("Apfel", "Birne"); // "Birne, Birne"
 ```
-### trim()
+### .trim()
 entfernt Leerzeichen am Anfang & Ende
 ```javascript
 "  Hallo  ".trim(); // "Hallo"
 ```
-### trimStart() / trimLeft()
+### .trimStart() / trimLeft()
 nur vorne
 ```javascript
 "  Hallo".trimStart(); // "Hallo"
 ```
-### trimEnd() / trimRight()
+### .trimEnd() / trimRight()
 nur hinten
 ```javascript
 "Hallo  ".trimEnd(); // "Hallo"
 ```
-### padStart(length, filler)
+### .padStart(length, filler)
 links auffüllen
 ```javascript
 "5".padStart(3, "0"); // "005"
 ```
-### padEnd(length, filler)
+### .padEnd(length, filler)
 rechts auffüllen
 ```javascript
 "5".padEnd(3, "0"); // "500"
 ```
-### repeat(count)
+### .repeat(count)
 String wiederholen
 ```javascript
 "Hi!".repeat(3); // "Hi!Hi!Hi!"
 ```
-### concat(str1, str2, …)
+### .concat(str1, str2, …)
 Strings verketten
 ```javascript
 "Hallo".concat(" ", "Welt"); // "Hallo Welt"
 ```
-### split(trenner)
+### .split(trenner)
 String in Array zerlegen
 ```javascript
 "a,b,c".split(","); // ["a", "b", "c"]
 const numArray = num.toString().split("");
 ```
-### localeCompare()
+### .localeCompare()
 sprachabhängiger Vergleich
 ```javascript
 "ä".localeCompare("z", "de"); // -1 (kommt vor "z")
 ```
-### ormalize()
+### .normalize()
 Unicode-Normalisierung
 ```javascript
 "é".normalize("NFD"); // "e" + "´"
 ```
-### toString()
+### .toString()
 In String konvertieren
 ```javascript
 123..toString(); // "123"
 const numArray = num.toString().split("");
 Number(element) - von String in Nummer umwandeln
 ```
-### valueOf()
+### .valueOf()
 primitiven Wert zurückgeben
 ```javascript
 new String("Hallo").valueOf(); // "Hallo"

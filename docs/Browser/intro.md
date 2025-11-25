@@ -142,10 +142,10 @@ inurl:confidential → URL enthält „confidential“.</small>
 - [Unicode CLDR-Projekt](https://cldr.unicode.org/)
 
 Online Portal zum Lernen von JavaScript / Web
-https://www.freecodecamp.org/
-https://www.codewars.com/
-https://leetcode.com/
-https://icodethis.com/
+- [FreeCodeCamp - Build Your Skills for Free](https://www.freecodecamp.org/)
+- [CodeWars - Achieve mastery through challenge](https://www.codewars.com/)
+- [LetCode - A New Way to Learn](https://leetcode.com/)
+- [iCodeThis - Projects you can build to improve your coding skills!](https://icodethis.com/)
 
 #### Tools for WebDev
 ### Linux
@@ -181,62 +181,45 @@ https://icodethis.com/
 - [Browser Statistics](https://gs.statcounter.com)
 
 Coole Seite mit Spiel und Dokumentationen
-https://a-way-to-go.com
+- [Game - a-way-to-go](https://a-way-to-go.com)
 
 Spiel zum Üben von css
-https://flukeout.github.io
+- [CSS Learning](https://flukeout.github.io)
 
 Üben von js
-https://silentteacher.toxicode.fr/
+- [JavaScript Learning](https://silentteacher.toxicode.fr/)
 
 Tool zum Schreiben von js
-https://runjs.app/play
+[Online JavaScript Playground](https://runjs.app/play)
 
 ScriptTutor
-https://pythontutor.com/
+- [Online Compiler, AI Tutor, and Visual Debugger for Python, Java, C, C++, and JavaScript](https://pythontutor.com/)
 
-https://lambdabricks.github.io/animating-hofs
+- [js-dos DOOM](https://js-dos.com/DOOM/)
 
-https://js-dos.com/DOOM/
-
-https://bioub.github.io/dom-visualizer/
+- [dom-visualizer](https://bioub.github.io/dom-visualizer/)
 
 - [Webprovider](https://manage.wix.com/)
 
-
-
-https://ezprompt.net/
-
+- [EZPRPMPT - Easy Bash PS1 Generator](https://ezprompt.net/)
 
 Webdevsimplified auf youtube.de (Empfehlung von Micha)
 
 Animationen mit JavaScript
-https://threejs.org
+[Threejs - Animation](https://threejs.org)
 
-https://starship.rs/ - 
+[Starshio - Cross-Shell Prompt](https://starship.rs/) 
 eval "$(starship init bash)"
 
+- [Webdomain von Johannes](https://johanneskneussel.de/)
+- [Domain Provider](https://porkbun.com/)
 
-https://johanneskneussel.de/
-https://porkbun.com/
+- [Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/:root)
 
-https://developer.mozilla.org/en-US/docs/Web/CSS/:root
+- [The Catalog of Design Patterns](https://refactoring.guru/design-patterns/catalog)
 
-webfont Bundler
-nginx
-http://code-collective.dci-web-dev.com/~ralf
-scp index.html ralf@code-collective.dci-web-dev.com:/www/ralf/
+- [Material UI](mui.com)
 
-https://refactoring.guru/design-patterns/catalog
-JWT Decoder
-jwt.io
+- [SCP to code-collective](scp index.html ralf@code-collective.dci-web-dev.com:/www/ralf/)
 
-Cloud Authentifizierung
-firebase.google.com
-clerk.com
-cloud functions für firebase
-
-callback hell - Details zum callback
-
-
-mui.com
+- [code-collective](http://code-collective.dci-web-dev.com/~ralf)

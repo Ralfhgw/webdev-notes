@@ -20,6 +20,11 @@ export default function Home() {
             <li><Link to="/docs/Tools">Tools</Link></li>
             <li><Link to="/docs/DCI-Abschlussprojekt">DCI Abschlussprojekt</Link></li>
             <li><Link to="/docs/Englisch-Training">Englisch Training</Link></li>
+            <li><Link to="/docs/AIA-Club">AIA Club</Link></li>
+            <li><Link to="/docs/n8n-Automatisierung">n8n-Automatisierung</Link></li>
+            <li><Link to="/docs/Karriere">Karriere</Link></li>
+            
+            
           </ul>
         </div>
 

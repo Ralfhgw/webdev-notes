@@ -2,9 +2,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <a href={useBaseUrl('english/EN_BE_3713X-annotated.pdf')} target="_blank" rel="noopener">EN_BE_3713X - Indruduction to the language of diplomats</a>
 
-- Das Dokument behandelt die Rolle und Aufgaben eines Diplomaten. Ein Diplomat ist eine Person, die die Interessen ihres Heimatlandes im Ausland vertritt (Page 6, T8). Zu den wichtigsten Aufgaben gehört das Sammeln von Informationen, die das eigene Land betreffen, sowie die Beratung in politischen Fragen (Page 8, T6). Diplomaten verhandeln Verträge und Abkommen, um die Interessen ihres Landes zu schützen und positive Beziehungen im Ausland aufrechtzuerhalten (Page 6, T6). Sie arbeiten an der Pflege internationaler Beziehungen in den Bereichen Wirtschaft und Politik (Page 7, T7) und kümmern sich auch um den Schutz ihrer Bürger im Ausland (Page 7, T7).
+Das Dokument behandelt die Rolle und Aufgaben eines Diplomaten. Ein Diplomat ist eine Person, die die Interessen ihres Heimatlandes im Ausland vertritt (Page 6, T8). Zu den wichtigsten Aufgaben gehört das Sammeln von Informationen, die das eigene Land betreffen, sowie die Beratung in politischen Fragen (Page 8, T6). Diplomaten verhandeln Verträge und Abkommen, um die Interessen ihres Landes zu schützen und positive Beziehungen im Ausland aufrechtzuerhalten (Page 6, T6). Sie arbeiten an der Pflege internationaler Beziehungen in den Bereichen Wirtschaft und Politik (Page 7, T7) und kümmern sich auch um den Schutz ihrer Bürger im Ausland (Page 7, T7).
 
-In Diskussionen über diplomatische Aktivitäten werden häufig bestimmte Redewendungen verwendet, z.B.:
+#### In Diskussionen über diplomatische Aktivitäten werden häufig bestimmte Redewendungen verwendet, z.B.:
 - "To summarise what we heard today..."
 - "So, we are in agreement about..."
 - "To conclude, we have decided to..."

@@ -1,0 +1,25 @@
+{
+  "id": "Karriere/Karriere-intro",
+  "title": "Karriere",
+  "description": "Bewerbungsworkshop Infos",
+  "source": "@site/docs/Karriere/intro.md",
+  "sourceDirName": "Karriere",
+  "slug": "/Karriere",
+  "permalink": "/docs/Karriere",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "id": "Karriere-intro",
+    "title": "Karriere",
+    "slug": "/Karriere",
+    "sidebar_position": 11
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "n8n-Automatisierung",
+    "permalink": "/docs/n8n-Automatisierung"
+  }
+}

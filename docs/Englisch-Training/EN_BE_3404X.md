@@ -2,17 +2,32 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <a href={useBaseUrl('english/EN_BE_3404X-annotated.pdf')} target="_blank" rel="noopener">EN_BE_3404X - Using modals verbs to express certainty</a>
 
-- Das Dokument bietet eine Anleitung zur Durchführung von guten Präsentationen und Reden im Geschäftsbereich. Es betont die Wichtigkeit eines klaren Aufbaus, beginnend mit einem starken Introduction (Einleitung), in der man sich vorstellt und das Thema präsentiert, 
+Das Dokument bietet eine Anleitung zur Durchführung von guten Präsentationen und Reden im Geschäftsbereich. Es betont die Wichtigkeit eines klaren Aufbaus, beginnend mit einem starken Introduction (Einleitung), in der man sich vorstellt und das Thema präsentiert, 
+
+[Opening Statements for Presentations](https://docs.google.com/document/d/1DjtweZgBlaFzipO4mfSOsmq-s_O6pVBWACbSmn7RH3g/edit?usp=sharing)
+
+[Introductory Statements for Presentations](https://docs.google.com/document/d/1Cguw3Xl4CXJDPfNNzNwMYwgJmV6yCottovuNeYgbPqg/edit?usp=sharing)
+
+[Phrases to Structure Your Presentation](https://docs.google.com/document/d/1xdoSIvb1h_1z5ldtemZWNEleRDpQBoNdErh9rCorPn8/edit?usp=sharing)
+
+[Phrases for Giving Background Information](https://docs.google.com/document/d/1pIzLIyRM6z6wVAo2dXACtaEXyCNnshZs0tEAUZAf-gY/edit?usp=sharing)
+
+[Phrases for Changing Topics in a Presentation](https://docs.google.com/document/d/1ESUicViahCAEN-_gVydnmM8r5IMTxTItKWMaTiudRkc/edit?usp=sharing)
+
+[Phrases for Explaining Information and Visuals](https://docs.google.com/document/d/1uD8SQSSQteBhUYGhgNN1_vWYHd7txG4KhyPI7EA3GVg/edit?usp=sharing)
+
+[Phrases for Summarizing and Inviting Questions](https://docs.google.com/document/d/1WbG39g2YG3oa8uTU7A2UyOZnH5TtE6Re4IzA4sUZgVs/edit?usp=sharing)
+
+[Closing Statements for Presentations](https://docs.google.com/document/d/1CLlyLzAnGfFASvs7bqm9m2pm1puo5leTWdBC-gpUq0c/edit?usp=sharing)
 
 z.B. „Good afternoon ladies and gentlemen“ oder 
 „I would like to take this opportunity to talk about…“. 
 
-Dabei helfen Formulierungen wie 
-
+#### Dabei helfen Formulierungen wie 
 „Today we are going to be talking about…“ oder 
 „My talk is divided into four sections“, 
-
 um die Struktur zu verdeutlichen.
+
 Nach der Einleitung folgt der Hauptteil, bei dem es wichtig ist, die Präsentation in klare Abschnitte zu gliedern, 
 z.B. „Then/Next I will talk about…“ oder „
 Finally...“. 
@@ -34,22 +49,6 @@ z.B. „Good afternoon ladies and gentlemen“ oder
 
 Es gibt Tipps, um Nervosität zu überwinden und einen positiven Eindruck zu hinterlassen, z.B. smile, eye contact, und show passion.
 Zusätzlich werden verschiedene Phases der Präsentation erklärt: Introduction, Main Body, Conclusion, sowie Techniken, um die Aufmerksamkeit des Publikums zu gewinnen und die Präsentation gut zu strukturieren.
-
-https://docs.google.com/document/d/1DjtweZgBlaFzipO4mfSOsmq-s_O6pVBWACbSmn7RH3g/edit?usp=sharing
-
-https://docs.google.com/document/d/1Cguw3Xl4CXJDPfNNzNwMYwgJmV6yCottovuNeYgbPqg/edit?usp=sharing
-
-https://docs.google.com/document/d/1xdoSIvb1h_1z5ldtemZWNEleRDpQBoNdErh9rCorPn8/edit?usp=sharing
-
-https://docs.google.com/document/d/1pIzLIyRM6z6wVAo2dXACtaEXyCNnshZs0tEAUZAf-gY/edit?usp=sharing
-
-https://docs.google.com/document/d/1ESUicViahCAEN-_gVydnmM8r5IMTxTItKWMaTiudRkc/edit?usp=sharing
-
-https://docs.google.com/document/d/1uD8SQSSQteBhUYGhgNN1_vWYHd7txG4KhyPI7EA3GVg/edit?usp=sharing
-
-https://docs.google.com/document/d/1WbG39g2YG3oa8uTU7A2UyOZnH5TtE6Re4IzA4sUZgVs/edit?usp=sharing
-
-https://docs.google.com/document/d/1CLlyLzAnGfFASvs7bqm9m2pm1puo5leTWdBC-gpUq0c/edit?usp=sharing
 
 Einleitung (Introduction)
     - "I would like to take this opportunity to talk about..."

@@ -2,7 +2,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <a href={useBaseUrl('english/EN_BE_3709S-annotated.pdf')} target="_blank" rel="noopener">EN_BE_3709S - Entrepreneurship</a>
 
-- Das Dokument beschäftigt sich mit dem Thema Entrepreneurship und erklärt, was es bedeutet, ein Unternehmer oder eine Unternehmerin zu sein. Es betont, dass entrepreneurs oft innovative und venturesome Menschen sind, die bereit sind, in unbekanntes Gebiet vorzudringen, um neue ground zu break and pioneers zu sein.
+Das Dokument beschäftigt sich mit dem Thema Entrepreneurship und erklärt, was es bedeutet, ein Unternehmer oder eine Unternehmerin zu sein. Es betont, dass entrepreneurs oft innovative und venturesome Menschen sind, die bereit sind, in unbekanntes Gebiet vorzudringen, um neue ground zu break and pioneers zu sein.
 
 Im Text wird erläutert, dass erfolgreiche Unternehmer carefully check whether ihre idea is viable und profitable ist, bevor sie financial backing suchen. Sie möchten sicherstellen, dass ihr Unternehmen sustainable ist und auf lange Sicht Erfolg hat.
 

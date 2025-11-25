@@ -2,9 +2,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <a href={useBaseUrl('english/EN_BE_3604X-annotated.pdf')} target="_blank" rel="noopener">EN_BE_3604X - Using modals verbs to express certainty</a>
 
-- Das Dokument bietet eine Reihe von Übungen und Dialogen, die sich auf das Thema „Hotel und Aufenthalt“ konzentrieren. Es umfasst praktische Verständnissfragen, Rollenspiele und Schreibaufgaben, die Wohnen, Reservierungen, Ankommen, Check-in-Prozesse und den Aufenthalt im Hotel behandeln. Das Ziel ist es, sprachliche Fähigkeiten im Zusammenhang mit Hotelsituationen zu verbessern, insbesondere im Englischen, während wichtige Vokabeln und typische Gesprächssituationen vermittelt werden.
+Das Dokument bietet eine Reihe von Übungen und Dialogen, die sich auf das Thema „Hotel und Aufenthalt“ konzentrieren. Es umfasst praktische Verständnissfragen, Rollenspiele und Schreibaufgaben, die Wohnen, Reservierungen, Ankommen, Check-in-Prozesse und den Aufenthalt im Hotel behandeln. Das Ziel ist es, sprachliche Fähigkeiten im Zusammenhang mit Hotelsituationen zu verbessern, insbesondere im Englischen, während wichtige Vokabeln und typische Gesprächssituationen vermittelt werden.
 
-### Die zentralen Beispiele und Sätze aus dem Dokument sind:
+#### Die zentralen Beispiele und Sätze aus dem Dokument sind:
 #### Beispiele und Sätze:
 - Bei der Ankunft und beim Check-in (Page 21):
 - „Good afternoon! How can I help you – are you here to __________?“

@@ -1,0 +1,29 @@
+{
+  "id": "AIA-Club/AIA-Club-intro",
+  "title": "AIA-Club",
+  "description": "Mastering AI Agents",
+  "source": "@site/docs/AIA-Club/intro.md",
+  "sourceDirName": "AIA-Club",
+  "slug": "/AIA-Club",
+  "permalink": "/docs/AIA-Club",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "id": "AIA-Club-intro",
+    "title": "AIA-Club",
+    "slug": "/AIA-Club",
+    "sidebar_position": 9
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "EN_BE_3713X",
+    "permalink": "/docs/Englisch-Training/EN_BE_3713X"
+  },
+  "next": {
+    "title": "n8n-Automatisierung",
+    "permalink": "/docs/n8n-Automatisierung"
+  }
+}

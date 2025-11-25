@@ -1,4 +1,8 @@
 #### Authentifizierung mit Verwendung von Token / Cookie / Hash
+### Additional Website for creating User Interfaces
+- [More than authentication, Complete User Management](clerk.com) 
+- [JSON Web Token (JWT) Debugger / Decoder](jwt.io)
+
 ```javascript
 import express from "express";
 import jwt from "jsonwebtoken";
@@ -21,7 +25,7 @@ expiresIn: "2h",
 });
 return res.json({ token });
 ```
-#### Schickt das Token im Response-Body als JSON. Der Client (Browser / JS) muss das Token selbst speichern (localStorage, sessionStorage oder Cookie) und bei späteren Requests z.B. im Authorization-Header senden. Sichtbar für clientseitiges JS → anfälliger für XSS, aber nicht automatisch für CSRF (weil nicht in Cookie).
+Schickt das Token im Response-Body als JSON. Der Client (Browser / JS) muss das Token selbst speichern (localStorage, sessionStorage oder Cookie) und bei späteren Requests z.B. im Authorization-Header senden. Sichtbar für clientseitiges JS → anfälliger für XSS, aber nicht automatisch für CSRF (weil nicht in Cookie).
 
 #### Create Cookie for Client
 ```javascript
@@ -31,7 +35,7 @@ expiresIn: "2h",
 res.cookie("token", token, { httpOnly: true, sameSite: "lax" });
 return res.redirect("/gallery");
 ```
-#### Setzt ein Cookie im Browser automatisch (wird bei folgenden Requests an deine Domain gesendet). Mit httpOnly: true ist das Cookie für clientseitiges JS nicht zugänglich (schützt vor XSS). Gut, wenn du Sitzungs- oder Auth-Cookie serverseitig setzen willst — der Browser übernimmt das Speichern.
+Setzt ein Cookie im Browser automatisch (wird bei folgenden Requests an deine Domain gesendet). Mit httpOnly: true ist das Cookie für clientseitiges JS nicht zugänglich (schützt vor XSS). Gut, wenn du Sitzungs- oder Auth-Cookie serverseitig setzen willst — der Browser übernimmt das Speichern.
 
 #### Prüfe Token
 ```javascript

@@ -2,10 +2,15 @@
 
 [Installation Tailwind mit Vite](https://tailwindcss.com/docs/installation/using-vite)
 
+[Katalog mit Tailwind Komponenten zur Auswahl](hyperrul.dev)
+
+Bei dynamischen Seiten clsx verwenden
+Es können Breakpoints gesetzt werden
+
 Es gibt in VS Code eine Extension, welche Tailwind v4 richtig interpretiert.
 Ohne diese Extension gab es eine Fehlermeldung:
 
-#### Hinzufügen der Extension in VS Code:
+#### Hinzufügen der Extension in VS Code (damit werden Tailwind Klassen auswählbar):
   - Tailwind CSS IntelliSense
   
   Preferences --> Settings --> in Suchfeld "css.lint.unknown" --> Unknown at-rule --> ignore
@@ -26,7 +31,7 @@ $ npm list tailwindcss
 ##### Autoprefixer - Macht CSS browserkompatibel (fügt Präfixe hinzu)
 
 vite.config.js
-```bash
+```javascript
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from "@tailwindcss/vite";
@@ -37,7 +42,7 @@ export default defineConfig({
 })
 ```
 package.json
-```bash
+```json
 $ cat package.json 
 {
   "name": "tailwindnew",
@@ -72,12 +77,28 @@ $ cat package.json
 }
 ```
 index.css
-```bash
+```css
 $ cat index.css
 @import "tailwindcss";
 
 @theme {
   --color-customcolor: #5f7ee3ff;
+}
+
+:root {
+  --color-customcolor: #ffe6e6;
+}
+
+@layer base {
+  html, body { font-family: Inter, system-ui, sans-serif; }
+  a { color: inherit; text-decoration: none; }
+  h1 { font-size: 1.5rem; }
+}
+
+@layer components {
+  .input-base {
+    @apply w-60 h-11 rounded-md border border-gray-300 bg-white px-3;
+  }
 }
 ```
 main.jsx

@@ -1,7 +1,7 @@
 {
-  "id": "AI/ai-intro",
+  "id": "AI/AI",
   "title": "AI Einführung",
-  "description": "Intro about AI",
+  "description": "",
   "source": "@site/docs/AI/intro.md",
   "sourceDirName": "AI",
   "slug": "/AI",
@@ -12,7 +12,7 @@
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
-    "id": "ai-intro",
+    "id": "AI",
     "title": "AI Einführung",
     "slug": "/AI",
     "sidebar_position": 1

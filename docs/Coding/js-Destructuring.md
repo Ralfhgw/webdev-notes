@@ -1,6 +1,6 @@
 ### BASIC
 #### 1. Array Destructuring
-#### TODO: Extract the first and second color into variables firstColor and secondColor
+TODO: Extract the first and second color into variables firstColor and secondColor
 ```javascript
 const colors = ["red", "green", "blue"];
 const firstColor = colors[0];
@@ -10,7 +10,7 @@ console.log("1.", firstColor, secondColor);
 > 1. red green
 ```
 #### 2. Skipping Values
-#### TODO: Use destructuring to assign 10 to a and 30 to b (skip 20)
+TODO: Use destructuring to assign 10 to a and 30 to b (skip 20)
 ```javascript
 const numbers = [10, 20, 30, 40];
 const a = numbers[0];
@@ -20,7 +20,7 @@ console.log("2.", a, b);
 > 2. 10 30
 ```
 #### 3. Object Destructuring
-#### TODO: Extract name and city into variables
+TODO: Extract name and city into variables
 ```javascript
 const person = { name: "Alice", age: 25, city: "Berlin" };
 const firstName = person.name;
@@ -30,7 +30,7 @@ console.log("3.", firstName, city)
 > 3. Alice Berlin
 ```
 #### 4. Renaming While Destructuring
-#### TODO: Extract brand into a variable called manufacturer
+TODO: Extract brand into a variable called manufacturer
 ```javascript
 const car = { brand: "Tesla", model: "3" };
 const manufacturer = car.brand;
@@ -40,7 +40,7 @@ console.log("4.", manufacturer);
 ```
 ### INTERMEDIATE
 #### 5. Rest with Arrays
-#### TODO: Put the first letter in head and the rest in tail
+TODO: Put the first letter in head and the rest in tail
 ```javascript
 const letters = ["a", "b", "c", "d", "e"];
 const [head, ...tail] = letters;
@@ -49,7 +49,7 @@ console.log("5.", head, tail);
 > 5. a (4) ['b', 'c', 'd', 'e']
 ```
 #### 6. Rest with Objects
-#### TODO: Extract id into a variable, and put the rest into a variable called details
+TODO: Extract id into a variable, and put the rest into a variable called details
 ```javascript
 const user = { id: 42, username: "bob42", email: "bob@example.com" };
 const {id, ...details} = user;
@@ -61,7 +61,7 @@ console.log("6.2", details);
 > 6.2 {username: 'bob42', email: 'bob@example.com'}
 ```
 #### 7. Default Values
-#### TODO: Destructure theme and language (default to "en" if missing)
+TODO: Destructure theme and language (default to "en" if missing)
 ```javascript
 const settings = { theme: "dark" };
 const settingsExtended = {
@@ -73,7 +73,7 @@ console.log("7.", settingsExtended);
 > 7. {theme: 'dark', language: 'en'}
 ```
 #### 8. Spread with Arrays
-#### TODO: Create one array combined = [1, 2, 3, 4, 5]
+TODO: Create one array combined = [1, 2, 3, 4, 5]
 ```javascript
 const arr1 = [1, 2, 3];
 const arr2 = [4, 5];
@@ -83,7 +83,7 @@ console.log("8.", combinedArray);
 > 8. (5) [1, 2, 3, 4, 5]
 ```
 #### 9. Spread with Objects
-#### TODO: Merge them so finalSettings has darkMode: true, showSidebar: true
+TODO: Merge them so finalSettings has darkMode: true, showSidebar: true
 ```javascript
 const defaults = { darkMode: false, showSidebar: true };
 const userSettings = { darkMode: true };
@@ -94,7 +94,7 @@ console.log(combinedObject);
 ```
 ### CHALLENGE
 #### 10. Function Parameters with Destructuring
-#### TODO: Write a function that takes a user object like:
+TODO: Write a function that takes a user object like:
 ```javascript
 // { name: "Lisa", age: 20, city: "Paris" }
 // and logs: "Lisa (20) from Paris"
@@ -107,7 +107,7 @@ excercise(obj);
 > 10.  Lisa (20) from Paris
 ```
 #### 11. Swapping Values
-#### TODO: Use array destructuring to swap values of x and y
+TODO: Use array destructuring to swap values of x and y
 ```javascript
 let x = 5,
   y = 10;
@@ -118,7 +118,7 @@ console.log("11. x=" + x + " y=" + y)
 > 11. x=10 y=5
 ```
 #### 12. Deep Destructuring
-#### TODO: Extract coach and the name of the goalkeeper
+TODO: Extract coach and the name of the goalkeeper
 ```javascript
 const team = {
   coach: "Marta",
@@ -137,7 +137,7 @@ console.log("12.", coach, goalkeeperName);
 > 12. Marta Sophie
 ```
 #### 13. Combine Rest + Spread
-#### TODO: Extract the first two numbers into variables,
+TODO: Extract the first two numbers into variables,
 ```javascript
 const nums = [1, 2, 3, 4, 5];
 const [first, second, ...rest] = nums;

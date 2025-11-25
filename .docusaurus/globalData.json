@@ -8,16 +8,21 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "AI/ai-intro",
+          "mainDocId": "AI/AI",
           "docs": [
             {
-              "id": "AI/ai-intro",
+              "id": "AI/AI",
               "path": "/docs/AI",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "AI/AI-Knowledge",
               "path": "/docs/AI/AI-Knowledge",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "AIA-Club/AIA-Club-intro",
+              "path": "/docs/AIA-Club",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -543,6 +548,16 @@
             {
               "id": "Englisch-Training/english-intro",
               "path": "/docs/Englisch-Training",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Karriere/Karriere-intro",
+              "path": "/docs/Karriere",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "n8n-Automatisierung/n8n-Automatisierung-intro",
+              "path": "/docs/n8n-Automatisierung",
               "sidebar": "tutorialSidebar"
             },
             {

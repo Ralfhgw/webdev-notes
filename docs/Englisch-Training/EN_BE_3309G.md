@@ -2,9 +2,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <a href={useBaseUrl('english/EN_BE_3309G-annotated.pdf')} target="_blank" rel="noopener">EN_BE_3309G - Using modals verbs to express certainty</a>
 
-- Dieses Dokument beschäftigt sich mit fortgeschrittenen englischen Phrasal Verbs und deren Verwendung. Es erklärt, dass Phrasal Verbs aus einem Verb und einem Partikel (oft eine Präposition) bestehen und zusammen eine neue Bedeutung ergeben. Beispielsweise wird gezeigt, dass einige Phrasal Verbs transitive sind, also ein Objekt benötigen, während andere intransitive sind und keine Objekte brauchen.
+Dieses Dokument beschäftigt sich mit fortgeschrittenen englischen Phrasal Verbs und deren Verwendung. Es erklärt, dass Phrasal Verbs aus einem Verb und einem Partikel (oft eine Präposition) bestehen und zusammen eine neue Bedeutung ergeben. Beispielsweise wird gezeigt, dass einige Phrasal Verbs transitive sind, also ein Objekt benötigen, während andere intransitive sind und keine Objekte brauchen.
 
-Wichtige Punkte:
+#### Wichtige Punkte:
     - Beispiele für die Verwendung (phrasal verbs):
     - "We drew up a rota for sorting the post."
     - "I might put off the beach trip until things are not so busy at work."
@@ -24,7 +24,7 @@ Wichtige Punkte:
 
 Phrasalverben können transitiv oder intransitiv sein. Transitive Verben haben ein Objekt, während intransitive Verben kein Objekt haben.
 
-transitive phrasal verbs - intransitive phrasal verbs
+#### transitive phrasal verbs - intransitive phrasal verbs
 - to call for              - to come over
 - to pick up               - to eat out
 - to run into              - to end up
@@ -57,7 +57,7 @@ to sum up - einhalten - to summarize
 to adhere to -einhalten - to obey
 to verge on - an der Grenze zu - to approach
 
-Beispielsätze, die gezeigt werden:
+#### Beispielsätze, die gezeigt werden:
     1. "We drew up a rota for sorting the post." (Wir haben einen Plan aufgestellt, um die Post zu sortieren.)
     2. "I might put off the beach trip until things are not so busy at work." (Ich könnte die Strandreise verschieben, bis es bei der Arbeit weniger hektisch ist.)
     3. "She wanted to bring up the issue of parking facilities." (Sie wollte das Thema Parkmöglichkeiten ansprechen.)

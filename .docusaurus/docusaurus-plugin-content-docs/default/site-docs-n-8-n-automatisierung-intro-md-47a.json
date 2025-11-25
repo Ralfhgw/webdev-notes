@@ -1,0 +1,29 @@
+{
+  "id": "n8n-Automatisierung/n8n-Automatisierung-intro",
+  "title": "n8n-Automatisierung",
+  "description": "Webseite von Thomas Krenn zur Installation von n8n",
+  "source": "@site/docs/n8n-Automatisierung/intro.md",
+  "sourceDirName": "n8n-Automatisierung",
+  "slug": "/n8n-Automatisierung",
+  "permalink": "/docs/n8n-Automatisierung",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "id": "n8n-Automatisierung-intro",
+    "title": "n8n-Automatisierung",
+    "slug": "/n8n-Automatisierung",
+    "sidebar_position": 10
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AIA-Club",
+    "permalink": "/docs/AIA-Club"
+  },
+  "next": {
+    "title": "Karriere",
+    "permalink": "/docs/Karriere"
+  }
+}

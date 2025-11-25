@@ -2,7 +2,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <a href={useBaseUrl('english/EN_BE_3401X-annotated.pdf')} target="_blank" rel="noopener">EN_BE_3401X - Using modals verbs to express certainty</a>
 
-- Das Dokument bietet eine Anleitung zur Organisation und Durchführung von effektiven Business-Meetings. Es hebt fünf Schlüsselprinzipien hervor:
+Das Dokument bietet eine Anleitung zur Organisation und Durchführung von effektiven Business-Meetings. Es hebt fünf Schlüsselprinzipien hervor:
 
 1. Agree on an agenda beforehand – Es ist wichtig, ein Agenda vor dem Meeting festzulegen, um Zeit zu sparen. Beispiel: "We will always send around an agenda two days before the meeting starts."
 

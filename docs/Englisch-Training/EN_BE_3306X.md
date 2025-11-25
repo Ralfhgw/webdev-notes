@@ -2,7 +2,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <a href={useBaseUrl('english/EN_BE_3306X-annotated.pdf')} target="_blank" rel="noopener">EN_BE_3306X - Using modals verbs to express certainty</a>
 
-- Das Dokument behandelt das Thema "Apologising" und gibt eine umfassende Anleitung, wie man sich für Fehler entschuldigt. Es erklärt, dass es sowohl formelle als auch informelle Wege gibt, um eine Entschuldigung auszudrücken. Es werden wichtige Phrases vorgestellt, die in verschiedenen Situationen verwendet werden können, um sincerity und Verständnis zu zeigen.
+Das Dokument behandelt das Thema "Apologising" und gibt eine umfassende Anleitung, wie man sich für Fehler entschuldigt. Es erklärt, dass es sowohl formelle als auch informelle Wege gibt, um eine Entschuldigung auszudrücken. Es werden wichtige Phrases vorgestellt, die in verschiedenen Situationen verwendet werden können, um sincerity und Verständnis zu zeigen.
 Ein Schwerpunkt liegt auf dem Erkennen, wann eine Entschuldigung angebracht ist, und darauf, wie man sie wirkungsvoll formuliert.  
 
 Das Dokument enthält praktische Beispiele, wie z.B. "I’m sorry for the inconvenience" oder "Please accept my apologies", die in unterschiedlichen Kontexten genutzt werden können. Es wird auch betont, dass die Sincerity der Entschuldigung durch passende Kleidung, Körpersprache und den richtigen Ton unterstützt wird.
@@ -11,25 +11,25 @@ Zusammenfassend bietet das Dokument praktische Tipps und Übungen, um das richti
 
 Hier einige Beispiele:
 
-Formelle Entschuldigungen:
+#### Formelle Entschuldigungen:
 - "I can only apologise for..."
 - "I regret to inform you that..."
 - "Please forgive me for..."
 
-Neutrale Entschuldigungen:
+#### Neutrale Entschuldigungen:
 - "I’m afraid that..."
 - "I take the blame for..."
 - "I hope you can forgive me"
 
-Informelle Entschuldigungen:
+#### Informelle Entschuldigungen:
 - "My bad!"
 - "I’m really sorry for..."
 
-Antworten auf Entschuldigungen:
+#### Antworten auf Entschuldigungen:
 - Formell: "I quite understand."
 - Informell: "Don’t mention it."
 
-Beispiele für typische Situationen (z.B. verloren gehen des Schlüssels, verspätetes Erscheinen):
+#### Beispiele für typische Situationen (z.B. verloren gehen des Schlüssels, verspätetes Erscheinen):
 - "Sorry I arrived four hours late."
 - "Sorry I misplaced your spare key."
 - "My apologies for deleting all your emails."

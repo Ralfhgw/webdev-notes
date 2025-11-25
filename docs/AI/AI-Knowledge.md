@@ -14,3 +14,5 @@ https://lovable.dev
 [cvGPT_RU](https://chatgpt.com/g/g-685c02fa0f988191babefa574fe063f1-cvgpt-ru)
 
 [AI-Produktivitätsplattform](https://chatlyai.app/)
+
+![AI Productivity](/img/ai-productivity.jpg)

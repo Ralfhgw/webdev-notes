@@ -5,12 +5,12 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 Kannst du eine Zusammenfassung des Dokuments auf Deutsch schreiben. Dabei sollen aber die Beispiele und relevante Wörter auf englisch bleiben. Welche Beispielsätze werden gezeigt? (https://www.chatpdf.com/)
 
 Das Dokument vermittelt Strategien und Phrasen für das Negotiating (Verhandeln) und dealing with conflict (Konfliktmanagement) in verschiedenen Situationen. Es betont, wie wichtig compromise (Kompromisse) ist, um zu einer Lösung zu kommen, bei der beide Seiten zufrieden sind.
-In den Lektionen werden verschiedene Szenarien vorgestellt, etwa:
+#### In den Lektionen werden verschiedene Szenarien vorgestellt, etwa:
     - Wenn the wrong colour T-shirts für das Firmen-Fußballteam geliefert wurden, oder
     - Wenn your boss dir keine pay rise geben will,
     - Oder wenn man tripped and broke all of the glasses in the office kitchen.
     
-Es werden nützliche Phrases vorgestellt, um Konflikte zu lösen, zum Beispiel:
+#### Es werden nützliche Phrases vorgestellt, um Konflikte zu lösen, zum Beispiel:
     - "I understand your point of view and I respect it but..."
     - "I hear what you’re saying but..."
     - "I would like to try to work together to find a solution."
@@ -22,7 +22,7 @@ Der Text hebt zudem hervor, dass erfolgreiche Konfliktlösung oft compromise erf
 
 Abschließend werden Tipps gegeben, wie man conflict im public, private or professional sphere konstruktiv angeht und Konflikte mit Hilfe der richtigen Phrasen in unterschiedlichen Situationen konstruktiv löst.
 
-Nützliche Phrasen für Konfliktlösung und Verhandlung
+#### Nützliche Phrasen für Konfliktlösung und Verhandlung
     - "I understand your point of view and I respect it but..." (Ich verstehe deine Sichtweise und respektiere sie, aber...)
     - "I hear what you’re saying but..." (Ich höre, was du sagst, aber...)
     - "I would like to try to work together to find a solution." (Ich möchte versuchen, gemeinsam eine Lösung zu finden.)
@@ -33,7 +33,7 @@ Nützliche Phrasen für Konfliktlösung und Verhandlung
     - "Both sides need to compromise to reach an agreement." (Beide Seiten müssen Kompromisse eingehen, um eine Einigung zu erzielen.)
     - "It’s not enough. We still have to find a way to resolve the situation." (Das ist nicht genug. Wir müssen noch einen Weg finden, die Situation zu lösen.)
     
-Beispielhafte Sätze bei Konfliktsituationen
+#### Beispielhafte Sätze bei Konfliktsituationen
     - "I’m very sorry that you’re put out, but I’m sure we can come to an arrangement!" (Es tut mir sehr leid, dass du verärgert bist, aber ich bin sicher, wir können eine Einigung erzielen!)
     - "Let’s try to figure this out." (Lass uns versuchen, das zu klären.)
     - "When I put myself in your shoes, I can see you have every right to be angry." (Wenn ich mich in deine Lage versetze, sehe ich, dass du jedes Recht hast, verärgert zu sein.)

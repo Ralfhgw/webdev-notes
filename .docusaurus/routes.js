@@ -39,15 +39,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'adb'),
+    component: ComponentCreator('/docs', 'bc2'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'd18'),
+        component: ComponentCreator('/docs', '1de'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'dcd'),
+            component: ComponentCreator('/docs', '4f6'),
             routes: [
               {
                 path: '/docs/AI',
@@ -58,6 +58,12 @@ export default [
               {
                 path: '/docs/AI/AI-Knowledge',
                 component: ComponentCreator('/docs/AI/AI-Knowledge', 'c7b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/AIA-Club',
+                component: ComponentCreator('/docs/AIA-Club', '925'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -688,6 +694,18 @@ export default [
               {
                 path: '/docs/Englisch-Training/EN_BE_3713X',
                 component: ComponentCreator('/docs/Englisch-Training/EN_BE_3713X', '6a4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Karriere',
+                component: ComponentCreator('/docs/Karriere', '1f0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/n8n-Automatisierung',
+                component: ComponentCreator('/docs/n8n-Automatisierung', '544'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
