@@ -551,6 +551,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Git/Git-intro",
+              "path": "/docs/Git",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Karriere/Karriere-intro",
               "path": "/docs/Karriere",
               "sidebar": "tutorialSidebar"

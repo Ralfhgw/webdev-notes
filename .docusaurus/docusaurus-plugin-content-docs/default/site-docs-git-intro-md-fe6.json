@@ -1,0 +1,25 @@
+{
+  "id": "Git/Git-intro",
+  "title": "Git",
+  "description": "Anleitung: Passwort/Secret versehentlich committed – GitHub blockt Push",
+  "source": "@site/docs/Git/intro.md",
+  "sourceDirName": "Git",
+  "slug": "/Git",
+  "permalink": "/docs/Git",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "id": "Git-intro",
+    "title": "Git",
+    "slug": "/Git",
+    "sidebar_position": 12
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Karriere",
+    "permalink": "/docs/Karriere"
+  }
+}

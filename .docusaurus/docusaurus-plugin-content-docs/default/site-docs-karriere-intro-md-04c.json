@@ -21,5 +21,9 @@
   "previous": {
     "title": "n8n-Automatisierung",
     "permalink": "/docs/n8n-Automatisierung"
+  },
+  "next": {
+    "title": "Git",
+    "permalink": "/docs/Git"
   }
 }

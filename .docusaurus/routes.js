@@ -39,15 +39,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'bc2'),
+    component: ComponentCreator('/docs', '6d1'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '1de'),
+        component: ComponentCreator('/docs', 'd98'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '4f6'),
+            component: ComponentCreator('/docs', 'e0b'),
             routes: [
               {
                 path: '/docs/AI',
@@ -694,6 +694,12 @@ export default [
               {
                 path: '/docs/Englisch-Training/EN_BE_3713X',
                 component: ComponentCreator('/docs/Englisch-Training/EN_BE_3713X', '6a4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Git',
+                component: ComponentCreator('/docs/Git', '93d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

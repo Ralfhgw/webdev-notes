@@ -16,3 +16,5 @@ https://lovable.dev
 [AI-Produktivitätsplattform](https://chatlyai.app/)
 
 ![AI Productivity](/img/ai-productivity.jpg)
+
+![Top 50 Ai Overview](/img/klstark_ai_overview.gif)

@@ -42,17 +42,17 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/docs-bc2": {
+  "/docs-6d1": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-1de": {
+  "/docs-d98": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-4f6": {
+  "/docs-e0b": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/AI-e5b": {
@@ -486,6 +486,10 @@
   "/docs/Englisch-Training/EN_BE_3713X-6a4": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-englisch-training-en-be-3713-xe-33-3f2"
+  },
+  "/docs/Git-93d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-aia-clubfe-6-907"
   },
   "/docs/Karriere-1f0": {
     "__comp": "__comp---theme-doc-item-178-a40",
