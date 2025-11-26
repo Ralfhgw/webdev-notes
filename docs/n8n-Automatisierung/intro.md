@@ -14,130 +14,157 @@ sidebar_position: 10
 **Benutzerrechte:** Sie benötigen einen Benutzer mit sudo-Rechten.
 
 **System-Aktualität:** Es wird empfohlen, das System vorab auf den neuesten Stand zu bringen:
+
+[console.cloud.google.com](https://console.cloud.google.com/)
+
+## n8n unter Debian mit Docker & Docker Compose installieren
+
+Diese Anleitung basiert auf deinen tatsächlich ausgeführten Befehlen.
+
+### 1. System aktualisieren
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
-Spezifische Software (je nach Pfad)
-Für Pfad 1 & 2 (Docker / Docker Compose): Installieren Sie die Docker Engine und das Compose Plugin über die offiziellen Docker-Repositories.
-#### 1. Alte Versionen entfernen
+### 2. Docker für Debian korrekt installieren
+#### 2.1. Abhängigkeiten installieren
 ```bash
-sudo apt-get remove docker docker-engine docker.io containerd runc && sudo apt-get autoremove -y
+sudo apt-get install -y ca-certificates curl gnupg
 ```
-#### 2. Repository einrichten und Docker installieren
+#### 2.2. Docker GPG-Key einrichten
 ```bash
-sudo apt-get update && sudo apt-get install -y ca-certificates curl
 sudo install -m 0755 -d /etc/apt/keyrings
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
-echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-sudo apt-get update
-sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+sudo chmod a+r /etc/apt/keyrings/docker.gpg
 ```
-#### 3. Berechtigungen setzen (Entscheidend!)
+#### 2.3. Docker-Repository hinzufügen
+
+(du hast „bookworm“ verwendet – korrekt für Debian 12)
+```bash
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/debian bookworm stable" \
+| sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+```
+#### 2.4. Repository aktualisieren & Docker installieren
+```bash
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+```
+#### 2.5. Benutzer in die Docker-Gruppe aufnehmen
 ```bash
 sudo usermod -aG docker $USER
+newgrp docker
 ```
-Wichtig: Damit die Docker-Berechtigung wirksam wird, müssen Sie sich einmal vom Server ab- und wieder anmelden oder den Befehl newgrp docker in Ihrer aktuellen Shell ausführen.
+### 3. Installieren von Node.js (nur erforderlich, wenn n8n über npm installiert wird)
 
-#### Für Pfad 3 (npm): Installieren Sie Node.js (v18+) und den Paketmanager npm.
+Für n8n via Docker eigentlich nicht erforderlich, aber du hast es benutzt:
 ```bash
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
-#### Pfad 4 (Proxmox): Eine funktionierende Proxmox VE Installation wird vorausgesetzt.
-Installations-Pfade
-
-#### Pfad 1: Docker (Schnell & Einfach für Tests)
-Diese Methode ist ideal, um n8n schnell und unkompliziert zu testen.
-
-#### Schritt 1: Datenverzeichnis erstellen
-Dieser Schritt verhindert Berechtigungsprobleme im Container.
+### 4. n8n-Verzeichnis erstellen
 ```bash
-mkdir -p ~/.n8n
-sudo chown -R $USER:$USER ~/.n8n
+mkdir ~/n8n
+cd ~/n8n
 ```
+### 5. docker-compose.yml erstellen
 
-Schritt 2: Container starten
+Beispiel:
 ```bash
-docker run -d --rm --name n8n -p 5678:5678 -v ~/.n8n:/home/node/.n8n n8nio/n8n:latest
-```
-n8n ist nun unter ```http://<Ihre-Server-IP>:5678``` erreichbar. Sie werden eine Sicherheitswarnung bezüglich "secure cookie" sehen.
+vboxuser@n8n:~/n8n$ cat docker-compose.yml
+version: "3.8"
 
-Schritt 3: Zugriffsproblem lösen Sie haben zwei Möglichkeiten:
-
-A) Schneller Workaround (unsicher): Stoppen Sie den alten Container (docker stop n8n) und starten Sie ihn mit einer zusätzlichen Umgebungsvariable neu.
-Nur für reine Localhost-Tests geeignet!
-```bash
-docker run -d --rm --name n8n -p 5678:5678 -v ~/.n8n:/home/node/.n8n -e "N8N_SECURE_COOKIE=false" n8nio/n8n:latest
-```
-B) Sicherer Weg mit Reverse Proxy (empfohlen): Richten Sie einen Reverse Proxy ein, um n8n über eine Domain mit HTTPS zu betreiben.
-Detaillierte Anleitung: Reverse Proxy für n8n mit Nginx Proxy Manager einrichten
----
-
-Pfad 2: Docker Compose (Empfohlen für Produktivbetrieb)
-Diese Methode ist robust und ideal für den dauerhaften Einsatz, da sie die Datenbank und n8n sauber trennt.
-
-Schritt 1: Projektverzeichnis und Konfigurationsdatei anlegen
-```bash
-mkdir -p ~/n8n-produktiv
-cd ~/n8n-produktiv
-nano docker-compose.yml
-```
-Schritt 2: Inhalt für docker-compose.yml einfügen Ersetzen Sie die Platzhalter für die Passwörter.
-```bash
 services:
   n8n:
     image: n8nio/n8n:latest
+    restart: always
     ports:
       - "5678:5678"
-    restart: always
     environment:
-      - DB_TYPE=postgresdb
-      - DB_POSTGRESDB_HOST=postgres
-      - DB_POSTGRESDB_PORT=5432
-      - DB_POSTGRESDB_DATABASE=n8n
-      - DB_POSTGRESDB_USER=n8n
-      - DB_POSTGRESDB_PASSWORD=IHR_N8N_DB_PASSWORT
-      - GENERIC_TIMEZONE=Europe/Berlin
+    - N8N_SECURE_COOKIE=false
+    - N8N_BASIC_AUTH_ACTIVE=true
+    - N8N_ENCRYPTION_KEY=<dein_key>
+    - N8N_HOST=0.0.0.0
+    - N8N_PORT=5678
+    - N8N_PROTOCOL=http
     volumes:
-      - n8n_data:/home/node/.n8n
-    depends_on:
-      - postgres
-  postgres:
-    image: postgres:14
-    restart: always
-    environment:
-      - POSTGRES_USER=n8n
-      - POSTGRES_PASSWORD=IHR_N8N_DB_PASSWORT
-      - POSTGRES_DB=n8n
-    volumes:
-      - postgres_data:/var/lib/postgresql/data
-volumes:
-  n8n_data:
-  postgres_data:
+      - ./n8n_data:/home/node/.n8n
 ```
-Schritt 3: Container starten
+### 6. Dateiberechtigungen setzen (wichtig, um Fehler zu vermeiden)
+```bash
+sudo chown -R 1000:1000 ~/n8n/n8n_data
+sudo chmod -R 775 ~/n8n/n8n_data
+```
+### 7. n8n starten
 ```bash
 docker compose up -d
 ```
-Da der Port nur an 127.0.0.1 gebunden ist, ist n8n nicht direkt von außen erreichbar. Dies ist beabsichtigt.
-
-Schritt 4: Zugriff ermöglichen Sie haben zwei Möglichkeiten:
-
-A) Schneller Workaround (unsicher): Ändern Sie die Port-Zuweisung in der docker-compose.yml auf "5678:5678" und fügen Sie im environment-Block von n8n die Zeile - N8N_SECURE_COOKIE=false hinzu. Starten Sie neu mit docker compose up -d.
-Nur für reine LAN-Tests ohne externe Erreichbarkeit geeignet!
-
-B) Sicherer Weg mit Reverse Proxy (empfohlen): Richten Sie einen Reverse Proxy ein, der den Traffic an 127.0.0.1:5678 weiterleitet.
-Detaillierte Anleitung: Reverse Proxy für n8n mit Nginx Proxy Manager einrichten
----
-
-Pfad 3: npm (Für Entwickler)
-Diese Methode installiert n8n direkt auf dem Host-System.
-
-Schritt 1: n8n global installieren Die globale Installation erfordert Administratorrechte.
+### 8. Status prüfen
+Docker Container anzeigen
 ```bash
-sudo npm install -g n8n
+docker ps
+docker logs -f n8n-n8n-1
 ```
-Schritt 2: n8n starten Führen Sie diesen Befehl als normaler Benutzer aus.
+(Der Containername kann variieren → mit docker ps prüfen)
 
-n8n
-n8n ist nun unter ```http://<Ihre-Server-IP>:5678``` erreichbar und zeigt die Sicherheitswarnung. Beenden Sie den Prozess mit Strg+C.
+Prüfen, ob Port 5678 offen ist
+```bash
+sudo ss -tulpn | grep 5678
+```
+### 9. n8n aufrufen
+
+Im Browser:
+```bash
+http://<SERVER-IP>:5678
+```
+
+## Projektkonfiguration in der Google Console
+
+Erstelle ein neues Projekt und wähle es aus z.B. "n8n Test"
+
+![n8n](/img/n8n-01.png)
+
+Im Navigationsmenü wähle -- APIs und Dienste -- Bibliothek
+
+![n8n](/img/n8n-02.png)
+
+Suche nach "Google Sheets API" -- Klicke darauf, aktiviere die API
+und wiederhole es für "Google Drive API" und "GMail API"
+
+![n8n](/img/n8n-03.png)
+
+Im Navigationsmenü wähle -- APIs und Dienste -- Anmeldedaten
+
+![n8n](/img/n8n-04.png)
+
+Wähle "Zustimmungsbildschirm konfigurieren" aus
+
+![n8n](/img/n8n-05.png)
+
+Fülle das Formular "App Information" aus
+
+![n8n](/img/n8n-06.png)
+
+Fülle das Formular "Zielgruppe" aus
+
+![n8n](/img/n8n-07.png)
+
+Fülle das Formular "Kontaktdaten" aus
+
+![n8n](/img/n8n-08.png)
+
+Aktzeptiere die Nutzerbedingungen und klicke auf "Erstellen"
+
+![n8n](/img/n8n-09.png)
+
+### Create new workflow
+Klick and add "Trigger manually" Icon
+
+Filter for Google Drive and choose "Download file"
+Setze die Parameter für "Download file"
+
+![n8n](/img/n8n-10.png)
+![n8n](/img/n8n-11.png)
+![n8n](/img/n8n-12.png)
+![n8n](/img/n8n-13.png)
+![n8n](/img/n8n-14.png)
+
+

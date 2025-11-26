@@ -42,26 +42,22 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/docs-6d1": {
+  "/docs-5a1": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-d98": {
+  "/docs-c8b": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-e0b": {
+  "/docs-ce9": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/AI-e5b": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-ai-8-df-2a2"
-  },
-  "/docs/AI/AI-Knowledge-c7b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-ai-ai-knowledge-339-d5b"
   },
   "/docs/AIA-Club-925": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -166,26 +162,6 @@
   "/docs/DCI-Abschlussprojekt-5b4": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-dci-abschlussprojekte-53-9de"
-  },
-  "/docs/DCI-Abschlussprojekt/Asterisk <--> Telekom-392": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-dci-abschlussprojekt-asterisk-telekome-71-5a1"
-  },
-  "/docs/DCI-Abschlussprojekt/Konzept-93f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-dci-abschlussprojekt-konzepte-61-235"
-  },
-  "/docs/DCI-Abschlussprojekt/SST Solution_File-389": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-dci-abschlussprojekt-sst-solution-file-866-af8"
-  },
-  "/docs/DCI-Abschlussprojekt/SST Solution_Realtime-9d9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-dci-abschlussprojekt-sst-solution-realtimebf-2-feb"
-  },
-  "/docs/DCI-Abschlussprojekt/VirtualBox-acb": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-dci-abschlussprojekt-virtual-box-741-730"
   },
   "/docs/Englisch-Training-97b": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -489,7 +465,7 @@
   },
   "/docs/Git-93d": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-aia-clubfe-6-907"
+    "content": "content---docs-gitfe-6-883"
   },
   "/docs/Karriere-1f0": {
     "__comp": "__comp---theme-doc-item-178-a40",

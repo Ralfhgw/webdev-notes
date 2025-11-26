@@ -16,11 +16,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "AI/AI-Knowledge",
-              "path": "/docs/AI/AI-Knowledge",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "AIA-Club/AIA-Club-intro",
               "path": "/docs/AIA-Club",
               "sidebar": "tutorialSidebar"
@@ -148,31 +143,6 @@
             {
               "id": "DCI-Abschlussprojekt/Abschlussprojekt",
               "path": "/docs/DCI-Abschlussprojekt",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "DCI-Abschlussprojekt/Asterisk <--> Telekom",
-              "path": "/docs/DCI-Abschlussprojekt/Asterisk <--> Telekom",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "DCI-Abschlussprojekt/Konzept",
-              "path": "/docs/DCI-Abschlussprojekt/Konzept",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "DCI-Abschlussprojekt/SST Solution_File",
-              "path": "/docs/DCI-Abschlussprojekt/SST Solution_File",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "DCI-Abschlussprojekt/SST Solution_Realtime",
-              "path": "/docs/DCI-Abschlussprojekt/SST Solution_Realtime",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "DCI-Abschlussprojekt/VirtualBox",
-              "path": "/docs/DCI-Abschlussprojekt/VirtualBox",
               "sidebar": "tutorialSidebar"
             },
             {

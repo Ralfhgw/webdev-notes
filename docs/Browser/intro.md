@@ -174,6 +174,7 @@ Online Portal zum Lernen von JavaScript / Web
 - [Online Web-Developing Tool](https://codepen.io)
 
 ### fakerjs
+Generate massive amounts of fake (but realistic) data for testing and development.
 - [Faker Modules](https://fakerjs.dev/guide/)
 - [Faker Modul Lorem](https://fakerjs.dev/api/lorem.html#lines)
 

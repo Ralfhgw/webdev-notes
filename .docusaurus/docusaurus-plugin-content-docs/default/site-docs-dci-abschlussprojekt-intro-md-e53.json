@@ -1,7 +1,7 @@
 {
   "id": "DCI-Abschlussprojekt/Abschlussprojekt",
   "title": "Abschlussprojekt",
-  "description": "Kurze Einführung...",
+  "description": "Ein Web-basiertes Live-Video-Analyse-Dashboard (Full-Stack)",
   "source": "@site/docs/DCI-Abschlussprojekt/intro.md",
   "sourceDirName": "DCI-Abschlussprojekt",
   "slug": "/DCI-Abschlussprojekt",
@@ -23,7 +23,7 @@
     "permalink": "/docs/Tools/tools-VSCode-Konfiguration"
   },
   "next": {
-    "title": "Asterisk <--> Telekom",
-    "permalink": "/docs/DCI-Abschlussprojekt/Asterisk <--> Telekom"
+    "title": "Englisch Training",
+    "permalink": "/docs/Englisch-Training"
   }
 }

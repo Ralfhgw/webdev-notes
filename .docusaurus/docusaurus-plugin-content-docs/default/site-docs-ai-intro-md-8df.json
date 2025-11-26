@@ -1,7 +1,7 @@
 {
   "id": "AI/AI",
   "title": "AI Einführung",
-  "description": "",
+  "description": "Google AI",
   "source": "@site/docs/AI/intro.md",
   "sourceDirName": "AI",
   "slug": "/AI",
@@ -19,7 +19,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "AI-Knowledge",
-    "permalink": "/docs/AI/AI-Knowledge"
+    "title": "Browser",
+    "permalink": "/docs/Browser"
   }
 }

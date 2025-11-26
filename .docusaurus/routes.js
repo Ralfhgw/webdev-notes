@@ -39,25 +39,19 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '6d1'),
+    component: ComponentCreator('/docs', '5a1'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'd98'),
+        component: ComponentCreator('/docs', 'c8b'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'e0b'),
+            component: ComponentCreator('/docs', 'ce9'),
             routes: [
               {
                 path: '/docs/AI',
                 component: ComponentCreator('/docs/AI', 'e5b'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/AI/AI-Knowledge',
-                component: ComponentCreator('/docs/AI/AI-Knowledge', 'c7b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -214,36 +208,6 @@ export default [
               {
                 path: '/docs/DCI-Abschlussprojekt',
                 component: ComponentCreator('/docs/DCI-Abschlussprojekt', '5b4'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/DCI-Abschlussprojekt/Asterisk <--> Telekom',
-                component: ComponentCreator('/docs/DCI-Abschlussprojekt/Asterisk <--> Telekom', '392'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/DCI-Abschlussprojekt/Konzept',
-                component: ComponentCreator('/docs/DCI-Abschlussprojekt/Konzept', '93f'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/DCI-Abschlussprojekt/SST Solution_File',
-                component: ComponentCreator('/docs/DCI-Abschlussprojekt/SST Solution_File', '389'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/DCI-Abschlussprojekt/SST Solution_Realtime',
-                component: ComponentCreator('/docs/DCI-Abschlussprojekt/SST Solution_Realtime', '9d9'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/DCI-Abschlussprojekt/VirtualBox',
-                component: ComponentCreator('/docs/DCI-Abschlussprojekt/VirtualBox', 'acb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
