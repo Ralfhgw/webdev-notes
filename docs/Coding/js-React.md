@@ -144,6 +144,7 @@ function Toolbar() {
   return <p>Aktuelles Theme: {theme}</p>;
 }
 ```
+![react-context](/img/react-context.png)
 ### useReducer
 komplexer State
 ```javascript

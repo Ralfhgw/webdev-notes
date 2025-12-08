@@ -1,0 +1,23 @@
+{
+  "id": "Englisch-Training/EN_BE_3802X",
+  "title": "EN_BE_3802X",
+  "description": "ENBE3802X - Interpreting a graph",
+  "source": "@site/docs/Englisch-Training/EN_BE_3802X.md",
+  "sourceDirName": "Englisch-Training",
+  "slug": "/Englisch-Training/EN_BE_3802X",
+  "permalink": "/docs/Englisch-Training/EN_BE_3802X",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "EN_BE_3801X",
+    "permalink": "/docs/Englisch-Training/EN_BE_3801X"
+  },
+  "next": {
+    "title": "EN_BE_3803X",
+    "permalink": "/docs/Englisch-Training/EN_BE_3803X"
+  }
+}

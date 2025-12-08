@@ -73,6 +73,7 @@ inurl:confidential → URL enthält „confidential“.</small>
 - [U.S. Web Design System (USWDS)](https://designsystem.digital.gov/)
 - [Responsive Web Design - Media Queries](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
 - [Wordpress Templates](https://colorlib.com/wp/css3-table-templates/)
+- [Design Genarator](https://design.dev/tools)
 
 ### Barrierefreiheit
 - [Screen Reader Demo for Digital Accessibility (youtube)](https://www.youtube.com/watch?v=dEbl5jvLKGQ)
@@ -106,6 +107,7 @@ inurl:confidential → URL enthält „confidential“.</small>
 - [Google Plugin React Developer Tools](https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en&pli=1)
 - [React.dev Quick Start](https://react.dev/learn)
 - [Might not need an useEffect](https://react.dev/learn/you-might-not-need-an-effect)
+- [Example Codes](https://tanstack.com/)
 
 ###  Documentation / Training
 

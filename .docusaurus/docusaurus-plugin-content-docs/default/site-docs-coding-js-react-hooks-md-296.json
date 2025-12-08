@@ -1,0 +1,23 @@
+{
+  "id": "Coding/js-React-Hooks",
+  "title": "js-React-Hooks",
+  "description": "Custom Hooks unterscheiden sich danach, ob sie State verwalten, Side Effects kapseln, Events beobachten, UI-Steuerung vereinfachen, Performance verbessern oder externe APIs integrieren.",
+  "source": "@site/docs/Coding/js-React-Hooks.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/js-React-Hooks",
+  "permalink": "/docs/Coding/js-React-Hooks",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "js-Methoden-Eigenschaften",
+    "permalink": "/docs/Coding/js-Methoden-Eigenschaften"
+  },
+  "next": {
+    "title": "js-React-Router",
+    "permalink": "/docs/Coding/js-React-Router"
+  }
+}

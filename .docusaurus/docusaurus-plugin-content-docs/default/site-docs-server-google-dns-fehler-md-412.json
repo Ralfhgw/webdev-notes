@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Curl",
-    "permalink": "/docs/Server/Curl"
+    "title": "Browser-Server-Handling",
+    "permalink": "/docs/Server/Browser-Server-Handling"
   },
   "next": {
     "title": "Web Server Security",

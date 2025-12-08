@@ -1,0 +1,23 @@
+{
+  "id": "Englisch-Training/EN_BE_3123X",
+  "title": "EN_BE_3123X",
+  "description": "ENBE3123X - The language of software",
+  "source": "@site/docs/Englisch-Training/EN_BE_3123X.md",
+  "sourceDirName": "Englisch-Training",
+  "slug": "/Englisch-Training/EN_BE_3123X",
+  "permalink": "/docs/Englisch-Training/EN_BE_3123X",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "EN_BE_3122X",
+    "permalink": "/docs/Englisch-Training/EN_BE_3122X"
+  },
+  "next": {
+    "title": "EN_BE_3124X",
+    "permalink": "/docs/Englisch-Training/EN_BE_3124X"
+  }
+}

@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Account-webschere.de",
-    "permalink": "/docs/Server/Account-webschere.de"
+    "title": "Browser-Server-Handling",
+    "permalink": "/docs/Server/Browser-Server-Handling"
   },
   "next": {
     "title": "Google-DNS-Fehler",

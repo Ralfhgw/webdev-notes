@@ -39,15 +39,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '5a1'),
+    component: ComponentCreator('/docs', '84d'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'c8b'),
+        component: ComponentCreator('/docs', 'fc5'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'ce9'),
+            component: ComponentCreator('/docs', '4af'),
             routes: [
               {
                 path: '/docs/AI',
@@ -194,6 +194,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Coding/js-React-Hooks',
+                component: ComponentCreator('/docs/Coding/js-React-Hooks', '0fe'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/Coding/js-React-Router',
                 component: ComponentCreator('/docs/Coding/js-React-Router', '2c8'),
                 exact: true,
@@ -232,6 +238,18 @@ export default [
               {
                 path: '/docs/Englisch-Training/EN_BE_3122X',
                 component: ComponentCreator('/docs/Englisch-Training/EN_BE_3122X', 'fa5'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Englisch-Training/EN_BE_3123X',
+                component: ComponentCreator('/docs/Englisch-Training/EN_BE_3123X', '656'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Englisch-Training/EN_BE_3124X',
+                component: ComponentCreator('/docs/Englisch-Training/EN_BE_3124X', '5f8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -662,6 +680,78 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Englisch-Training/EN_BE_3714G',
+                component: ComponentCreator('/docs/Englisch-Training/EN_BE_3714G', '94d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Englisch-Training/EN_BE_3715S',
+                component: ComponentCreator('/docs/Englisch-Training/EN_BE_3715S', '83a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Englisch-Training/EN_BE_3801X',
+                component: ComponentCreator('/docs/Englisch-Training/EN_BE_3801X', '3f2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Englisch-Training/EN_BE_3802X',
+                component: ComponentCreator('/docs/Englisch-Training/EN_BE_3802X', 'd49'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Englisch-Training/EN_BE_3803X',
+                component: ComponentCreator('/docs/Englisch-Training/EN_BE_3803X', '417'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Englisch-Training/EN_BE_3804X',
+                component: ComponentCreator('/docs/Englisch-Training/EN_BE_3804X', '877'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Englisch-Training/EN_BE_3805X',
+                component: ComponentCreator('/docs/Englisch-Training/EN_BE_3805X', '63f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Englisch-Training/EN_BE_3806X',
+                component: ComponentCreator('/docs/Englisch-Training/EN_BE_3806X', 'a95'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Englisch-Training/EN_BE_3807W',
+                component: ComponentCreator('/docs/Englisch-Training/EN_BE_3807W', '7cf'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Englisch-Training/EN_BE_3808R',
+                component: ComponentCreator('/docs/Englisch-Training/EN_BE_3808R', 'a0c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Englisch-Training/EN_BE_3809S',
+                component: ComponentCreator('/docs/Englisch-Training/EN_BE_3809S', '0c5'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Englisch-Training/EN_BE_3810X',
+                component: ComponentCreator('/docs/Englisch-Training/EN_BE_3810X', 'cbe'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/Git',
                 component: ComponentCreator('/docs/Git', '93d'),
                 exact: true,
@@ -692,8 +782,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Server/Curl',
-                component: ComponentCreator('/docs/Server/Curl', 'e52'),
+                path: '/docs/Server/Browser-Server-Handling',
+                component: ComponentCreator('/docs/Server/Browser-Server-Handling', '869'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

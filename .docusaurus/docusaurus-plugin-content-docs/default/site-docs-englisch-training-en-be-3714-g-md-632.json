@@ -1,0 +1,23 @@
+{
+  "id": "Englisch-Training/EN_BE_3714G",
+  "title": "EN_BE_3714G",
+  "description": "ENBE3714G - The language of technology",
+  "source": "@site/docs/Englisch-Training/EN_BE_3714G.md",
+  "sourceDirName": "Englisch-Training",
+  "slug": "/Englisch-Training/EN_BE_3714G",
+  "permalink": "/docs/Englisch-Training/EN_BE_3714G",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "EN_BE_3713X",
+    "permalink": "/docs/Englisch-Training/EN_BE_3713X"
+  },
+  "next": {
+    "title": "EN_BE_3715S",
+    "permalink": "/docs/Englisch-Training/EN_BE_3715S"
+  }
+}

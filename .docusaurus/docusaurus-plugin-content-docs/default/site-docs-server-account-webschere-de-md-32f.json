@@ -17,7 +17,7 @@
     "permalink": "/docs/Server"
   },
   "next": {
-    "title": "Curl",
-    "permalink": "/docs/Server/Curl"
+    "title": "Browser-Server-Handling",
+    "permalink": "/docs/Server/Browser-Server-Handling"
   }
 }

@@ -1,0 +1,23 @@
+{
+  "id": "Englisch-Training/EN_BE_3801X",
+  "title": "EN_BE_3801X",
+  "description": "ENBE3801X - The basic of writing a business report",
+  "source": "@site/docs/Englisch-Training/EN_BE_3801X.md",
+  "sourceDirName": "Englisch-Training",
+  "slug": "/Englisch-Training/EN_BE_3801X",
+  "permalink": "/docs/Englisch-Training/EN_BE_3801X",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "EN_BE_3715S",
+    "permalink": "/docs/Englisch-Training/EN_BE_3715S"
+  },
+  "next": {
+    "title": "EN_BE_3802X",
+    "permalink": "/docs/Englisch-Training/EN_BE_3802X"
+  }
+}

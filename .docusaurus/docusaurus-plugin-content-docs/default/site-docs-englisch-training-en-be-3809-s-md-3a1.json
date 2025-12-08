@@ -1,0 +1,23 @@
+{
+  "id": "Englisch-Training/EN_BE_3809S",
+  "title": "EN_BE_3809S",
+  "description": "ENBE3809S - Conflict management",
+  "source": "@site/docs/Englisch-Training/EN_BE_3809S.md",
+  "sourceDirName": "Englisch-Training",
+  "slug": "/Englisch-Training/EN_BE_3809S",
+  "permalink": "/docs/Englisch-Training/EN_BE_3809S",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "EN_BE_3808R",
+    "permalink": "/docs/Englisch-Training/EN_BE_3808R"
+  },
+  "next": {
+    "title": "EN_BE_3810X",
+    "permalink": "/docs/Englisch-Training/EN_BE_3810X"
+  }
+}

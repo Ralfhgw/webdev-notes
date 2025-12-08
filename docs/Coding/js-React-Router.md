@@ -1,8 +1,68 @@
+#### Simple Example
+#### main.tsx
+```jsx
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "./index.css";
+
+import { Home } from "./pages/Home.tsx";
+....
+
+import { createBrowserRouter } from "react-router";
+import { AuthProvider } from "./context/AuthContext";
+import { RouterProvider } from "react-router/dom";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <RootLayout />,
+    children: [
+      { index: true,element: <Home />, },
+      { path: "login", element: <Login />,},
+      { path: "products", element: <ProductLayout />,
+        children: [{index: true, element: <Products />,},{path: ":id",element: <ProductDetail />,},],},
+      { path: "profile", element: <Profile />,},
+    ],
+  },
+]);
+
+createRoot(document.getElementById("root")!).render(
+  <StrictMode>
+    <AuthProvider>
+      <RouterProvider router={router} />
+    </AuthProvider>
+  </StrictMode>
+);
+```
+#### home.tsx (ist die Startseite /)
+```jsx
+import { useAuth } from "../context/AuthContext";
+import { Navigate } from "react-router";
+
+export function Home() {
+  const { user } = useAuth();
+
+  if (!user) {
+  return <Navigate to="/login" />
+  }
+
+  return (
+    <>
+      <p>Hallo {user.firstName} {user.lastName}</p>
+    </>
+  );
+}
+``` 
+
+
+
 ## React Router-Installation 
 ```javascript
 npx create-vite@latest --> Choose React/Typescript
 npm install react-router-dom
 ```
+[REACT Router Website](reactrouter.com)
+
 ### File Structure
 ```javascript
 src/

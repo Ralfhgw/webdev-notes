@@ -1,7 +1,7 @@
 {
   "id": "Coding/js-React-Router",
   "title": "js-React-Router",
-  "description": "React Router-Installation",
+  "description": "Simple Example",
   "source": "@site/docs/Coding/js-React-Router.md",
   "sourceDirName": "Coding",
   "slug": "/Coding/js-React-Router",
@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "js-Methoden-Eigenschaften",
-    "permalink": "/docs/Coding/js-Methoden-Eigenschaften"
+    "title": "js-React-Hooks",
+    "permalink": "/docs/Coding/js-React-Hooks"
   },
   "next": {
     "title": "js-React",

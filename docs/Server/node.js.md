@@ -6,20 +6,29 @@ sudo apt install -y nodejs
 
 #### BUN Installation
 ```bash
-$ sudo apt install unzip
-$ curl -fsSL https://bun.sh/install | bash
-$ export PATH="$HOME/.bun/bin:$PATH"
-$ bun
+sudo apt install unzip
+curl -fsSL https://bun.sh/install | bash
+export PATH="$HOME/.bun/bin:$PATH"
+bun init
+bun add express
+bun add -d @types/express
+
+// in package.json
+   "scripts": {
+    "dev": "bun --watch index.ts"
+  },
+
+bun dev
 ```
 
 #### Vite Installation
 ```bash
 npm create vite@latest
-$ npm create vite@latest Tailwind -- --template react
+// npm create vite@latest Tailwind -- --template react
 npm run build
 npm run dev
 
-$ npm install --production (Installation der Module unter "dependencies" und nicht in "devDependencies".)
+npm install --production (Installation der Module unter "dependencies" und nicht in "devDependencies".)
 ```
 
 #### Installation von readlineSync 
@@ -37,14 +46,14 @@ console.log(`Dein Name ist ${name}`);
 ```
 ##### Installation i18next
 ```bash
-$ npm install i18next
+npm install i18next
 ```
 ```bash
-$ npm install dotenv - Dieses Module liest die Werte in der .env ein und stellt diese zur Verfügung
+npm install dotenv - Dieses Module liest die Werte in der .env ein und stellt diese zur Verfügung
 ```
 ##### Installation bcrypt
 ```bash
-$ npm install bcrypt - zum Hashen von Strings
+npm install bcrypt - zum Hashen von Strings
 const bcrypt = require('bcrypt');
 const saltRounds = 10;
 const myPlaintextPassword = 's0/\/\P4$$w0rD';

@@ -42,17 +42,17 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/docs-5a1": {
+  "/docs-84d": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-c8b": {
+  "/docs-fc5": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-ce9": {
+  "/docs-4af": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/AI-e5b": {
@@ -151,6 +151,10 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-coding-js-react-9-d-4-a43"
   },
+  "/docs/Coding/js-React-Hooks-0fe": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-coding-js-react-hooks-296-45e"
+  },
   "/docs/Coding/js-React-Router-2c8": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-coding-js-react-routeracd-382"
@@ -178,6 +182,14 @@
   "/docs/Englisch-Training/EN_BE_3122X-fa5": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-englisch-training-en-be-3122-xcd-4-979"
+  },
+  "/docs/Englisch-Training/EN_BE_3123X-656": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3123-x-4-f-5-81a"
+  },
+  "/docs/Englisch-Training/EN_BE_3124X-5f8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3124-xaf-1-91e"
   },
   "/docs/Englisch-Training/EN_BE_3125X-0fb": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -463,6 +475,54 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-englisch-training-en-be-3713-xe-33-3f2"
   },
+  "/docs/Englisch-Training/EN_BE_3714G-94d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3714-g-632-ac8"
+  },
+  "/docs/Englisch-Training/EN_BE_3715S-83a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3715-s-1-ce-217"
+  },
+  "/docs/Englisch-Training/EN_BE_3801X-3f2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3801-xc-06-12f"
+  },
+  "/docs/Englisch-Training/EN_BE_3802X-d49": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3802-xe-5-b-143"
+  },
+  "/docs/Englisch-Training/EN_BE_3803X-417": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3803-xf-3-b-dbe"
+  },
+  "/docs/Englisch-Training/EN_BE_3804X-877": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3804-x-99-c-a6f"
+  },
+  "/docs/Englisch-Training/EN_BE_3805X-63f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3805-x-5-c-3-c59"
+  },
+  "/docs/Englisch-Training/EN_BE_3806X-a95": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3806-xff-0-539"
+  },
+  "/docs/Englisch-Training/EN_BE_3807W-7cf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3807-w-4-a-2-e20"
+  },
+  "/docs/Englisch-Training/EN_BE_3808R-a0c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3808-r-114-6fa"
+  },
+  "/docs/Englisch-Training/EN_BE_3809S-0c5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3809-s-3-a-1-73b"
+  },
+  "/docs/Englisch-Training/EN_BE_3810X-cbe": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3810-xf-8-a-c23"
+  },
   "/docs/Git-93d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-gitfe-6-883"
@@ -483,9 +543,9 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-server-account-webschere-de-32-f-4a3"
   },
-  "/docs/Server/Curl-e52": {
+  "/docs/Server/Browser-Server-Handling-869": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-server-curldf-5-229"
+    "content": "content---docs-server-browser-server-handlinge-8-a-3f0"
   },
   "/docs/Server/Google-DNS-Fehler-529": {
     "__comp": "__comp---theme-doc-item-178-a40",

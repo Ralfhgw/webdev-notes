@@ -131,6 +131,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Coding/js-React-Hooks",
+              "path": "/docs/Coding/js-React-Hooks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Coding/js-React-Router",
               "path": "/docs/Coding/js-React-Router",
               "sidebar": "tutorialSidebar"
@@ -158,6 +163,16 @@
             {
               "id": "Englisch-Training/EN_BE_3122X",
               "path": "/docs/Englisch-Training/EN_BE_3122X",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Englisch-Training/EN_BE_3123X",
+              "path": "/docs/Englisch-Training/EN_BE_3123X",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Englisch-Training/EN_BE_3124X",
+              "path": "/docs/Englisch-Training/EN_BE_3124X",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -516,6 +531,66 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Englisch-Training/EN_BE_3714G",
+              "path": "/docs/Englisch-Training/EN_BE_3714G",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Englisch-Training/EN_BE_3715S",
+              "path": "/docs/Englisch-Training/EN_BE_3715S",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Englisch-Training/EN_BE_3801X",
+              "path": "/docs/Englisch-Training/EN_BE_3801X",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Englisch-Training/EN_BE_3802X",
+              "path": "/docs/Englisch-Training/EN_BE_3802X",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Englisch-Training/EN_BE_3803X",
+              "path": "/docs/Englisch-Training/EN_BE_3803X",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Englisch-Training/EN_BE_3804X",
+              "path": "/docs/Englisch-Training/EN_BE_3804X",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Englisch-Training/EN_BE_3805X",
+              "path": "/docs/Englisch-Training/EN_BE_3805X",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Englisch-Training/EN_BE_3806X",
+              "path": "/docs/Englisch-Training/EN_BE_3806X",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Englisch-Training/EN_BE_3807W",
+              "path": "/docs/Englisch-Training/EN_BE_3807W",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Englisch-Training/EN_BE_3808R",
+              "path": "/docs/Englisch-Training/EN_BE_3808R",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Englisch-Training/EN_BE_3809S",
+              "path": "/docs/Englisch-Training/EN_BE_3809S",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Englisch-Training/EN_BE_3810X",
+              "path": "/docs/Englisch-Training/EN_BE_3810X",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Englisch-Training/english-intro",
               "path": "/docs/Englisch-Training",
               "sidebar": "tutorialSidebar"
@@ -541,8 +616,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Server/Curl",
-              "path": "/docs/Server/Curl",
+              "id": "Server/Browser-Server-Handling",
+              "path": "/docs/Server/Browser-Server-Handling",
               "sidebar": "tutorialSidebar"
             },
             {

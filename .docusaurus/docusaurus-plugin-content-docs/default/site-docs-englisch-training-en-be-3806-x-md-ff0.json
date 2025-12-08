@@ -1,0 +1,23 @@
+{
+  "id": "Englisch-Training/EN_BE_3806X",
+  "title": "EN_BE_3806X",
+  "description": "ENBE3806X - Outsourcing",
+  "source": "@site/docs/Englisch-Training/EN_BE_3806X.md",
+  "sourceDirName": "Englisch-Training",
+  "slug": "/Englisch-Training/EN_BE_3806X",
+  "permalink": "/docs/Englisch-Training/EN_BE_3806X",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "EN_BE_3805X",
+    "permalink": "/docs/Englisch-Training/EN_BE_3805X"
+  },
+  "next": {
+    "title": "EN_BE_3807W",
+    "permalink": "/docs/Englisch-Training/EN_BE_3807W"
+  }
+}

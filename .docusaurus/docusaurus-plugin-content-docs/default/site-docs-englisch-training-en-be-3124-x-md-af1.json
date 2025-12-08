@@ -1,0 +1,23 @@
+{
+  "id": "Englisch-Training/EN_BE_3124X",
+  "title": "EN_BE_3124X",
+  "description": "ENBE3124X - Security in the workplace",
+  "source": "@site/docs/Englisch-Training/EN_BE_3124X.md",
+  "sourceDirName": "Englisch-Training",
+  "slug": "/Englisch-Training/EN_BE_3124X",
+  "permalink": "/docs/Englisch-Training/EN_BE_3124X",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "EN_BE_3123X",
+    "permalink": "/docs/Englisch-Training/EN_BE_3123X"
+  },
+  "next": {
+    "title": "EN_BE_3125X",
+    "permalink": "/docs/Englisch-Training/EN_BE_3125X"
+  }
+}

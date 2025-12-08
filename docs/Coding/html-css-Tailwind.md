@@ -4,6 +4,8 @@
 
 [Katalog mit Tailwind Komponenten zur Auswahl](hyperrul.dev)
 
+[Tailwind Cheat Sheet](https://nerdcave.com/tailwind-cheat-sheet)
+
 Bei dynamischen Seiten clsx verwenden
 Es können Breakpoints gesetzt werden
 
@@ -18,12 +20,11 @@ Ohne diese Extension gab es eine Fehlermeldung:
 
 #### Installation Vite, React, Tailwind
 ```bash
-$ npm create vite@latest tailwind -- --template react
-$ cd tailwind/
-$ npm install
-$ npm install npm install tailwindcss @tailwindcss/vite postcss autoprefixer
-$ npm install -D @tailwindcss/postcss
-$ npm list tailwindcss
+npm create vite@latest project
+cd project/
+npm install
+npm install tailwindcss @tailwindcss/vite
+npm list tailwindcss
 ```
 
 ##### Tailwind CSS - Schreibt/generiert Utility-basiertes CSS
@@ -43,9 +44,8 @@ export default defineConfig({
 ```
 package.json
 ```json
-$ cat package.json 
 {
-  "name": "tailwindnew",
+  "name": "tailwind",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -57,28 +57,25 @@ $ cat package.json
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.17",
-    "autoprefixer": "^10.4.22",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "tailwindcss": "^4.1.17"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
-    "@tailwindcss/postcss": "^4.1.17",
-    "@types/react": "^19.2.2",
-    "@types/react-dom": "^19.2.2",
-    "@vitejs/plugin-react": "^5.1.0",
+    "@types/react": "^19.2.5",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
     "eslint": "^9.39.1",
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
     "globals": "^16.5.0",
-    "vite": "^7.2.2"
+    "vite": "^7.2.4"
   }
 }
 ```
 index.css
 ```css
-$ cat index.css
 @import "tailwindcss";
 
 @theme {

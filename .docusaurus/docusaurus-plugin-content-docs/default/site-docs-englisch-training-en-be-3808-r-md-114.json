@@ -1,0 +1,23 @@
+{
+  "id": "Englisch-Training/EN_BE_3808R",
+  "title": "EN_BE_3808R",
+  "description": "ENBE3808R - Graph description in depth",
+  "source": "@site/docs/Englisch-Training/EN_BE_3808R.md",
+  "sourceDirName": "Englisch-Training",
+  "slug": "/Englisch-Training/EN_BE_3808R",
+  "permalink": "/docs/Englisch-Training/EN_BE_3808R",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "EN_BE_3807W",
+    "permalink": "/docs/Englisch-Training/EN_BE_3807W"
+  },
+  "next": {
+    "title": "EN_BE_3809S",
+    "permalink": "/docs/Englisch-Training/EN_BE_3809S"
+  }
+}
