@@ -1,148 +1,464 @@
-### BASIC
-#### 1. Array Destructuring
-TODO: Extract the first and second color into variables firstColor and secondColor
+---
+id: js-destructuring
+title: JavaScript — Destructuring
+---
+
+## Was ist Destructuring?
+
+**Destructuring** ist eine elegante Syntax zum Extrahieren von Werten aus Arrays oder Objekten in separate Variablen. Es macht Code kürzer und lesbarer.
+
+### Vorteile
+- ✅ Kürzer und lesbarer
+- ✅ Weniger Wiederholungen
+- ✅ Funktioniert mit verschachtelten Strukturen
+- ✅ Arbeitet mit Default-Werten
+
+---
+
+## 1. Array Destructuring
+
+### 1a. Grundlegendes Array Destructuring
 ```javascript
+// Alt (verbose)
 const colors = ["red", "green", "blue"];
 const firstColor = colors[0];
 const secondColor = colors[1];
-console.log("1.", firstColor, secondColor);
----
-> 1. red green
+console.log(firstColor, secondColor); // "red" "green"
+
+// Neu (Destructuring)
+const [first, second, third] = ["red", "green", "blue"];
+console.log(first, second, third); // "red" "green" "blue"
 ```
-#### 2. Skipping Values
-TODO: Use destructuring to assign 10 to a and 30 to b (skip 20)
+
+### 1b. Werte überspringen
 ```javascript
-const numbers = [10, 20, 30, 40];
-const a = numbers[0];
-const b = numbers[2];
-console.log("2.", a, b);
----
-> 2. 10 30
+const numbers = [10, 20, 30, 40, 50];
+
+// Nur 1. und 3. Element
+const [a, , b] = numbers;
+console.log(a, b); // 10 30
+
+// Nur erstes Element
+const [first, ...rest] = numbers;
+console.log(first); // 10
+console.log(rest);  // [20, 30, 40, 50]
 ```
-#### 3. Object Destructuring
-TODO: Extract name and city into variables
+
+### 1c. Default-Werte bei Arrays
 ```javascript
+const [x = 0, y = 0, z = 0] = [5, 10];
+console.log(x, y, z); // 5 10 0
+
+// Praktisches Beispiel
+const [width = 800, height = 600] = [1024];
+console.log(width, height); // 1024 600
+```
+
+### 1d. Verschachtelte Array-Destructuring
+```javascript
+const matrix = [
+  [1, 2],
+  [3, 4],
+  [5, 6]
+];
+
+const [[a, b], [c, d]] = matrix;
+console.log(a, b, c, d); // 1 2 3 4
+```
+
+---
+
+## 2. Object Destructuring
+
+### 2a. Grundlegendes Object Destructuring
+```javascript
+// Alt
 const person = { name: "Alice", age: 25, city: "Berlin" };
-const firstName = person.name;
+const name = person.name;
 const city = person.city;
-console.log("3.", firstName, city)
----
-> 3. Alice Berlin
+
+// Neu (Destructuring)
+const { name, city } = person;
+console.log(name, city); // "Alice" "Berlin"
+
+// Wichtig: Variablennamen müssen Property-Namen entsprechen!
+const { age } = person;
+console.log(age); // 25
 ```
-#### 4. Renaming While Destructuring
-TODO: Extract brand into a variable called manufacturer
+
+### 2b. Umbennen von Properties
 ```javascript
-const car = { brand: "Tesla", model: "3" };
-const manufacturer = car.brand;
-console.log("4.", manufacturer);
----
-> 4. Tesla
+const car = { brand: "Tesla", model: "3", year: 2024 };
+
+// Umbenennen mit :
+const { brand: manufacturer, model: carModel } = car;
+console.log(manufacturer); // "Tesla"
+console.log(carModel);     // "3"
+
+// Ursprüngliche Variablennamen funktionieren nicht mehr
+// console.log(brand); // ReferenceError
 ```
-### INTERMEDIATE
-#### 5. Rest with Arrays
-TODO: Put the first letter in head and the rest in tail
-```javascript
-const letters = ["a", "b", "c", "d", "e"];
-const [head, ...tail] = letters;
-console.log("5.", head, tail);
----
-> 5. a (4) ['b', 'c', 'd', 'e']
-```
-#### 6. Rest with Objects
-TODO: Extract id into a variable, and put the rest into a variable called details
-```javascript
-const user = { id: 42, username: "bob42", email: "bob@example.com" };
-const {id, ...details} = user;
-const userID = user.id;
-console.log("6.1", userID);
-console.log("6.2", details);
----
-> 6.1 42
-> 6.2 {username: 'bob42', email: 'bob@example.com'}
-```
-#### 7. Default Values
-TODO: Destructure theme and language (default to "en" if missing)
+
+### 2c. Default-Werte bei Objekten
 ```javascript
 const settings = { theme: "dark" };
-const settingsExtended = {
-  ...settings,
-  language: "en",
-};
-console.log("7.", settingsExtended);
----
-> 7. {theme: 'dark', language: 'en'}
+
+// Mit Default-Werten
+const { theme, language = "en", notifications = true } = settings;
+console.log(theme);         // "dark"
+console.log(language);      // "en" (Default)
+console.log(notifications); // true (Default)
 ```
-#### 8. Spread with Arrays
-TODO: Create one array combined = [1, 2, 3, 4, 5]
+
+### 2d. Rest-Properties (...rest)
+```javascript
+const user = { id: 42, username: "bob42", email: "bob@example.com", age: 30 };
+
+// Extrahiere id, rest geht in details
+const { id, ...details } = user;
+console.log(id);      // 42
+console.log(details); // { username: "bob42", email: "bob@example.com", age: 30 }
+```
+
+### 2e. Verschachtelte Object-Destructuring
+```javascript
+const company = {
+  name: "TechCorp",
+  address: {
+    street: "Main St",
+    city: "Berlin",
+    zip: "10115"
+  },
+  employees: 500
+};
+
+// Verschachteltes Destructuring
+const { name, address: { city, zip } } = company;
+console.log(name, city, zip); // "TechCorp" "Berlin" "10115"
+
+// Mit Umbenennung
+const { address: { city: homeCity } } = company;
+console.log(homeCity); // "Berlin"
+```
+
+---
+
+## 3. Spread Operator (...)
+
+### 3a. Spread mit Arrays
 ```javascript
 const arr1 = [1, 2, 3];
 const arr2 = [4, 5];
-const combinedArray = [...arr1, ...arr2];
-console.log("8.", combinedArray);
----
-> 8. (5) [1, 2, 3, 4, 5]
+
+// Spread zum Kombinieren
+const combined = [...arr1, ...arr2];
+console.log(combined); // [1, 2, 3, 4, 5]
+
+// Mit zusätzlichen Elementen
+const withExtra = [0, ...arr1, 3.5, ...arr2, 6];
+console.log(withExtra); // [0, 1, 2, 3, 3.5, 4, 5, 6]
+
+// Array kopieren
+const copy = [...arr1];
+console.log(copy); // [1, 2, 3]
 ```
-#### 9. Spread with Objects
-TODO: Merge them so finalSettings has darkMode: true, showSidebar: true
+
+### 3b. Spread mit Objekten
 ```javascript
 const defaults = { darkMode: false, showSidebar: true };
 const userSettings = { darkMode: true };
-const combinedObject = { ...defaults, ...userSettings};
-console.log(combinedObject);
----
-> {darkMode: true, showSidebar: true}
-```
-### CHALLENGE
-#### 10. Function Parameters with Destructuring
-TODO: Write a function that takes a user object like:
-```javascript
-// { name: "Lisa", age: 20, city: "Paris" }
-// and logs: "Lisa (20) from Paris"
-const obj = { name: "Lisa", age: 20, city: "Paris" };
-function excercise( { name, age, city }) {
-  console.log("10. ", name + " (" + age + ") from " + city);
-}
-excercise(obj);
----
-> 10.  Lisa (20) from Paris
-```
-#### 11. Swapping Values
-TODO: Use array destructuring to swap values of x and y
-```javascript
-let x = 5,
-  y = 10;
 
-[x, y]=[y, x];
-console.log("11. x=" + x + " y=" + y)
----
-> 11. x=10 y=5
+// Merge (userSettings überschreibt defaults)
+const finalSettings = { ...defaults, ...userSettings };
+console.log(finalSettings);
+// { darkMode: true, showSidebar: true }
+
+// Mit zusätzlichen Properties
+const extended = {
+  ...defaults,
+  fontSize: 16,
+  ...userSettings,
+  language: "de"
+};
+console.log(extended);
+// { darkMode: true, showSidebar: true, fontSize: 16, language: "de" }
 ```
-#### 12. Deep Destructuring
-TODO: Extract coach and the name of the goalkeeper
+
+### 3c. Object immutable updaten
 ```javascript
-const team = {
-  coach: "Marta",
-  players: [
-    { name: "Anna", position: "forward" },
-    { name: "Sophie", position: "goalkeeper" },
-  ],
+const user = { name: "Alice", age: 25, city: "Berlin" };
+
+// Immutabel: neues Objekt, original unverändert
+const updatedUser = { ...user, age: 26 };
+console.log(user);        // { name: "Alice", age: 25, ... }
+console.log(updatedUser); // { name: "Alice", age: 26, ... }
+```
+
+---
+
+## 4. Praktische Anwendungen
+
+### 4a. Funktions-Parameter mit Destructuring
+```javascript
+// Alt
+function printUser(user) {
+  console.log(user.name, user.age, user.city);
+}
+
+// Neu
+function printUser({ name, age, city }) {
+  console.log(`${name} (${age}) from ${city}`);
+}
+
+printUser({ name: "Lisa", age: 20, city: "Paris" });
+// "Lisa (20) from Paris"
+```
+
+**Mit Default-Werten:**
+```javascript
+function greet({ name = "Guest", greeting = "Hello" } = {}) {
+  console.log(`${greeting}, ${name}!`);
+}
+
+greet({ name: "Alice" });  // "Hello, Alice!"
+greet({});                 // "Hello, Guest!"
+greet();                   // "Hello, Guest!"
+```
+
+### 4b. API-Response verarbeiten
+```javascript
+// Typische API-Response
+const apiResponse = {
+  success: true,
+  data: {
+    user: {
+      id: 123,
+      name: "Max",
+      email: "max@example.com"
+    },
+    posts: 5
+  }
 };
 
-const { 
-  coach, 
-  players: [, { name: goalkeeperName }] 
-} = team;
-console.log("12.", coach, goalkeeperName);
----
-> 12. Marta Sophie
+// Destructure das, was wir brauchen
+const { data: { user: { name, email } } } = apiResponse;
+console.log(name, email); // "Max" "max@example.com"
 ```
-#### 13. Combine Rest + Spread
-TODO: Extract the first two numbers into variables,
+
+### 4c. Array aus Funktion
 ```javascript
-const nums = [1, 2, 3, 4, 5];
-const [first, second, ...rest] = nums;
-const newArray = [first, second, ...rest, 99];
-console.log("13.", newArray);
----
-> (6) [1, 2, 3, 4, 5, 99]
+function getCoordinates() {
+  return [10, 20];
+}
+
+// Destructure die Return-Werte
+const [x, y] = getCoordinates();
+console.log(x, y); // 10 20
+
+// Oder mit Rest
+const [first, ...rest] = [1, 2, 3, 4, 5];
+console.log(first); // 1
+console.log(rest);  // [2, 3, 4, 5]
 ```
+
+### 4d. Werte tauschen
+```javascript
+let a = 5;
+let b = 10;
+
+// Einfacher Austausch mit Destructuring
+[a, b] = [b, a];
+console.log(a, b); // 10 5
+```
+
+---
+
+## 5. Tieferes Destructuring
+
+### 5a. Deep Destructuring von verschachtelten Strukturen
+```javascript
+const team = {
+  name: "FC Munich",
+  coach: "Marta",
+  players: [
+    { name: "Anna", position: "forward", number: 7 },
+    { name: "Sophie", position: "goalkeeper", number: 1 },
+    { name: "Lisa", position: "defender", number: 4 }
+  ]
+};
+
+// Extrahiere Coach und Namen des Torwarts (2. Spieler)
+const {
+  coach,
+  players: [, { name: goalkeeperName }]
+} = team;
+
+console.log(coach, goalkeeperName); // "Marta" "Sophie"
+
+// Oder mit allen Spielern
+const { players: [forward, goalkeeper, defender] } = team;
+console.log(forward.name, goalkeeper.name); // "Anna" "Sophie"
+```
+
+### 5b. Kombiniere Rest + Spread
+```javascript
+const numbers = [1, 2, 3, 4, 5];
+
+// Destructure first zwei, rest in Array, dann wieder spreaden
+const [first, second, ...rest] = numbers;
+const newArray = [first, second, ...rest, 99];
+console.log(newArray); // [1, 2, 3, 4, 5, 99]
+
+// Praktisch: Array-Manipulation
+const [head, ...tail] = [10, 20, 30, 40];
+const modified = [head * 2, ...tail]; // [20, 20, 30, 40]
+```
+
+---
+
+## 6. For-Loops mit Destructuring
+
+### 6a. Array von Objekten
+```javascript
+const users = [
+  { id: 1, name: "Alice" },
+  { id: 2, name: "Bob" },
+  { id: 3, name: "Charlie" }
+];
+
+// Destructuring im for-loop
+for (const { id, name } of users) {
+  console.log(`${id}: ${name}`);
+}
+// 1: Alice
+// 2: Bob
+// 3: Charlie
+```
+
+### 6b. Array von Arrays
+```javascript
+const coordinates = [
+  [10, 20],
+  [30, 40],
+  [50, 60]
+];
+
+for (const [x, y] of coordinates) {
+  console.log(`(${x}, ${y})`);
+}
+// (10, 20)
+// (30, 40)
+// (50, 60)
+```
+
+---
+
+## 7. Mit Array-Methoden
+
+### 7a. map() mit Destructuring
+```javascript
+const users = [
+  { name: "Alice", age: 25 },
+  { name: "Bob", age: 30 }
+];
+
+const names = users.map(({ name }) => name);
+console.log(names); // ["Alice", "Bob"]
+
+const adults = users.filter(({ age }) => age >= 18);
+console.log(adults); // Alle Users (alle >= 18)
+```
+
+### 7b. Destructuring mit find()
+```javascript
+const products = [
+  { id: 1, name: "Laptop", price: 1000 },
+  { id: 2, name: "Phone", price: 500 },
+  { id: 3, name: "Tablet", price: 300 }
+];
+
+const { price } = products.find(({ name }) => name === "Phone");
+console.log(price); // 500
+```
+
+---
+
+## 8. Best Practices
+
+### ✅ Do's
+- Verwende Destructuring für lesbare Code
+- Nutze Default-Werte bei optionalen Properties
+- Nutze Rest-Operator für nicht benötigte Werte
+- Verwende Spread für immutable Updates
+- Combine mit Funktions-Parametern
+
+### ❌ Don'ts
+- Vermeide zu tiefe Verschachtelung (schwer lesbar)
+- Denke an unterschiedliche Variablennamen bei Umbennung
+- Nutze nicht beide: Destructuring + direkte Zugriffe (verwirrend)
+- Vergesse nicht: Arrays/Objekte mit Spread sind Shallow Copies
+
+---
+
+## 9. Häufige Fehler
+
+### Fehler 1: Falsche Syntax
+```javascript
+// Falsch
+const [x, y] = { x: 1, y: 2 }; // Objekt, nicht Array!
+
+// Richtig
+const { x, y } = { x: 1, y: 2 };
+```
+
+### Fehler 2: Variable bereits definiert
+```javascript
+// Falsch
+let x = 5;
+{ x, y } = { x: 10, y: 20 }; // SyntaxError
+
+// Richtig
+let x = 5;
+({ x, y } = { x: 10, y: 20 }); // Klammern!
+```
+
+### Fehler 3: Rest muss am Ende sein
+```javascript
+// Falsch
+const [first, ...rest, last] = [1, 2, 3, 4]; // SyntaxError
+
+// Richtig
+const [first, ...middle] = [1, 2, 3, 4];
+```
+
+---
+
+## 10. Vergleich: Alt vs. Neu
+
+```javascript
+// ===== ALT (verbose) =====
+const data = {
+  user: { name: "Alice", age: 25 },
+  settings: { theme: "dark" }
+};
+
+const userName = data.user.name;
+const userAge = data.user.age;
+const theme = data.settings.theme;
+
+// ===== NEU (Destructuring) =====
+const {
+  user: { name, age },
+  settings: { theme }
+} = data;
+
+console.log(name, age, theme); // "Alice" 25 "dark"
+```
+
+---
+
+## Weiterführende Ressourcen
+
+- [MDN — Destructuring Assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+- [JavaScript.info — Destructuring](https://javascript.info/destructuring-assignment)
+- [ES6 Features — Destructuring](https://es6-features.org/#destructuring)

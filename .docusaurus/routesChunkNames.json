@@ -42,17 +42,17 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/docs-84d": {
+  "/docs-6ec": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-fc5": {
+  "/docs-38b": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-4af": {
+  "/docs-c31": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/AI-e5b": {
@@ -71,13 +71,13 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-coding-404-e7d"
   },
-  "/docs/Coding/html-css-Backgrounds-985": {
+  "/docs/Coding/html-css-backgrounds-e34": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-coding-html-css-backgrounds-104-eb6"
+    "content": "content---docs-coding-html-css-backgrounds-104-549"
   },
-  "/docs/Coding/html-css-Bildformate-2f2": {
+  "/docs/Coding/html-css-bildformate-275": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-coding-html-css-bildformate-28-a-4ec"
+    "content": "content---docs-coding-html-css-bildformate-28-a-675"
   },
   "/docs/Coding/html-css-Boxenmodell-493": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -111,33 +111,45 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-coding-html-css-tailwind-452-e8b"
   },
-  "/docs/Coding/js-Authentication-456": {
+  "/docs/Coding/js-authentication-f8e": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-coding-js-authenticationedd-4b8"
+    "content": "content---docs-coding-js-authenticationedd-5ee"
   },
-  "/docs/Coding/js-Destructuring-ad3": {
+  "/docs/Coding/js-destructuring-5b2": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-coding-js-destructuringcf-6-5cf"
+    "content": "content---docs-coding-js-destructuringcf-6-c8d"
   },
-  "/docs/Coding/js-EJS-dac": {
+  "/docs/Coding/js-ejs-625": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-coding-js-ejs-8-d-7-3d4"
+    "content": "content---docs-coding-js-ejs-0-d-6-ad2"
   },
-  "/docs/Coding/js-Express-abb": {
+  "/docs/Coding/js-express-f4f": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-coding-js-express-220-517"
+    "content": "content---docs-coding-js-express-220-1f7"
   },
   "/docs/Coding/js-Fehlerbehandlung-840": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-coding-js-fehlerbehandlung-23-d-a74"
   },
-  "/docs/Coding/js-Funktionen-b12": {
+  "/docs/Coding/js-filesystem-f45": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-coding-js-funktionena-3-e-194"
+    "content": "content---docs-coding-js-filesystem-428-474"
   },
-  "/docs/Coding/js-Grouping-f9f": {
+  "/docs/Coding/js-funktionen-2e9": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-coding-js-grouping-602-812"
+    "content": "content---docs-coding-js-funktionena-3-e-de9"
+  },
+  "/docs/Coding/js-grouping-c09": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-coding-js-grouping-602-47d"
+  },
+  "/docs/Coding/js-kalkulationen-32a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-coding-js-kalkulationen-0-f-4-570"
+  },
+  "/docs/Coding/js-Klassen-a85": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-coding-js-klassen-843-750"
   },
   "/docs/Coding/js-Loops-e80": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -179,6 +191,10 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-englisch-training-en-be-3120-g-58-b-38a"
   },
+  "/docs/Englisch-Training/EN_BE_3121X-ac8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3121-xab-5-3ed"
+  },
   "/docs/Englisch-Training/EN_BE_3122X-fa5": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-englisch-training-en-be-3122-xcd-4-979"
@@ -198,6 +214,30 @@
   "/docs/Englisch-Training/EN_BE_3201X-950": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-englisch-training-en-be-3201-x-9-be-7e3"
+  },
+  "/docs/Englisch-Training/EN_BE_3212W-9f5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3212-we-4-b-d4b"
+  },
+  "/docs/Englisch-Training/EN_BE_3213X-889": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3213-x-4-b-2-629"
+  },
+  "/docs/Englisch-Training/EN_BE_3214X-549": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3214-xa-7-b-b6d"
+  },
+  "/docs/Englisch-Training/EN_BE_3215X-d81": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3215-xb-10-f34"
+  },
+  "/docs/Englisch-Training/EN_BE_3301X-e38": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3301-x-7-d-7-2e6"
+  },
+  "/docs/Englisch-Training/EN_BE_3302X-5b2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3302-x-362-a1b"
   },
   "/docs/Englisch-Training/EN_BE_3303X-662": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -527,6 +567,10 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-gitfe-6-883"
   },
+  "/docs/Git/Zwei-Git-Accounts-878": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-git-zwei-git-accounts-8-f-3-d82"
+  },
   "/docs/Karriere-1f0": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-karriere-04-c-d01"
@@ -551,6 +595,10 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-server-google-dns-fehler-412-1db"
   },
+  "/docs/Server/next.js-d44": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-server-next-js-6-ac-7e2"
+  },
   "/docs/Server/node.js-3d9": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-server-node-js-83-f-96f"
@@ -563,21 +611,25 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-server-server-sicherheit-63-d-ebc"
   },
-  "/docs/Tools-528": {
+  "/docs/Tools-Linux-d37": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-toolse-37-45f"
+    "content": "content---docs-tools-linuxc-30-bf9"
   },
-  "/docs/Tools/tools-TeraTerm-308": {
+  "/docs/Tools-Linux/tools-TeraTerm-19e": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tools-tools-tera-term-9-a-4-399"
+    "content": "content---docs-tools-linux-tools-tera-termebe-c79"
   },
-  "/docs/Tools/tools-VSCode-Emmet-Definition-39a": {
+  "/docs/Tools-Linux/tools-VSCode-Emmet-Definition-389": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tools-tools-vs-code-emmet-definition-406-972"
+    "content": "content---docs-tools-linux-tools-vs-code-emmet-definition-512-ac0"
   },
-  "/docs/Tools/tools-VSCode-Konfiguration-000": {
+  "/docs/Tools-Linux/tools-VSCode-Konfiguration-c09": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tools-tools-vs-code-konfigurationa-99-c0a"
+    "content": "content---docs-tools-linux-tools-vs-code-konfiguration-332-1ae"
+  },
+  "/docs/Tools-Linux/Wireshark-a11": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tools-linux-wireshark-3-ea-195"
   },
   "/-2e1": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",

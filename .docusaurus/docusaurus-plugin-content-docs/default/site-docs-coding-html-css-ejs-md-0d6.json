@@ -1,0 +1,26 @@
+{
+  "id": "Coding/js-ejs",
+  "title": "EJS — Template Engine",
+  "description": "EJS Syntax",
+  "source": "@site/docs/Coding/html-css-EJS.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/js-ejs",
+  "permalink": "/docs/Coding/js-ejs",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "js-ejs",
+    "title": "EJS — Template Engine"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "html-css-Datenspeicherung",
+    "permalink": "/docs/Coding/html-css-Datenspeicherung"
+  },
+  "next": {
+    "title": "html-css-Fonts",
+    "permalink": "/docs/Coding/html-css-Fonts"
+  }
+}

@@ -8,10 +8,14 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ##### Training Documents
 - [EN_BE_3119G - Using modals verbs to express certainty](./EN_BE_3119G.md),
-- [EN_BE_3120G]()
-- [EN_BE_3122X]()
-- [EN_BE_3125X]()
-- [EN_BE_3201X]()
+- [EN_BE_3120G - Quantifiers](./EN_BE_3120G.md)
+EN_BE_3121X
+- [EN_BE_3122X - Handling business visits](./EN_BE_3122X.md)
+- [EN_BE_3123X - The language of software](./EN_BE_3123X.md)
+- [EN_BE_3124X - Security in the workplace](./EN_BE_3124X.md)
+- [EN_BE_3125X - Dealing with complaints inside the office](./EN_BE_3125X.md)
+- [EN_BE_3201X - Using modals verbs to express certainty](./EN_BE_3201X.md)
+- [EN_BE_3303X - Using modals verbs to express certainty](./EN_BE_3303X.md)
 - [EN_BE_3304X - Advanced structures to express modality](./EN_BE_3304X.md)
 - [EN_BE_3305X - Expressing regrets and criticisms](./EN_BE_3305X.md)
 - [EN_BE_3303X - Using concessive structures](./EN_BE_3303X.md)

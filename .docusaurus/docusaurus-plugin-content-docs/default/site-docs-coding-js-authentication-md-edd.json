@@ -1,23 +1,26 @@
 {
-  "id": "Coding/js-Authentication",
-  "title": "js-Authentication",
-  "description": "Authentifizierung mit Verwendung von Token / Cookie / Hash",
+  "id": "Coding/js-authentication",
+  "title": "JavaScript — Authentication & Authorization",
+  "description": "Authentifizierung mit Token, Cookie, Hash & UUID",
   "source": "@site/docs/Coding/js-Authentication.md",
   "sourceDirName": "Coding",
-  "slug": "/Coding/js-Authentication",
-  "permalink": "/docs/Coding/js-Authentication",
+  "slug": "/Coding/js-authentication",
+  "permalink": "/docs/Coding/js-authentication",
   "draft": false,
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "frontMatter": {
+    "id": "js-authentication",
+    "title": "JavaScript — Authentication & Authorization"
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "html-css-Tailwind",
     "permalink": "/docs/Coding/html-css-Tailwind"
   },
   "next": {
-    "title": "js-Destructuring",
-    "permalink": "/docs/Coding/js-Destructuring"
+    "title": "JavaScript — Destructuring",
+    "permalink": "/docs/Coding/js-destructuring"
   }
 }

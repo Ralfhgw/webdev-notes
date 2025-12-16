@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Web Server Security",
-    "permalink": "/docs/Server/Server-Sicherheit"
+    "title": "next.js",
+    "permalink": "/docs/Server/next.js"
   },
   "next": {
     "title": "Web Production Server",

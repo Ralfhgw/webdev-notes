@@ -31,13 +31,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Coding/html-css-Backgrounds",
-              "path": "/docs/Coding/html-css-Backgrounds",
+              "id": "Coding/html-css-backgrounds",
+              "path": "/docs/Coding/html-css-backgrounds",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Coding/html-css-Bildformate",
-              "path": "/docs/Coding/html-css-Bildformate",
+              "id": "Coding/html-css-bildformate",
+              "path": "/docs/Coding/html-css-bildformate",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -81,23 +81,23 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Coding/js-Authentication",
-              "path": "/docs/Coding/js-Authentication",
+              "id": "Coding/js-authentication",
+              "path": "/docs/Coding/js-authentication",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Coding/js-Destructuring",
-              "path": "/docs/Coding/js-Destructuring",
+              "id": "Coding/js-destructuring",
+              "path": "/docs/Coding/js-destructuring",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Coding/js-EJS",
-              "path": "/docs/Coding/js-EJS",
+              "id": "Coding/js-ejs",
+              "path": "/docs/Coding/js-ejs",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Coding/js-Express",
-              "path": "/docs/Coding/js-Express",
+              "id": "Coding/js-express",
+              "path": "/docs/Coding/js-express",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -106,13 +106,28 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Coding/js-Funktionen",
-              "path": "/docs/Coding/js-Funktionen",
+              "id": "Coding/js-filesystem",
+              "path": "/docs/Coding/js-filesystem",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Coding/js-Grouping",
-              "path": "/docs/Coding/js-Grouping",
+              "id": "Coding/js-funktionen",
+              "path": "/docs/Coding/js-funktionen",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Coding/js-grouping",
+              "path": "/docs/Coding/js-grouping",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Coding/js-kalkulationen",
+              "path": "/docs/Coding/js-kalkulationen",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Coding/js-Klassen",
+              "path": "/docs/Coding/js-Klassen",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -161,6 +176,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Englisch-Training/EN_BE_3121X",
+              "path": "/docs/Englisch-Training/EN_BE_3121X",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Englisch-Training/EN_BE_3122X",
               "path": "/docs/Englisch-Training/EN_BE_3122X",
               "sidebar": "tutorialSidebar"
@@ -183,6 +203,36 @@
             {
               "id": "Englisch-Training/EN_BE_3201X",
               "path": "/docs/Englisch-Training/EN_BE_3201X",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Englisch-Training/EN_BE_3212W",
+              "path": "/docs/Englisch-Training/EN_BE_3212W",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Englisch-Training/EN_BE_3213X",
+              "path": "/docs/Englisch-Training/EN_BE_3213X",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Englisch-Training/EN_BE_3214X",
+              "path": "/docs/Englisch-Training/EN_BE_3214X",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Englisch-Training/EN_BE_3215X",
+              "path": "/docs/Englisch-Training/EN_BE_3215X",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Englisch-Training/EN_BE_3301X",
+              "path": "/docs/Englisch-Training/EN_BE_3301X",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Englisch-Training/EN_BE_3302X",
+              "path": "/docs/Englisch-Training/EN_BE_3302X",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -601,6 +651,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Git/Zwei-Git-Accounts",
+              "path": "/docs/Git/Zwei-Git-Accounts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Karriere/Karriere-intro",
               "path": "/docs/Karriere",
               "sidebar": "tutorialSidebar"
@@ -626,6 +681,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Server/next.js",
+              "path": "/docs/Server/next.js",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Server/node.js",
               "path": "/docs/Server/node.js",
               "sidebar": "tutorialSidebar"
@@ -646,23 +706,28 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Tools/Tools",
-              "path": "/docs/Tools",
+              "id": "Tools-Linux/Tools-Linux",
+              "path": "/docs/Tools-Linux",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Tools/tools-TeraTerm",
-              "path": "/docs/Tools/tools-TeraTerm",
+              "id": "Tools-Linux/tools-TeraTerm",
+              "path": "/docs/Tools-Linux/tools-TeraTerm",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Tools/tools-VSCode-Emmet-Definition",
-              "path": "/docs/Tools/tools-VSCode-Emmet-Definition",
+              "id": "Tools-Linux/tools-VSCode-Emmet-Definition",
+              "path": "/docs/Tools-Linux/tools-VSCode-Emmet-Definition",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Tools/tools-VSCode-Konfiguration",
-              "path": "/docs/Tools/tools-VSCode-Konfiguration",
+              "id": "Tools-Linux/tools-VSCode-Konfiguration",
+              "path": "/docs/Tools-Linux/tools-VSCode-Konfiguration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Tools-Linux/Wireshark",
+              "path": "/docs/Tools-Linux/Wireshark",
               "sidebar": "tutorialSidebar"
             }
           ],

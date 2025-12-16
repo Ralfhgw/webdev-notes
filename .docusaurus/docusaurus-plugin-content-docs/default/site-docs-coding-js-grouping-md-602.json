@@ -1,23 +1,26 @@
 {
-  "id": "Coding/js-Grouping",
-  "title": "js-Grouping",
-  "description": "BASIC",
+  "id": "Coding/js-grouping",
+  "title": "JavaScript — Data Grouping & Aggregation",
+  "description": "Was ist Data Grouping?",
   "source": "@site/docs/Coding/js-Grouping.md",
   "sourceDirName": "Coding",
-  "slug": "/Coding/js-Grouping",
-  "permalink": "/docs/Coding/js-Grouping",
+  "slug": "/Coding/js-grouping",
+  "permalink": "/docs/Coding/js-grouping",
   "draft": false,
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "frontMatter": {
+    "id": "js-grouping",
+    "title": "JavaScript — Data Grouping & Aggregation"
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "js-Funktionen",
-    "permalink": "/docs/Coding/js-Funktionen"
+    "title": "JavaScript — Funktionen",
+    "permalink": "/docs/Coding/js-funktionen"
   },
   "next": {
-    "title": "js-Loops",
-    "permalink": "/docs/Coding/js-Loops"
+    "title": "JavaScript — Mathematik & Berechnungen",
+    "permalink": "/docs/Coding/js-kalkulationen"
   }
 }

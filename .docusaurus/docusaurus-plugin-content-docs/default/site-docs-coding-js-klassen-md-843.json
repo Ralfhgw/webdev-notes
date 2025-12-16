@@ -1,0 +1,23 @@
+{
+  "id": "Coding/js-Klassen",
+  "title": "js-Klassen",
+  "description": "Constructor",
+  "source": "@site/docs/Coding/js-Klassen.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/js-Klassen",
+  "permalink": "/docs/Coding/js-Klassen",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "JavaScript — Mathematik & Berechnungen",
+    "permalink": "/docs/Coding/js-kalkulationen"
+  },
+  "next": {
+    "title": "js-Loops",
+    "permalink": "/docs/Coding/js-Loops"
+  }
+}

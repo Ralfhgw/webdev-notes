@@ -50,5 +50,3 @@ Deaktiviere die Option:
 HTML > Auto Closing Tags → Haken entfernen
 
 
-
-

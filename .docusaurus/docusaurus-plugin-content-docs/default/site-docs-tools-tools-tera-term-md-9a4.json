@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Tools",
-    "permalink": "/docs/Tools"
+    "title": "Wireshark",
+    "permalink": "/docs/Tools/Wireshark"
   },
   "next": {
     "title": "tools-VSCode-Emmet-Definition",

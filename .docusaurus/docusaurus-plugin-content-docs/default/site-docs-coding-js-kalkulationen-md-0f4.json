@@ -1,0 +1,26 @@
+{
+  "id": "Coding/js-kalkulationen",
+  "title": "JavaScript — Mathematik & Berechnungen",
+  "description": "Zahlen in JavaScript",
+  "source": "@site/docs/Coding/js-Kalkulationen.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/js-kalkulationen",
+  "permalink": "/docs/Coding/js-kalkulationen",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "js-kalkulationen",
+    "title": "JavaScript — Mathematik & Berechnungen"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "JavaScript — Data Grouping & Aggregation",
+    "permalink": "/docs/Coding/js-grouping"
+  },
+  "next": {
+    "title": "js-Klassen",
+    "permalink": "/docs/Coding/js-Klassen"
+  }
+}

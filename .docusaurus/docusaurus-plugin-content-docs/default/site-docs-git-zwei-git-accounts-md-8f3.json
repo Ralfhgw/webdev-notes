@@ -1,0 +1,19 @@
+{
+  "id": "Git/Zwei-Git-Accounts",
+  "title": "Zwei-Git-Accounts",
+  "description": "Verwenden von zwei Git Accounts",
+  "source": "@site/docs/Git/Zwei-Git-Accounts.md",
+  "sourceDirName": "Git",
+  "slug": "/Git/Zwei-Git-Accounts",
+  "permalink": "/docs/Git/Zwei-Git-Accounts",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Git",
+    "permalink": "/docs/Git"
+  }
+}

@@ -1,23 +1,26 @@
 {
-  "id": "Coding/js-Destructuring",
-  "title": "js-Destructuring",
-  "description": "BASIC",
+  "id": "Coding/js-destructuring",
+  "title": "JavaScript — Destructuring",
+  "description": "Was ist Destructuring?",
   "source": "@site/docs/Coding/js-Destructuring.md",
   "sourceDirName": "Coding",
-  "slug": "/Coding/js-Destructuring",
-  "permalink": "/docs/Coding/js-Destructuring",
+  "slug": "/Coding/js-destructuring",
+  "permalink": "/docs/Coding/js-destructuring",
   "draft": false,
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "frontMatter": {
+    "id": "js-destructuring",
+    "title": "JavaScript — Destructuring"
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "js-Authentication",
-    "permalink": "/docs/Coding/js-Authentication"
+    "title": "JavaScript — Authentication & Authorization",
+    "permalink": "/docs/Coding/js-authentication"
   },
   "next": {
-    "title": "js-EJS",
-    "permalink": "/docs/Coding/js-EJS"
+    "title": "Express.js — Web Framework für Node.js",
+    "permalink": "/docs/Coding/js-express"
   }
 }

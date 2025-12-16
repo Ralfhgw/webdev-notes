@@ -1,0 +1,26 @@
+{
+  "id": "Coding/js-filesystem",
+  "title": "Node.js — Filesystem (fs)",
+  "description": "File System API",
+  "source": "@site/docs/Coding/js-Filesystem.md",
+  "sourceDirName": "Coding",
+  "slug": "/Coding/js-filesystem",
+  "permalink": "/docs/Coding/js-filesystem",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "js-filesystem",
+    "title": "Node.js — Filesystem (fs)"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "js-Fehlerbehandlung",
+    "permalink": "/docs/Coding/js-Fehlerbehandlung"
+  },
+  "next": {
+    "title": "JavaScript — Funktionen",
+    "permalink": "/docs/Coding/js-funktionen"
+  }
+}

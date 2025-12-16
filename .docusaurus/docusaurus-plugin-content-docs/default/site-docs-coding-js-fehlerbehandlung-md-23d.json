@@ -13,11 +13,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "js-Express",
-    "permalink": "/docs/Coding/js-Express"
+    "title": "Express.js — Web Framework für Node.js",
+    "permalink": "/docs/Coding/js-express"
   },
   "next": {
-    "title": "js-Funktionen",
-    "permalink": "/docs/Coding/js-Funktionen"
+    "title": "Node.js — Filesystem (fs)",
+    "permalink": "/docs/Coding/js-filesystem"
   }
 }

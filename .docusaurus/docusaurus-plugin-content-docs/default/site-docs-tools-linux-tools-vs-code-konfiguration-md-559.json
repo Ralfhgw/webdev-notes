@@ -1,0 +1,19 @@
+{
+  "id": "Tools / Linux/tools-VSCode-Konfiguration",
+  "title": "tools-VSCode-Konfiguration",
+  "description": "Keyboard shortcuts for Linux",
+  "source": "@site/docs/Tools / Linux/tools-VSCode-Konfiguration.md",
+  "sourceDirName": "Tools / Linux",
+  "slug": "/Tools / Linux/tools-VSCode-Konfiguration",
+  "permalink": "/docs/Tools / Linux/tools-VSCode-Konfiguration",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "tools-VSCode-Emmet-Definition",
+    "permalink": "/docs/Tools / Linux/tools-VSCode-Emmet-Definition"
+  }
+}

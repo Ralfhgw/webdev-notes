@@ -1,8 +1,8 @@
 {
-  "label": "Tools",
+  "label": "Tools-Linux",
   "collapsed": true,
   "link": {
     "type": "doc",
-    "id": "Tools"
+    "id": "Tools-Linux"
   }
 }

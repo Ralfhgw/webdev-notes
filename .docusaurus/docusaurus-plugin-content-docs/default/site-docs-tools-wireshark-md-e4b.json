@@ -1,0 +1,23 @@
+{
+  "id": "Tools/Wireshark",
+  "title": "Wireshark",
+  "description": "TLS entschlüsseln",
+  "source": "@site/docs/Tools/Wireshark.md",
+  "sourceDirName": "Tools",
+  "slug": "/Tools/Wireshark",
+  "permalink": "/docs/Tools/Wireshark",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tools",
+    "permalink": "/docs/Tools"
+  },
+  "next": {
+    "title": "tools-TeraTerm",
+    "permalink": "/docs/Tools/tools-TeraTerm"
+  }
+}

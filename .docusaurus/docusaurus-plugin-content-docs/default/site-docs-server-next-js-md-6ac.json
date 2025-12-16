@@ -1,0 +1,23 @@
+{
+  "id": "Server/next.js",
+  "title": "next.js",
+  "description": "Installation",
+  "source": "@site/docs/Server/next.js.md",
+  "sourceDirName": "Server",
+  "slug": "/Server/next.js",
+  "permalink": "/docs/Server/next.js",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Web Server Security",
+    "permalink": "/docs/Server/Server-Sicherheit"
+  },
+  "next": {
+    "title": "node.js",
+    "permalink": "/docs/Server/node.js"
+  }
+}

@@ -17,7 +17,7 @@ export default function Home() {
             <li><Link to="/docs/Browser">Browser</Link></li>
             <li><Link to="/docs/Coding">Coding</Link></li>
             <li><Link to="/docs/Server">Server</Link></li>
-            <li><Link to="/docs/Tools">Tools</Link></li>
+            <li><Link to="/docs/Tools-Linux">Tools-Linux</Link></li>
             <li><Link to="/docs/DCI-Abschlussprojekt">DCI Abschlussprojekt</Link></li>
             <li><Link to="/docs/Englisch-Training">Englisch Training</Link></li>
             <li><Link to="/docs/AIA-Club">AIA Club</Link></li>

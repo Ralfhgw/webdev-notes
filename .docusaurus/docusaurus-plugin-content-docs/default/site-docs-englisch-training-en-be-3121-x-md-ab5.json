@@ -1,0 +1,23 @@
+{
+  "id": "Englisch-Training/EN_BE_3121X",
+  "title": "EN_BE_3121X",
+  "description": "ENBE3121X - Describing company processes",
+  "source": "@site/docs/Englisch-Training/EN_BE_3121X.md",
+  "sourceDirName": "Englisch-Training",
+  "slug": "/Englisch-Training/EN_BE_3121X",
+  "permalink": "/docs/Englisch-Training/EN_BE_3121X",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "EN_BE_3120G",
+    "permalink": "/docs/Englisch-Training/EN_BE_3120G"
+  },
+  "next": {
+    "title": "EN_BE_3122X",
+    "permalink": "/docs/Englisch-Training/EN_BE_3122X"
+  }
+}

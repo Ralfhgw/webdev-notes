@@ -22,4 +22,3 @@ DIR 01;34 # directory --> DIR 01;33 # directory
 
 in ~/.bashrc
 eval "$(dircolors -b ~/.dircolors)"
-```

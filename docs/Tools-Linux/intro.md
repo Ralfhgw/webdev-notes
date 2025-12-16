@@ -1,7 +1,7 @@
 ---
-id: Tools
-title: Tools
-slug: "/Tools"
+id: Tools-Linux
+title: Tools-Linux
+slug: "/Tools-Linux"
 sidebar_position: 6
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';

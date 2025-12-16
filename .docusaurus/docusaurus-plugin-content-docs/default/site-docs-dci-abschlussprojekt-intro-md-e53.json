@@ -1,7 +1,7 @@
 {
   "id": "DCI-Abschlussprojekt/Abschlussprojekt",
   "title": "Abschlussprojekt",
-  "description": "Ein Web-basiertes Live-Video-Analyse-Dashboard (Full-Stack)",
+  "description": "Weather Page",
   "source": "@site/docs/DCI-Abschlussprojekt/intro.md",
   "sourceDirName": "DCI-Abschlussprojekt",
   "slug": "/DCI-Abschlussprojekt",
@@ -20,7 +20,7 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "tools-VSCode-Konfiguration",
-    "permalink": "/docs/Tools/tools-VSCode-Konfiguration"
+    "permalink": "/docs/Tools-Linux/tools-VSCode-Konfiguration"
   },
   "next": {
     "title": "Englisch Training",

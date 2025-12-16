@@ -4,6 +4,45 @@ title: Abschlussprojekt
 slug: /DCI-Abschlussprojekt
 sidebar_position: 7
 ---
+#### Weather Page
+API: https://api.open-meteo.com/v1/forecast?latitude=54.08&longitude=13.38&current_weather=true&daily=temperature_2m_max,temperature_2m_min,precipitation_sum&hourly=temperature_2m,precipitation&timezone=Europe/Berlin
+
+
+https://wiki.ubuntuusers.de/Internet-TV/Stationen/
+ZDF HD: https://zdf-hls-15.akamaized.net/hls/live/2016498/de/high/master.m3u8
+Schlager Deluxe: https://sdn-global-live-streaming-packager-cache-aka.3qsdn.com/26658/26658_264_live.m3u8
+
+NASA Live
+https://www.youtube.com/watch?v=iYmvCUonukw
+https://www.youtube.com/watch?v=kPKXjSpfSo4
+https://www.youtube.com/watch?v=QviXe8xvA50
+https://www.youtube.com/nasa/live
+
+
+VLC Link mit IMOU Kamera
+rtsp://admin:L2202183@192.168.2.91:554/cam/realmonitor?channel=1&subtype=0
+Codec Video:
+MPEG-H Part2/HEVC (H.265) (hevc)
+Videoauflösung: 2560x1440
+Pufferabmessungen: 2560x1440
+Bildwiederholrate:25
+Farbraum: ITU-R BT.709
+
+Codec Audio: MPEG AAC Audio (mp4a)
+
+rtsp://admin:L2202183@192.168.2.91:554/cam/realmonitor?channel=1&subtype=1
+Codec Video:
+H264 - MPEG-4 AVC (part 10) (h264)
+Videoauflösung: 640x480
+Pufferabmessungen: 640x480
+Bildwiederholrate:25
+Farbraum: ITU-R BT.709
+
+Codec Audio: MPEG AAC Audio (mp4a)
+
+Verwendung von ffplay
+ffplay -rtsp_transport tcp -fflags +genpts "rtsp://admin:L2202183@192.168.2.91:554/cam/realmonitor?channel=1&subtype=1"
+
 
 ```
 nc -vz 192.168.2.62 4554

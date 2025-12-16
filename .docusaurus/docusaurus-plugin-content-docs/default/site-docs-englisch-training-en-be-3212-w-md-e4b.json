@@ -1,0 +1,23 @@
+{
+  "id": "Englisch-Training/EN_BE_3212W",
+  "title": "EN_BE_3212W",
+  "description": "ENBE3212W - Writing a letter of complaint",
+  "source": "@site/docs/Englisch-Training/EN_BE_3212W.md",
+  "sourceDirName": "Englisch-Training",
+  "slug": "/Englisch-Training/EN_BE_3212W",
+  "permalink": "/docs/Englisch-Training/EN_BE_3212W",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "EN_BE_3201X",
+    "permalink": "/docs/Englisch-Training/EN_BE_3201X"
+  },
+  "next": {
+    "title": "EN_BE_3213X",
+    "permalink": "/docs/Englisch-Training/EN_BE_3213X"
+  }
+}

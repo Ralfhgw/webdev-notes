@@ -1,5 +1,11 @@
+---
+id: html-css-bildformate
+title: CSS — Bildformate
+---
+
 ### Useful Weblinks
 [Bellingcat ist ein internationales Recherchekollektiv](https://de.bellingcat.com/)
+
 [Unsplash - Die zentrale Adresse für Bildmaterial im Internet.](https://unsplash.com/de)
 
 ### META Daten

@@ -2,8 +2,6 @@
 
 [Installation Tailwind mit Vite](https://tailwindcss.com/docs/installation/using-vite)
 
-[Katalog mit Tailwind Komponenten zur Auswahl](hyperrul.dev)
-
 [Tailwind Cheat Sheet](https://nerdcave.com/tailwind-cheat-sheet)
 
 Bei dynamischen Seiten clsx verwenden

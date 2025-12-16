@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "html-css-Datenspeicherung",
-    "permalink": "/docs/Coding/html-css-Datenspeicherung"
+    "title": "EJS — Template Engine",
+    "permalink": "/docs/Coding/js-ejs"
   },
   "next": {
     "title": "html-css-Grid",

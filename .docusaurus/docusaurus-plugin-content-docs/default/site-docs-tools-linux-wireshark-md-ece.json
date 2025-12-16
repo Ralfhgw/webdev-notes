@@ -1,0 +1,23 @@
+{
+  "id": "Tools / Linux/Wireshark",
+  "title": "Wireshark",
+  "description": "TLS entschlüsseln",
+  "source": "@site/docs/Tools / Linux/Wireshark.md",
+  "sourceDirName": "Tools / Linux",
+  "slug": "/Tools / Linux/Wireshark",
+  "permalink": "/docs/Tools / Linux/Wireshark",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tools",
+    "permalink": "/docs/Tools"
+  },
+  "next": {
+    "title": "tools-TeraTerm",
+    "permalink": "/docs/Tools / Linux/tools-TeraTerm"
+  }
+}

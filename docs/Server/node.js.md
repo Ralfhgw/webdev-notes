@@ -91,3 +91,8 @@ sudo apt-get install -y nodejs
 curl -fsSL https://bun.sh/install | bash
 export PATH="$HOME/.bun/bin:$PATH"
 bun -v
+
+
+
+#### Installation von Dev Modulen für die Entwicklungsumgebung 
+bun install -D @types/express

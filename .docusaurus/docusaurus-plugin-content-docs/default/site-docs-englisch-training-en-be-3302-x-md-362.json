@@ -1,0 +1,23 @@
+{
+  "id": "Englisch-Training/EN_BE_3302X",
+  "title": "EN_BE_3302X",
+  "description": "",
+  "source": "@site/docs/Englisch-Training/EN_BE_3302X.md",
+  "sourceDirName": "Englisch-Training",
+  "slug": "/Englisch-Training/EN_BE_3302X",
+  "permalink": "/docs/Englisch-Training/EN_BE_3302X",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "EN_BE_3301X",
+    "permalink": "/docs/Englisch-Training/EN_BE_3301X"
+  },
+  "next": {
+    "title": "EN_BE_3303X",
+    "permalink": "/docs/Englisch-Training/EN_BE_3303X"
+  }
+}
