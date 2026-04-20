@@ -230,7 +230,7 @@ eval "$(starship init bash)"
 
 - [The Catalog of Design Patterns](https://refactoring.guru/design-patterns/catalog)
 
-- [Material UI](mui.com)
+- [Material UI](https://mui.com)
 
 - [SCP to code-collective](scp index.html ralf@code-collective.dci-web-dev.com:/www/ralf/)
 

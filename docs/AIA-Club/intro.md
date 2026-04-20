@@ -41,7 +41,7 @@ sidebar_position: 9
 
 [Öffne openai.com](https://openai.com/de-DE/)
 
-[Öffne perplexity.ai](perplexity.ai)
+[Öffne perplexity.ai](https://perplexity.ai)
 
 [Öffne Coudinary - File Storage](https://console.cloudinary.com/)
 
