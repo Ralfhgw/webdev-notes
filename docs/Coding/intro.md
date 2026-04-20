@@ -21,7 +21,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - [HTML-CSS-Tailwind](./html-css-Tailwind.md)
 - [JavaScript-Authentication](./js-Authentication.md)
 - [JavaSript-Destructuring](./js-Destructuring.md)
-- [JavaScript-EJS](./js-EJS)
+- [JavaScript-EJS](./html-css-EJS.md)
 - [JavaScript-Express](./js-Express.md)
 - [JavaScript-Fehlerbehandlung](./js-Fehlerbehandlung.md)
 - [JavaScript-Funktionen](./js-Funktionen.md)
