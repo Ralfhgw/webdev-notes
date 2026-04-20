@@ -162,7 +162,7 @@ Online Portal zum Lernen von JavaScript / Web
 ### Linux
 - [Linux Distributions online](https://www.onworks.net/)
 ### Typing Skills
-- [Check your typing skills](Typingtest.com)
+- [Check your typing skills](https://typingtest.com)
 - [TypeRacer Game](https://play.typeracer.com/)
 - [Type Game Rockets](https://www.typing.com/student/game/ztype)
 
