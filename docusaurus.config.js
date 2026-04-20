@@ -1,4 +1,8 @@
-// @ts-check
+import { createRequire } from 'node:module';
+
+const require = createRequire(import.meta.url);
+
+/** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'WebDev Training',
   favicon: 'img/favicon.ico',
@@ -6,16 +10,18 @@ const config = {
   baseUrl: '/',
   organizationName: 'privat',
   projectName: 'webdev-notes',
+  noIndex: true,
   presets: [
     [
       'classic',
       {
         docs: {
-/*           routeBasePath: '/', */
+          /* routeBasePath: '/', */
           sidebarPath: require.resolve('./sidebars.js'),
         },
-      }
+      },
     ],
   ],
 };
+
 export default config;
