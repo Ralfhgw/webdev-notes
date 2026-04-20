@@ -1,0 +1,23 @@
+{
+  "id": "PostgreSQL/ORM-Prisma",
+  "title": "Javascript ORM: Prisma",
+  "description": "Prisma Demo API",
+  "source": "@site/docs/PostgreSQL/ORM-Prisma.md",
+  "sourceDirName": "PostgreSQL",
+  "slug": "/PostgreSQL/ORM-Prisma",
+  "permalink": "/docs/PostgreSQL/ORM-Prisma",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Installation",
+    "permalink": "/docs/PostgreSQL/Installation"
+  },
+  "next": {
+    "title": "Browser",
+    "permalink": "/docs/Browser"
+  }
+}

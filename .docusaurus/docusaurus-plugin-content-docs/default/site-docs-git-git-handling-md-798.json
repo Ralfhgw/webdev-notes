@@ -1,0 +1,23 @@
+{
+  "id": "Git/Git-Handling",
+  "title": "Git-Handling",
+  "description": "",
+  "source": "@site/docs/Git/Git-Handling.md",
+  "sourceDirName": "Git",
+  "slug": "/Git/Git-Handling",
+  "permalink": "/docs/Git/Git-Handling",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Git Actions",
+    "permalink": "/docs/Git/Git Actions"
+  },
+  "next": {
+    "title": "Kommandos",
+    "permalink": "/docs/Git/Kommandos"
+  }
+}

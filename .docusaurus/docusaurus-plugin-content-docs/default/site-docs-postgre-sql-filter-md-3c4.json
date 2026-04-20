@@ -1,0 +1,23 @@
+{
+  "id": "PostgreSQL/Filter",
+  "title": "Filter",
+  "description": "Erdbeben mit einer Stärke größer als 4,0",
+  "source": "@site/docs/PostgreSQL/Filter.md",
+  "sourceDirName": "PostgreSQL",
+  "slug": "/PostgreSQL/Filter",
+  "permalink": "/docs/PostgreSQL/Filter",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Filehandling",
+    "permalink": "/docs/PostgreSQL/Filehandling"
+  },
+  "next": {
+    "title": "Installation",
+    "permalink": "/docs/PostgreSQL/Installation"
+  }
+}

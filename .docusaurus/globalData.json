@@ -151,6 +151,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Coding/js-React-Native",
+              "path": "/docs/Coding/js-React-Native",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Coding/js-React-Router",
               "path": "/docs/Coding/js-React-Router",
               "sidebar": "tutorialSidebar"
@@ -641,13 +646,68 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Englisch-Training/EN_BE_3811X",
+              "path": "/docs/Englisch-Training/EN_BE_3811X",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Englisch-Training/EN_BE_3812X",
+              "path": "/docs/Englisch-Training/EN_BE_3812X",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Englisch-Training/EN_BE_3813X",
+              "path": "/docs/Englisch-Training/EN_BE_3813X",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Englisch-Training/EN_BE_3814X",
+              "path": "/docs/Englisch-Training/EN_BE_3814X",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Englisch-Training/EN_BE_3815X",
+              "path": "/docs/Englisch-Training/EN_BE_3815X",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Englisch-Training/EN_BE_3816X",
+              "path": "/docs/Englisch-Training/EN_BE_3816X",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Englisch-Training/EN_BE_3824G",
+              "path": "/docs/Englisch-Training/EN_BE_3824G",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Englisch-Training/EN_BE_3825G",
+              "path": "/docs/Englisch-Training/EN_BE_3825G",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Englisch-Training/english-intro",
               "path": "/docs/Englisch-Training",
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Git/Git Actions",
+              "path": "/docs/Git/Git Actions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Git/Git-Handling",
+              "path": "/docs/Git/Git-Handling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Git/Git-intro",
               "path": "/docs/Git",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Git/Kommandos",
+              "path": "/docs/Git/Kommandos",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -666,43 +726,53 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Server/Account-webschere.de",
-              "path": "/docs/Server/Account-webschere.de",
+              "id": "PostgreSQL/Commands",
+              "path": "/docs/PostgreSQL/Commands",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Server/Browser-Server-Handling",
-              "path": "/docs/Server/Browser-Server-Handling",
+              "id": "PostgreSQL/ERD Modelling",
+              "path": "/docs/PostgreSQL/ERD Modelling",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Server/Google-DNS-Fehler",
-              "path": "/docs/Server/Google-DNS-Fehler",
+              "id": "PostgreSQL/fetch()-axos()",
+              "path": "/docs/PostgreSQL/fetch()-axos()",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Server/next.js",
-              "path": "/docs/Server/next.js",
+              "id": "PostgreSQL/Filehandling",
+              "path": "/docs/PostgreSQL/Filehandling",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Server/node.js",
-              "path": "/docs/Server/node.js",
+              "id": "PostgreSQL/Filter",
+              "path": "/docs/PostgreSQL/Filter",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Server/production-server",
-              "path": "/docs/Server/production-server",
+              "id": "PostgreSQL/Installation",
+              "path": "/docs/PostgreSQL/Installation",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Server/Server-Sicherheit",
-              "path": "/docs/Server/Server-Sicherheit",
+              "id": "PostgreSQL/Mongodb",
+              "path": "/docs/PostgreSQL/Mongodb",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Server/Web-Server",
-              "path": "/docs/Server",
+              "id": "PostgreSQL/ORM_Prisma",
+              "path": "/docs/PostgreSQL/ORM_Prisma",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "PostgreSQL/ORM_Prisma_memo",
+              "path": "/docs/PostgreSQL/ORM_Prisma_memo",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "PostgreSQL/PostgreSQL",
+              "path": "/docs/PostgreSQL",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -728,6 +798,51 @@
             {
               "id": "Tools-Linux/Wireshark",
               "path": "/docs/Tools-Linux/Wireshark",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Web-Server/Account-webschere.de",
+              "path": "/docs/Web-Server/Account-webschere.de",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Web-Server/Browser-Server-Handling",
+              "path": "/docs/Web-Server/Browser-Server-Handling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Web-Server/Docker",
+              "path": "/docs/Web-Server/Docker",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Web-Server/Google-DNS-Fehler",
+              "path": "/docs/Web-Server/Google-DNS-Fehler",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Web-Server/next.js",
+              "path": "/docs/Web-Server/next.js",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Web-Server/node.js",
+              "path": "/docs/Web-Server/node.js",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Web-Server/production-server",
+              "path": "/docs/Web-Server/production-server",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Web-Server/Server-Sicherheit",
+              "path": "/docs/Web-Server/Server-Sicherheit",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Web-Server/Web-Server",
+              "path": "/docs/Web-Server",
               "sidebar": "tutorialSidebar"
             }
           ],

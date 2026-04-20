@@ -1,0 +1,23 @@
+{
+  "id": "Englisch-Training/EN_BE_3824X",
+  "title": "EN_BE_3824X",
+  "description": "",
+  "source": "@site/docs/Englisch-Training/EN_BE_3824X.md",
+  "sourceDirName": "Englisch-Training",
+  "slug": "/Englisch-Training/EN_BE_3824X",
+  "permalink": "/docs/Englisch-Training/EN_BE_3824X",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "EN_BE_3824G",
+    "permalink": "/docs/Englisch-Training/EN_BE_3824G"
+  },
+  "next": {
+    "title": "AIA-Club",
+    "permalink": "/docs/AIA-Club"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "Englisch-Training/EN_BE_3825G",
+  "title": "EN_BE_3825G",
+  "description": "Das Dokument \"Mastering the passive voice\" (ENBE3825G) ist ein Lehrplan auf Intermediate Niveau in English Grammar, das fortgeschrittene Verwendungsweisen des Passivs behandelt.",
+  "source": "@site/docs/Englisch-Training/EN_BE_3825G.md",
+  "sourceDirName": "Englisch-Training",
+  "slug": "/Englisch-Training/EN_BE_3825G",
+  "permalink": "/docs/Englisch-Training/EN_BE_3825G",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "EN_BE_3824G",
+    "permalink": "/docs/Englisch-Training/EN_BE_3824G"
+  },
+  "next": {
+    "title": "AIA-Club",
+    "permalink": "/docs/AIA-Club"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "PostgreSQL/ERD Modelling",
+  "title": "ERD Modelling",
+  "description": "ERD Modelling",
+  "source": "@site/docs/PostgreSQL/ERD Modelling.md",
+  "sourceDirName": "PostgreSQL",
+  "slug": "/PostgreSQL/ERD Modelling",
+  "permalink": "/docs/PostgreSQL/ERD Modelling",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Commands",
+    "permalink": "/docs/PostgreSQL/Commands"
+  },
+  "next": {
+    "title": "Filehandling",
+    "permalink": "/docs/PostgreSQL/Filehandling"
+  }
+}

@@ -20,6 +20,9 @@
     - Simple React Snippets 
     - Tailwind CSS IntelliSense
     - vscode-pdf
+    - prisma
+    - postgreSQL
+    - Github Actions
     
     Preferences --> Settings --> in Suchfeld "css.lint.unknown" --> Unknown at-rule --> ignore
     

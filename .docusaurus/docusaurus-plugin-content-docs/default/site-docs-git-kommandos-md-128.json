@@ -1,0 +1,23 @@
+{
+  "id": "Git/Kommandos",
+  "title": "Kommandos",
+  "description": "Ausgangssituation: Neues Projekt",
+  "source": "@site/docs/Git/Kommandos.md",
+  "sourceDirName": "Git",
+  "slug": "/Git/Kommandos",
+  "permalink": "/docs/Git/Kommandos",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Git-Handling",
+    "permalink": "/docs/Git/Git-Handling"
+  },
+  "next": {
+    "title": "Zwei-Git-Accounts",
+    "permalink": "/docs/Git/Zwei-Git-Accounts"
+  }
+}

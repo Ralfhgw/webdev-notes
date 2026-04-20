@@ -1,0 +1,23 @@
+{
+  "id": "Englisch-Training/EN_BE_3814X",
+  "title": "EN_BE_3814X",
+  "description": "Dieses Dokument (ENBE3814X.pdf) ist ein Lehrplan oder Kursmaterial von Lingoda, das sich darauf konzentriert, wie man Gespräche strukturiert, indem man Sequencing (Abfolge) und das Expressing addition (Hinzufügen von Informationen) verwendet.",
+  "source": "@site/docs/Englisch-Training/EN_BE_3814X.md",
+  "sourceDirName": "Englisch-Training",
+  "slug": "/Englisch-Training/EN_BE_3814X",
+  "permalink": "/docs/Englisch-Training/EN_BE_3814X",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "EN_BE_3813X",
+    "permalink": "/docs/Englisch-Training/EN_BE_3813X"
+  },
+  "next": {
+    "title": "EN_BE_3815X",
+    "permalink": "/docs/Englisch-Training/EN_BE_3815X"
+  }
+}

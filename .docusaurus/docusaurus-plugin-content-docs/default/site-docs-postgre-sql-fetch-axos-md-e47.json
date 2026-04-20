@@ -1,0 +1,23 @@
+{
+  "id": "PostgreSQL/fetch()-axos()",
+  "title": "fetch()-axos()",
+  "description": "",
+  "source": "@site/docs/PostgreSQL/fetch()-axos().md",
+  "sourceDirName": "PostgreSQL",
+  "slug": "/PostgreSQL/fetch()-axos()",
+  "permalink": "/docs/PostgreSQL/fetch()-axos()",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ORM_Prisma_memo",
+    "permalink": "/docs/PostgreSQL/ORM_Prisma_memo"
+  },
+  "next": {
+    "title": "Englisch Training",
+    "permalink": "/docs/Englisch-Training"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "Englisch-Training/EN_BE_3816X",
+  "title": "EN_BE_3816X",
+  "description": "Das Dokument dient als Lehrplan für eine Englischlektion, deren Hauptziel es ist, advanced modal expressions with 'be' zur Äußerung von Verpflichtungen und unterschiedlichen Graden der Sicherheit über die Zukunft zu lehren .",
+  "source": "@site/docs/Englisch-Training/EN_BE_3816X.md",
+  "sourceDirName": "Englisch-Training",
+  "slug": "/Englisch-Training/EN_BE_3816X",
+  "permalink": "/docs/Englisch-Training/EN_BE_3816X",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "EN_BE_3815X",
+    "permalink": "/docs/Englisch-Training/EN_BE_3815X"
+  },
+  "next": {
+    "title": "EN_BE_3824G",
+    "permalink": "/docs/Englisch-Training/EN_BE_3824G"
+  }
+}

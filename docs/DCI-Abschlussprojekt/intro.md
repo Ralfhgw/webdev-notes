@@ -7,6 +7,10 @@ sidebar_position: 7
 #### Weather Page
 API: https://api.open-meteo.com/v1/forecast?latitude=54.08&longitude=13.38&current_weather=true&daily=temperature_2m_max,temperature_2m_min,precipitation_sum&hourly=temperature_2m,precipitation&timezone=Europe/Berlin
 
+https://dwd.api.bund.dev/
+https://openweathermap.org/appid
+https://www.weatherbit.io/api/weather-current  (API Key)
+
 
 https://wiki.ubuntuusers.de/Internet-TV/Stationen/
 ZDF HD: https://zdf-hls-15.akamaized.net/hls/live/2016498/de/high/master.m3u8
@@ -19,6 +23,31 @@ https://www.youtube.com/watch?v=QviXe8xvA50
 https://www.youtube.com/nasa/live
 
 
+So sollte eine gute Wetter-App m.W. über folgende Funktionen verfügen:
+aktuelles Wetter
+aktuelle Temperatur
+gefühlte Temperatur
+Bewölkungsstatus
+Regenwahrscheinlickeit
+Luftdruck
+Luftfeuchtigkeit
+Windrichtung und Windgeschwindigkeit
+UV-Index
+Wettervorhersage
+Stündliche Vorhersage für die nächsten 24 Stunden
+Tagesvorhersage für mindestens 7 Tage
+Wetterwarnungen (Unwetter usw.) per Push-Mitteilung
+Radar bzw. Wetterkarten, z.B.:
+Temperatur
+Regenradar
+Bewölkungsstatus
+Niederschlagsmenge
+Windgeschwindigkeiten
+Wetter-Widgets
+ggf. zusätzliche Funktionen wie Pollenflug, Luftqualität, Webcam-Bilder
+
+
+#####################################################################################
 VLC Link mit IMOU Kamera
 rtsp://admin:L2202183@192.168.2.91:554/cam/realmonitor?channel=1&subtype=0
 Codec Video:

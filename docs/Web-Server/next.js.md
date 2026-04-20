@@ -1,8 +1,12 @@
 ### Training
-https://nextjs.org/learn/dashboard-app
+[Next.js Kurs](https://nextjs.org/learn/dashboard-app)
+[Next.js Forms](https://nextjs.org/docs/app/guides/forms)
+[Next.js Forms Video](https://www.youtube.com/watch?v=DK7WqcL9Qq4)
 ### Installation
 ```bash
 npm install -g pnpm
+npx create-next-app@latest
+Beispiel:
 npx create-next-app@latest nextjs-dashboard --example "https://github.com/vercel/next-learn/tree/main/dashboard/starter-example" --use-pnpm
 cd nextjs-dashboard
 ```

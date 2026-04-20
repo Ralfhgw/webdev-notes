@@ -1,0 +1,23 @@
+{
+  "id": "PostgreSQL/Installation",
+  "title": "Installation",
+  "description": "1. Install common libraries to handle repositories.",
+  "source": "@site/docs/PostgreSQL/Installation.md",
+  "sourceDirName": "PostgreSQL",
+  "slug": "/PostgreSQL/Installation",
+  "permalink": "/docs/PostgreSQL/Installation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Filter",
+    "permalink": "/docs/PostgreSQL/Filter"
+  },
+  "next": {
+    "title": "Mongodb",
+    "permalink": "/docs/PostgreSQL/Mongodb"
+  }
+}

@@ -32,6 +32,8 @@ upstream        git@github.com:Ralfhgw/haussanierung.git (push)
 
 $ git remote remove upstream
 $ git remote set-url origin git@github.com-work:Ralfhgw/haussanierung.git
+// If not existing ...
+$ git remote add origin git@github.com-work:Ralfhgw/haussanierung.git
 $ git remote -v
 $ git push -u origin main
 $ ls

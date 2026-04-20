@@ -1,0 +1,23 @@
+{
+  "id": "Englisch-Training/EN_BE_3813X",
+  "title": "EN_BE_3813X",
+  "description": "Dieses Dokument konzentriert sich darauf, wie man clear and detailed instructions gibt, während man gleichzeitig höflich und respektvoll bleibt. Das Hauptziel der Lektion ist es, Strukturen zu erkennen und abzurufen, um Anweisungen zu geben, und Strategien zu erklären, wie man dabei polite bleibt.",
+  "source": "@site/docs/Englisch-Training/EN_BE_3813X.md",
+  "sourceDirName": "Englisch-Training",
+  "slug": "/Englisch-Training/EN_BE_3813X",
+  "permalink": "/docs/Englisch-Training/EN_BE_3813X",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "EN_BE_3812X",
+    "permalink": "/docs/Englisch-Training/EN_BE_3812X"
+  },
+  "next": {
+    "title": "EN_BE_3814X",
+    "permalink": "/docs/Englisch-Training/EN_BE_3814X"
+  }
+}

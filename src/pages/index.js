@@ -16,14 +16,16 @@ export default function Home() {
             <li><Link to="/docs/AI">AI</Link></li>
             <li><Link to="/docs/Browser">Browser</Link></li>
             <li><Link to="/docs/Coding">Coding</Link></li>
-            <li><Link to="/docs/Server">Server</Link></li>
+            <li><Link to="/docs/Web-Server">Web-Server</Link></li>
             <li><Link to="/docs/Tools-Linux">Tools-Linux</Link></li>
             <li><Link to="/docs/DCI-Abschlussprojekt">DCI Abschlussprojekt</Link></li>
             <li><Link to="/docs/Englisch-Training">Englisch Training</Link></li>
             <li><Link to="/docs/AIA-Club">AIA Club</Link></li>
             <li><Link to="/docs/n8n-Automatisierung">n8n-Automatisierung</Link></li>
+            <li><Link to="/docs/PostgreSQL">PostgreSQL</Link></li>
             <li><Link to="/docs/Karriere">Karriere</Link></li>
-            <li><Link to="/docs/Git">Git</Link></li>            
+            <li><Link to="/docs/Git">Git</Link></li>
+            <li><Link to="/docs/PostgreSQL">Databases</Link></li>              
             
           </ul>
         </div>

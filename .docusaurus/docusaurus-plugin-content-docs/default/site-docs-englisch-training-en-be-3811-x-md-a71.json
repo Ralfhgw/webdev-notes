@@ -1,0 +1,23 @@
+{
+  "id": "Englisch-Training/EN_BE_3811X",
+  "title": "EN_BE_3811X",
+  "description": "Die Lektion konzentriert sich darauf, wie man in der englischen Sprache sowohl vage als auch spezifische Formulierungen verwendet, insbesondere im Kontext eines Vorstellungsgesprächs, aber auch in allgemeineren Situationen.",
+  "source": "@site/docs/Englisch-Training/EN_BE_3811X.md",
+  "sourceDirName": "Englisch-Training",
+  "slug": "/Englisch-Training/EN_BE_3811X",
+  "permalink": "/docs/Englisch-Training/EN_BE_3811X",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "EN_BE_3810X",
+    "permalink": "/docs/Englisch-Training/EN_BE_3810X"
+  },
+  "next": {
+    "title": "EN_BE_3812X",
+    "permalink": "/docs/Englisch-Training/EN_BE_3812X"
+  }
+}

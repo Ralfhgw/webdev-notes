@@ -1,0 +1,23 @@
+{
+  "id": "PostgreSQL/Commands",
+  "title": "Commands",
+  "description": "WebLinks",
+  "source": "@site/docs/PostgreSQL/Commands.md",
+  "sourceDirName": "PostgreSQL",
+  "slug": "/PostgreSQL/Commands",
+  "permalink": "/docs/PostgreSQL/Commands",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "PostgreSQL",
+    "permalink": "/docs/PostgreSQL"
+  },
+  "next": {
+    "title": "ERD Modelling",
+    "permalink": "/docs/PostgreSQL/ERD Modelling"
+  }
+}

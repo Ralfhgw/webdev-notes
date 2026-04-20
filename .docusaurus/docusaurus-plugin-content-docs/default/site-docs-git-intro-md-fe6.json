@@ -1,7 +1,7 @@
 {
   "id": "Git/Git-intro",
   "title": "Git",
-  "description": "Anleitung: Passwort/Secret versehentlich committed – GitHub blockt Push",
+  "description": "Anleitung: Upload another repository to the own",
   "source": "@site/docs/Git/intro.md",
   "sourceDirName": "Git",
   "slug": "/Git",
@@ -23,7 +23,7 @@
     "permalink": "/docs/Karriere"
   },
   "next": {
-    "title": "Zwei-Git-Accounts",
-    "permalink": "/docs/Git/Zwei-Git-Accounts"
+    "title": "Git Actions",
+    "permalink": "/docs/Git/Git Actions"
   }
 }

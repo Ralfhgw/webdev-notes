@@ -1,0 +1,23 @@
+{
+  "id": "Englisch-Training/EN_BE_3812X",
+  "title": "EN_BE_3812X",
+  "description": "Dieses Lernmaterial (35 Seiten) konzentriert sich auf advanced language structures (fortgeschrittene Sprachstrukturen), um awareness (Bewusstsein), certainty (Gewissheit) und scepticism (Skepsis) auszudrücken.",
+  "source": "@site/docs/Englisch-Training/EN_BE_3812X.md",
+  "sourceDirName": "Englisch-Training",
+  "slug": "/Englisch-Training/EN_BE_3812X",
+  "permalink": "/docs/Englisch-Training/EN_BE_3812X",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "EN_BE_3811X",
+    "permalink": "/docs/Englisch-Training/EN_BE_3811X"
+  },
+  "next": {
+    "title": "EN_BE_3813X",
+    "permalink": "/docs/Englisch-Training/EN_BE_3813X"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "Server/docker",
+  "title": "docker",
+  "description": "Docker Szenario",
+  "source": "@site/docs/Server/docker.md",
+  "sourceDirName": "Server",
+  "slug": "/Server/docker",
+  "permalink": "/docs/Server/docker",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Web Server Security",
+    "permalink": "/docs/Server/Server-Sicherheit"
+  },
+  "next": {
+    "title": "next.js",
+    "permalink": "/docs/Server/next.js"
+  }
+}

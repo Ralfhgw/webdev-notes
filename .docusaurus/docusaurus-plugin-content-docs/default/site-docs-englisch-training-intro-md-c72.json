@@ -19,8 +19,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Abschlussprojekt",
-    "permalink": "/docs/DCI-Abschlussprojekt"
+    "title": "fetch()-axos()",
+    "permalink": "/docs/PostgreSQL/fetch()-axos()"
   },
   "next": {
     "title": "EN_BE_3119G",

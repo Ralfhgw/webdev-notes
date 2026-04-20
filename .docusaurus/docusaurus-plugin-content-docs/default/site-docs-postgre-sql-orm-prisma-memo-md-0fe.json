@@ -1,0 +1,23 @@
+{
+  "id": "PostgreSQL/ORM_Prisma_memo",
+  "title": "ORM_Prisma_memo",
+  "description": "Getting Started",
+  "source": "@site/docs/PostgreSQL/ORM_Prisma_memo.md",
+  "sourceDirName": "PostgreSQL",
+  "slug": "/PostgreSQL/ORM_Prisma_memo",
+  "permalink": "/docs/PostgreSQL/ORM_Prisma_memo",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ORM_Prisma",
+    "permalink": "/docs/PostgreSQL/ORM_Prisma"
+  },
+  "next": {
+    "title": "fetch()-axos()",
+    "permalink": "/docs/PostgreSQL/fetch()-axos()"
+  }
+}

@@ -42,17 +42,17 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/docs-6ec": {
+  "/docs-3b5": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-38b": {
+  "/docs-5fa": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-c31": {
+  "/docs-9f0": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/AI-e5b": {
@@ -166,6 +166,10 @@
   "/docs/Coding/js-React-Hooks-0fe": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-coding-js-react-hooks-296-45e"
+  },
+  "/docs/Coding/js-React-Native-3df": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-coding-js-react-native-897-ab9"
   },
   "/docs/Coding/js-React-Router-2c8": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -563,9 +567,53 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-englisch-training-en-be-3810-xf-8-a-c23"
   },
+  "/docs/Englisch-Training/EN_BE_3811X-ae8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3811-xa-71-035"
+  },
+  "/docs/Englisch-Training/EN_BE_3812X-5e6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3812-x-8-e-4-946"
+  },
+  "/docs/Englisch-Training/EN_BE_3813X-7dc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3813-xf-48-072"
+  },
+  "/docs/Englisch-Training/EN_BE_3814X-251": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3814-x-069-0b5"
+  },
+  "/docs/Englisch-Training/EN_BE_3815X-451": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3815-xdf-3-496"
+  },
+  "/docs/Englisch-Training/EN_BE_3816X-4a1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3816-x-8-c-2-fef"
+  },
+  "/docs/Englisch-Training/EN_BE_3824G-44a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3824-g-4-d-4-e86"
+  },
+  "/docs/Englisch-Training/EN_BE_3825G-2c1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-englisch-training-en-be-3825-gb-80-dee"
+  },
   "/docs/Git-93d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-gitfe-6-883"
+  },
+  "/docs/Git/Git Actions-ea3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-git-git-actionsdbb-d65"
+  },
+  "/docs/Git/Git-Handling-64a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-git-git-handling-798-44a"
+  },
+  "/docs/Git/Kommandos-789": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-git-kommandos-128-131"
   },
   "/docs/Git/Zwei-Git-Accounts-878": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -579,37 +627,45 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-n-8-n-automatisierung-47-a-d52"
   },
-  "/docs/Server-4be": {
+  "/docs/PostgreSQL-8e2": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-server-4-bb-445"
+    "content": "content---docs-postgre-sql-2-f-8-c9d"
   },
-  "/docs/Server/Account-webschere.de-82e": {
+  "/docs/PostgreSQL/Commands-6c1": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-server-account-webschere-de-32-f-4a3"
+    "content": "content---docs-postgre-sql-commands-054-f3f"
   },
-  "/docs/Server/Browser-Server-Handling-869": {
+  "/docs/PostgreSQL/ERD Modelling-cb2": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-server-browser-server-handlinge-8-a-3f0"
+    "content": "content---docs-postgre-sql-erd-modellingbc-8-e59"
   },
-  "/docs/Server/Google-DNS-Fehler-529": {
+  "/docs/PostgreSQL/fetch()-axos()-d09": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-server-google-dns-fehler-412-1db"
+    "content": "content---docs-postgre-sql-fetch-axos-e-47-7c9"
   },
-  "/docs/Server/next.js-d44": {
+  "/docs/PostgreSQL/Filehandling-134": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-server-next-js-6-ac-7e2"
+    "content": "content---docs-postgre-sql-filehandlingf-4-d-4cc"
   },
-  "/docs/Server/node.js-3d9": {
+  "/docs/PostgreSQL/Filter-225": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-server-node-js-83-f-96f"
+    "content": "content---docs-postgre-sql-filter-3-c-4-cce"
   },
-  "/docs/Server/production-server-762": {
+  "/docs/PostgreSQL/Installation-ab7": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-server-production-server-1-af-aab"
+    "content": "content---docs-postgre-sql-installationbe-6-b4f"
   },
-  "/docs/Server/Server-Sicherheit-f9c": {
+  "/docs/PostgreSQL/Mongodb-39c": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-server-server-sicherheit-63-d-ebc"
+    "content": "content---docs-postgre-sql-mongodb-3-e-3-780"
+  },
+  "/docs/PostgreSQL/ORM_Prisma-24c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-postgre-sql-orm-prismaafa-c0e"
+  },
+  "/docs/PostgreSQL/ORM_Prisma_memo-4df": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-postgre-sql-orm-prisma-memo-0-fe-133"
   },
   "/docs/Tools-Linux-d37": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -630,6 +686,42 @@
   "/docs/Tools-Linux/Wireshark-a11": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-tools-linux-wireshark-3-ea-195"
+  },
+  "/docs/Web-Server-8e2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-web-server-193-595"
+  },
+  "/docs/Web-Server/Account-webschere.de-ec1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-web-server-account-webschere-de-6-ad-8e2"
+  },
+  "/docs/Web-Server/Browser-Server-Handling-482": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-web-server-browser-server-handling-7-b-2-4b6"
+  },
+  "/docs/Web-Server/Docker-40e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-web-server-docker-564-b1a"
+  },
+  "/docs/Web-Server/Google-DNS-Fehler-c4b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-web-server-google-dns-fehler-32-f-02e"
+  },
+  "/docs/Web-Server/next.js-928": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-web-server-next-jsa-91-99c"
+  },
+  "/docs/Web-Server/node.js-eb0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-web-server-node-js-157-b6c"
+  },
+  "/docs/Web-Server/production-server-59c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-web-server-production-server-92-c-d83"
+  },
+  "/docs/Web-Server/Server-Sicherheit-9ae": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-web-server-server-sicherheit-0-bb-a30"
   },
   "/-2e1": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",

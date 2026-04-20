@@ -1,0 +1,23 @@
+{
+  "id": "PostgreSQL/Filehandling",
+  "title": "Filehandling",
+  "description": "CSV --> PSQL Commands to File",
+  "source": "@site/docs/PostgreSQL/Filehandling.md",
+  "sourceDirName": "PostgreSQL",
+  "slug": "/PostgreSQL/Filehandling",
+  "permalink": "/docs/PostgreSQL/Filehandling",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ERD Modelling",
+    "permalink": "/docs/PostgreSQL/ERD Modelling"
+  },
+  "next": {
+    "title": "Filter",
+    "permalink": "/docs/PostgreSQL/Filter"
+  }
+}

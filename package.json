@@ -13,5 +13,8 @@
     "install": "^0.13.0",
     "npm": "^11.6.4",
     "remove": "^0.1.5"
+  },
+  "devDependencies": {
+    "baseline-browser-mapping": "^2.10.0"
   }
 }

@@ -1,0 +1,23 @@
+{
+  "id": "Web-Server/node.js",
+  "title": "node.js",
+  "description": "Installation node.js:",
+  "source": "@site/docs/Web-Server/node.js.md",
+  "sourceDirName": "Web-Server",
+  "slug": "/Web-Server/node.js",
+  "permalink": "/docs/Web-Server/node.js",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "next.js",
+    "permalink": "/docs/Web-Server/next.js"
+  },
+  "next": {
+    "title": "Web Production Server",
+    "permalink": "/docs/Web-Server/production-server"
+  }
+}

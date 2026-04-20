@@ -1,0 +1,23 @@
+{
+  "id": "Web-Server/next.js",
+  "title": "next.js",
+  "description": "Training",
+  "source": "@site/docs/Web-Server/next.js.md",
+  "sourceDirName": "Web-Server",
+  "slug": "/Web-Server/next.js",
+  "permalink": "/docs/Web-Server/next.js",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Web Server Security",
+    "permalink": "/docs/Web-Server/Server-Sicherheit"
+  },
+  "next": {
+    "title": "node.js",
+    "permalink": "/docs/Web-Server/node.js"
+  }
+}

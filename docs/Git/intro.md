@@ -5,6 +5,20 @@ slug: /Git
 sidebar_position: 12
 ---
 
+### Anleitung: Upload another repository to the own
+```
+git status
+git remote -v
+git remote remove origin
+git remote -v
+git remote add origin git@github.com:Ralfhgw/user-context-with-reducer-demo.git
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote set-url origin git@github.com-work:Ralfhgw/user-context-with-reducer-demo.git
+git push -u origin main
+```
+
 ### Anleitung: Passwort/Secret versehentlich committed – GitHub blockt Push
 
 Wenn man versehentlich einen API-Key oder ein Passwort in ein Repository committet hat, blockt GitHub den Push (Push Protection). Dann reicht es nicht, die Datei einfach zu ändern oder zu löschen:

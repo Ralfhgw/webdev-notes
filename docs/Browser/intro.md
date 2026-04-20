@@ -63,6 +63,15 @@ inurl:confidential → URL enthält „confidential“.</small>
 
 
 ## Weblinks
+
+https://www.youtube.com/playlist?list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d
+
+https://react.dev/learn/synchronizing-with-effects
+
+- [Icons](https://fontawesome.com/search?q=microphone&ic=free-collection)
+- [Icons](https://lucide.dev/)
+- [Icons](https://react-icons.github.io/react-icons/)
+
 ### Design / Colors
 - [coolors - Color Generator](https://coolors.co)
 - [coolors - Trending Color Palettes](https://coolors.co/palettes/trending)

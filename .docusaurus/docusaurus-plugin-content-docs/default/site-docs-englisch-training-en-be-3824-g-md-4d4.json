@@ -1,0 +1,23 @@
+{
+  "id": "Englisch-Training/EN_BE_3824G",
+  "title": "EN_BE_3824G",
+  "description": "Dieses Dokument ist ein Grammatik-Lernmaterial der Stufe \"Intermediate\"  und behandelt die englischen Zeitformen the future perfect und the future continuous .",
+  "source": "@site/docs/Englisch-Training/EN_BE_3824G.md",
+  "sourceDirName": "Englisch-Training",
+  "slug": "/Englisch-Training/EN_BE_3824G",
+  "permalink": "/docs/Englisch-Training/EN_BE_3824G",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "EN_BE_3816X",
+    "permalink": "/docs/Englisch-Training/EN_BE_3816X"
+  },
+  "next": {
+    "title": "EN_BE_3825G",
+    "permalink": "/docs/Englisch-Training/EN_BE_3825G"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "Web-Server/production-server",
+  "title": "Web Production Server",
+  "description": "Installing node.js",
+  "source": "@site/docs/Web-Server/production-server.md",
+  "sourceDirName": "Web-Server",
+  "slug": "/Web-Server/production-server",
+  "permalink": "/docs/Web-Server/production-server",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "node.js",
+    "permalink": "/docs/Web-Server/node.js"
+  },
+  "next": {
+    "title": "Tools-Linux",
+    "permalink": "/docs/Tools-Linux"
+  }
+}

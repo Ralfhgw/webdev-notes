@@ -1,0 +1,29 @@
+{
+  "id": "Web-Server/Web-Server",
+  "title": "Web-Server",
+  "description": "Kurze Einführung...",
+  "source": "@site/docs/Web-Server/intro.md",
+  "sourceDirName": "Web-Server",
+  "slug": "/Web-Server",
+  "permalink": "/docs/Web-Server",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "id": "Web-Server",
+    "title": "Web-Server",
+    "slug": "/Web-Server",
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "js-TypeScript",
+    "permalink": "/docs/Coding/js-TypeScript"
+  },
+  "next": {
+    "title": "Account-webschere.de",
+    "permalink": "/docs/Web-Server/Account-webschere.de"
+  }
+}

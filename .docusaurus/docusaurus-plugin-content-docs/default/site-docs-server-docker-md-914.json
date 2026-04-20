@@ -1,0 +1,23 @@
+{
+  "id": "Server/Docker",
+  "title": "Docker",
+  "description": "Docker Szenario",
+  "source": "@site/docs/Server/Docker.md",
+  "sourceDirName": "Server",
+  "slug": "/Server/Docker",
+  "permalink": "/docs/Server/Docker",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Browser-Server-Handling",
+    "permalink": "/docs/Server/Browser-Server-Handling"
+  },
+  "next": {
+    "title": "Google-DNS-Fehler",
+    "permalink": "/docs/Server/Google-DNS-Fehler"
+  }
+}

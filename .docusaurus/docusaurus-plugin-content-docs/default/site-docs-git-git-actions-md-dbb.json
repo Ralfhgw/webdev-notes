@@ -1,0 +1,23 @@
+{
+  "id": "Git/Git Actions",
+  "title": "Git Actions",
+  "description": "Node >=v.25 nessesary",
+  "source": "@site/docs/Git/Git Actions.md",
+  "sourceDirName": "Git",
+  "slug": "/Git/Git Actions",
+  "permalink": "/docs/Git/Git Actions",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Git",
+    "permalink": "/docs/Git"
+  },
+  "next": {
+    "title": "Git-Handling",
+    "permalink": "/docs/Git/Git-Handling"
+  }
+}

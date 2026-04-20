@@ -1,0 +1,23 @@
+{
+  "id": "Web-Server/Google-DNS-Fehler",
+  "title": "Google-DNS-Fehler",
+  "description": "Auf dem Server",
+  "source": "@site/docs/Web-Server/Google-DNS-Fehler.md",
+  "sourceDirName": "Web-Server",
+  "slug": "/Web-Server/Google-DNS-Fehler",
+  "permalink": "/docs/Web-Server/Google-DNS-Fehler",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Docker",
+    "permalink": "/docs/Web-Server/Docker"
+  },
+  "next": {
+    "title": "Web Server Security",
+    "permalink": "/docs/Web-Server/Server-Sicherheit"
+  }
+}

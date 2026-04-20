@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Browser-Server-Handling",
-    "permalink": "/docs/Server/Browser-Server-Handling"
+    "title": "Docker",
+    "permalink": "/docs/Server/Docker"
   },
   "next": {
     "title": "Web Server Security",

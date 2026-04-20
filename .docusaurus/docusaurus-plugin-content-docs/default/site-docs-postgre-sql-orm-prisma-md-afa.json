@@ -1,0 +1,23 @@
+{
+  "id": "PostgreSQL/ORM_Prisma",
+  "title": "ORM_Prisma",
+  "description": "Prisma Demo API",
+  "source": "@site/docs/PostgreSQL/ORM_Prisma.md",
+  "sourceDirName": "PostgreSQL",
+  "slug": "/PostgreSQL/ORM_Prisma",
+  "permalink": "/docs/PostgreSQL/ORM_Prisma",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Mongodb",
+    "permalink": "/docs/PostgreSQL/Mongodb"
+  },
+  "next": {
+    "title": "ORM_Prisma_memo",
+    "permalink": "/docs/PostgreSQL/ORM_Prisma_memo"
+  }
+}

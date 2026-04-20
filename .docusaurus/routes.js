@@ -39,15 +39,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '6ec'),
+    component: ComponentCreator('/docs', '3b5'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '38b'),
+        component: ComponentCreator('/docs', '5fa'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'c31'),
+            component: ComponentCreator('/docs', '9f0'),
             routes: [
               {
                 path: '/docs/AI',
@@ -214,6 +214,12 @@ export default [
               {
                 path: '/docs/Coding/js-React-Hooks',
                 component: ComponentCreator('/docs/Coding/js-React-Hooks', '0fe'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Coding/js-React-Native',
+                component: ComponentCreator('/docs/Coding/js-React-Native', '3df'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -812,8 +818,74 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Englisch-Training/EN_BE_3811X',
+                component: ComponentCreator('/docs/Englisch-Training/EN_BE_3811X', 'ae8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Englisch-Training/EN_BE_3812X',
+                component: ComponentCreator('/docs/Englisch-Training/EN_BE_3812X', '5e6'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Englisch-Training/EN_BE_3813X',
+                component: ComponentCreator('/docs/Englisch-Training/EN_BE_3813X', '7dc'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Englisch-Training/EN_BE_3814X',
+                component: ComponentCreator('/docs/Englisch-Training/EN_BE_3814X', '251'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Englisch-Training/EN_BE_3815X',
+                component: ComponentCreator('/docs/Englisch-Training/EN_BE_3815X', '451'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Englisch-Training/EN_BE_3816X',
+                component: ComponentCreator('/docs/Englisch-Training/EN_BE_3816X', '4a1'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Englisch-Training/EN_BE_3824G',
+                component: ComponentCreator('/docs/Englisch-Training/EN_BE_3824G', '44a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Englisch-Training/EN_BE_3825G',
+                component: ComponentCreator('/docs/Englisch-Training/EN_BE_3825G', '2c1'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/Git',
                 component: ComponentCreator('/docs/Git', '93d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Git/Git Actions',
+                component: ComponentCreator('/docs/Git/Git Actions', 'ea3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Git/Git-Handling',
+                component: ComponentCreator('/docs/Git/Git-Handling', '64a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Git/Kommandos',
+                component: ComponentCreator('/docs/Git/Kommandos', '789'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -836,50 +908,62 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Server',
-                component: ComponentCreator('/docs/Server', '4be'),
+                path: '/docs/PostgreSQL',
+                component: ComponentCreator('/docs/PostgreSQL', '8e2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Server/Account-webschere.de',
-                component: ComponentCreator('/docs/Server/Account-webschere.de', '82e'),
+                path: '/docs/PostgreSQL/Commands',
+                component: ComponentCreator('/docs/PostgreSQL/Commands', '6c1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Server/Browser-Server-Handling',
-                component: ComponentCreator('/docs/Server/Browser-Server-Handling', '869'),
+                path: '/docs/PostgreSQL/ERD Modelling',
+                component: ComponentCreator('/docs/PostgreSQL/ERD Modelling', 'cb2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Server/Google-DNS-Fehler',
-                component: ComponentCreator('/docs/Server/Google-DNS-Fehler', '529'),
+                path: '/docs/PostgreSQL/fetch()-axos()',
+                component: ComponentCreator('/docs/PostgreSQL/fetch()-axos()', 'd09'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Server/next.js',
-                component: ComponentCreator('/docs/Server/next.js', 'd44'),
+                path: '/docs/PostgreSQL/Filehandling',
+                component: ComponentCreator('/docs/PostgreSQL/Filehandling', '134'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Server/node.js',
-                component: ComponentCreator('/docs/Server/node.js', '3d9'),
+                path: '/docs/PostgreSQL/Filter',
+                component: ComponentCreator('/docs/PostgreSQL/Filter', '225'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Server/production-server',
-                component: ComponentCreator('/docs/Server/production-server', '762'),
+                path: '/docs/PostgreSQL/Installation',
+                component: ComponentCreator('/docs/PostgreSQL/Installation', 'ab7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Server/Server-Sicherheit',
-                component: ComponentCreator('/docs/Server/Server-Sicherheit', 'f9c'),
+                path: '/docs/PostgreSQL/Mongodb',
+                component: ComponentCreator('/docs/PostgreSQL/Mongodb', '39c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/PostgreSQL/ORM_Prisma',
+                component: ComponentCreator('/docs/PostgreSQL/ORM_Prisma', '24c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/PostgreSQL/ORM_Prisma_memo',
+                component: ComponentCreator('/docs/PostgreSQL/ORM_Prisma_memo', '4df'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -910,6 +994,60 @@ export default [
               {
                 path: '/docs/Tools-Linux/Wireshark',
                 component: ComponentCreator('/docs/Tools-Linux/Wireshark', 'a11'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Web-Server',
+                component: ComponentCreator('/docs/Web-Server', '8e2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Web-Server/Account-webschere.de',
+                component: ComponentCreator('/docs/Web-Server/Account-webschere.de', 'ec1'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Web-Server/Browser-Server-Handling',
+                component: ComponentCreator('/docs/Web-Server/Browser-Server-Handling', '482'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Web-Server/Docker',
+                component: ComponentCreator('/docs/Web-Server/Docker', '40e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Web-Server/Google-DNS-Fehler',
+                component: ComponentCreator('/docs/Web-Server/Google-DNS-Fehler', 'c4b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Web-Server/next.js',
+                component: ComponentCreator('/docs/Web-Server/next.js', '928'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Web-Server/node.js',
+                component: ComponentCreator('/docs/Web-Server/node.js', 'eb0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Web-Server/production-server',
+                component: ComponentCreator('/docs/Web-Server/production-server', '59c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Web-Server/Server-Sicherheit',
+                component: ComponentCreator('/docs/Web-Server/Server-Sicherheit', '9ae'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

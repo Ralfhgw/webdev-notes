@@ -1,0 +1,23 @@
+{
+  "id": "PostgreSQL/Mongodb",
+  "title": "Mongodb",
+  "description": "",
+  "source": "@site/docs/PostgreSQL/Mongodb.md",
+  "sourceDirName": "PostgreSQL",
+  "slug": "/PostgreSQL/Mongodb",
+  "permalink": "/docs/PostgreSQL/Mongodb",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Installation",
+    "permalink": "/docs/PostgreSQL/Installation"
+  },
+  "next": {
+    "title": "ORM_Prisma",
+    "permalink": "/docs/PostgreSQL/ORM_Prisma"
+  }
+}

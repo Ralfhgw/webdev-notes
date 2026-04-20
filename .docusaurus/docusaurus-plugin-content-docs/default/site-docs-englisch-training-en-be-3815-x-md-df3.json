@@ -1,0 +1,23 @@
+{
+  "id": "Englisch-Training/EN_BE_3815X",
+  "title": "EN_BE_3815X",
+  "description": "Das Dokument ist eine Lektion zum Thema \"Presenting and reacting to arguments\" und zielt darauf ab, die Fähigkeit zu verbessern, Argumente zu formulieren und darauf zu reagieren. Die Lernziele sind, Strategien für die Erstellung von Argumenten \"for or against something\" zu nutzen und zu erinnern sowie Meinungen mit fortgeschrittenen Phrasen des \"agreement or disagreement\" auszudrücken.",
+  "source": "@site/docs/Englisch-Training/EN_BE_3815X.md",
+  "sourceDirName": "Englisch-Training",
+  "slug": "/Englisch-Training/EN_BE_3815X",
+  "permalink": "/docs/Englisch-Training/EN_BE_3815X",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "EN_BE_3814X",
+    "permalink": "/docs/Englisch-Training/EN_BE_3814X"
+  },
+  "next": {
+    "title": "EN_BE_3816X",
+    "permalink": "/docs/Englisch-Training/EN_BE_3816X"
+  }
+}

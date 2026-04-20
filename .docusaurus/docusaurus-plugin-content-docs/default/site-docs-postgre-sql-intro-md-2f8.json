@@ -1,0 +1,29 @@
+{
+  "id": "PostgreSQL/PostgreSQL",
+  "title": "PostgreSQL",
+  "description": "",
+  "source": "@site/docs/PostgreSQL/intro.md",
+  "sourceDirName": "PostgreSQL",
+  "slug": "/PostgreSQL",
+  "permalink": "/docs/PostgreSQL",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "id": "PostgreSQL",
+    "title": "PostgreSQL",
+    "slug": "/PostgreSQL",
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Abschlussprojekt",
+    "permalink": "/docs/DCI-Abschlussprojekt"
+  },
+  "next": {
+    "title": "Commands",
+    "permalink": "/docs/PostgreSQL/Commands"
+  }
+}
